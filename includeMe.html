@@ -59,7 +59,7 @@
 </tr>
 <tr class="field-odd field"><th class="field-name">dépôt GitHub:</th><td class="field-body"><a class="reference external" href="https://github.com/poltergeist42/howto_doc">https://github.com/poltergeist42/howto_doc</a></td>
 </tr>
-<tr class="field-even field"><th class="field-name">documentation:</th><td class="field-body"></td>
+<tr class="field-even field"><th class="field-name">documentation:</th><td class="field-body"><a class="reference external" href="https://poltergeist42.github.io/howto_doc/">https://poltergeist42.github.io/howto_doc/</a></td>
 </tr>
 <tr class="field-odd field"><th class="field-name">Licence:</th><td class="field-body">CC BY-NC-SA 4.0</td>
 </tr>
@@ -77,32 +77,29 @@ trucs ainsi que quelques outils vous permettant de réaliser la documentation.</
 </div>
 <div class="section" id="arborescence-du-projet">
 <h2>Arborescence du projet<a class="headerlink" href="#arborescence-du-projet" title="Lien permanent vers ce titre">¶</a></h2>
-<p>Pour aider à la compréhension de mon organisation, voici un bref descriptif de l’arborescence de se projet.Cette arborescence est à reproduire si vous récupérez ce dépôt depuis GitHub.</p>
-<p>howto_doc               # Dossier racine du projet (non versionner)
-|
-+–project             # (branch master) contient l’ensemble du projet en lui même
-|  |
-|  +–_1_userDoc       # Contiens toute la documentation relative au projet
-|  |   |
-|  |   –source       # Dossier réunissant les sources utilisées par Sphinx
-|  |
-|  +–_2_modelisation  # Contiens tous les plans et toutes les modélisations du projet
-|  |
-|  +–_3_software      # Contiens toute la partie programmation du projet
-|  |
-|  –_4_PCB           # Contient toutes les parties des circuits imprimés (routage,
-|                      # implantation, typon, fichier de perçage, etc
-|
-–webDoc              # Dossier racine de la documentation qui doit être publiée</p>
-<blockquote>
-<div><div class="line-block">
-<div class="line"><br /></div>
+<p>Pour aider à la compréhension de mon organisation, voici un bref descriptif de l’arborescence de se
+projet.Cette arborescence est à reproduire si vous récupérez ce dépôt depuis GitHub.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ProjectDir_Name</span>        <span class="c1"># Dossier racine du projet (non versionner)</span>
+<span class="o">|</span>
+<span class="o">+--</span><span class="n">project</span>             <span class="c1"># (branch master) contient l&#39;ensemble du projet en lui même</span>
+<span class="o">|</span>  <span class="o">|</span>
+<span class="o">|</span>  <span class="o">+--</span><span class="n">_1_userDoc</span>       <span class="c1"># Contiens toute la documentation relative au projet</span>
+<span class="o">|</span>  <span class="o">|</span>   <span class="o">|</span>
+<span class="o">|</span>  <span class="o">|</span>   \<span class="o">--</span><span class="n">source</span>       <span class="c1"># Dossier réunissant les sources utilisées par Sphinx</span>
+<span class="o">|</span>  <span class="o">|</span>
+<span class="o">|</span>  <span class="o">+--</span><span class="n">_2_modelisation</span>  <span class="c1"># Contiens tous les plans et toutes les modélisations du projet</span>
+<span class="o">|</span>  <span class="o">|</span>
+<span class="o">|</span>  <span class="o">+--</span><span class="n">_3_software</span>      <span class="c1"># Contiens toute la partie programmation du projet</span>
+<span class="o">|</span>  <span class="o">|</span>
+<span class="o">|</span>  \<span class="o">--</span><span class="n">_4_PCB</span>           <span class="c1"># Contient toutes les parties des circuits imprimés (routage,</span>
+<span class="o">|</span>                      <span class="c1"># implantation, typon, fichier de perçage, etc</span>
+<span class="o">|</span>
+\<span class="o">--</span><span class="n">webDoc</span>              <span class="c1"># Dossier racine de la documentation qui doit être publiée</span>
+   <span class="o">|</span>
+   \<span class="o">--</span><span class="n">html</span>             <span class="c1"># (branch gh-pages) C&#39;est dans se dossier que Sphinx va</span>
+                       <span class="c1"># générer la documentation à publié sur internet</span>
+</pre></div>
 </div>
-<dl class="docutils">
-<dt>–html             # (branch gh-pages) C’est dans se dossier que Sphinx va</dt>
-<dd># générer la documentation à publié sur internet</dd>
-</dl>
-</div></blockquote>
 </div>
 </div>
 
