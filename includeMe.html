@@ -1,0 +1,170 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>README &#8212; documentation howTo_doc </title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="HowTo_Doc" href="howTo_Doc.html" />
+    <link rel="prev" title="Comment documenter un projet" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="readme">
+<h1>README<a class="headerlink" href="#readme" title="Lien permanent vers ce titre">¶</a></h1>
+</div>
+<div class="section" id="informations-generales-howto-doc">
+<h1>Informations générales howTo_doc<a class="headerlink" href="#informations-generales-howto-doc" title="Lien permanent vers ce titre">¶</a></h1>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Autheur:</th><td class="field-body"><a class="reference external" href="https://github.com/poltergeist42">Poltergeist42</a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Projet:</th><td class="field-body">howTo_doc</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">dépôt GitHub:</th><td class="field-body"><a class="reference external" href="https://github.com/poltergeist42/howto_doc">https://github.com/poltergeist42/howto_doc</a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">documentation:</th><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Licence:</th><td class="field-body">CC BY-NC-SA 4.0</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Liens:</th><td class="field-body"><a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">https://creativecommons.org/licenses/by-nc-sa/4.0/</a></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="description">
+<h2>Déscription<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Ce projet a pour objectif de fournir quelques clefs et idée pour aider à la documentation
+d’un projet.</p>
+<p>Il ne s’agit pas d’une doctrine qu’il faut respecter absolument, mais simplement de la façon dont
+j’envisage la documentation. tout au long de ce projet, je vais essayer de vous décrire mes petits
+trucs ainsi que quelques outils vous permettant de réaliser la documentation.</p>
+</div>
+<div class="section" id="arborescence-du-projet">
+<h2>Arborescence du projet<a class="headerlink" href="#arborescence-du-projet" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Pour aider à la compréhension de mon organisation, voici un bref descriptif de l’arborescence de se projet.Cette arborescence est à reproduire si vous récupérez ce dépôt depuis GitHub.</p>
+<p>howto_doc               # Dossier racine du projet (non versionner)
+|
++–project             # (branch master) contient l’ensemble du projet en lui même
+|  |
+|  +–_1_userDoc       # Contiens toute la documentation relative au projet
+|  |   |
+|  |   –source       # Dossier réunissant les sources utilisées par Sphinx
+|  |
+|  +–_2_modelisation  # Contiens tous les plans et toutes les modélisations du projet
+|  |
+|  +–_3_software      # Contiens toute la partie programmation du projet
+|  |
+|  –_4_PCB           # Contient toutes les parties des circuits imprimés (routage,
+|                      # implantation, typon, fichier de perçage, etc
+|
+–webDoc              # Dossier racine de la documentation qui doit être publiée</p>
+<blockquote>
+<div><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<dl class="docutils">
+<dt>–html             # (branch gh-pages) C’est dans se dossier que Sphinx va</dt>
+<dd># générer la documentation à publié sur internet</dd>
+</dl>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table des Matières</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">README</a></li>
+<li><a class="reference internal" href="#informations-generales-howto-doc">Informations générales howTo_doc</a><ul>
+<li><a class="reference internal" href="#description">Déscription</a></li>
+<li><a class="reference internal" href="#arborescence-du-projet">Arborescence du projet</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="Chapitre précédent">Comment documenter un projet</a></li>
+      <li>Next: <a href="howTo_Doc.html" title="Chapitre suivant">HowTo_Doc</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>Cette page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/includeMe.rst.txt"
+            rel="nofollow">Montrer le code source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Recherche rapide</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, Poltergeist42.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/includeMe.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,242 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>HowTo_Doc &#8212; documentation howTo_doc </title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="Bug et ToDo-list" href="Bug_ToDoLst.html" />
+    <link rel="prev" title="README" href="includeMe.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="howto-doc">
+<h1>HowTo_Doc<a class="headerlink" href="#howto-doc" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="avant-d-attaquer">
+<h2>Avant d’attaquer<a class="headerlink" href="#avant-d-attaquer" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Lorsque l’on fait une simple recherche sur internet avec les mots clef :</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">comment</span> <span class="n">documenter</span> <span class="n">un</span> <span class="n">projet</span>
+</pre></div>
+</div>
+<p>On se rend compte qu’il y a déjà beaucoup d’informations disponible sur ce sujet. Je n’hésiterai
+d’ailleurs pas un instant en vous renvoyant de temps à autres vers l’un ou l’autre de ces sites.</p>
+<div class="section" id="pourquoi-encore-un-document-sur-comment-faire-de-la-doc">
+<h3>Pourquoi encore un document sur «&nbsp;comment faire de la doc<a class="headerlink" href="#pourquoi-encore-un-document-sur-comment-faire-de-la-doc" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Tous d’abord parce qu’il est toujours intéressant d’avoir plusieurs point de vue sur un sujet
+lorsque l’on décide de s’y intéresser, pour pouvoir se forger sa propre opinion. Ensuite ce document
+n’est quelque chose que vous devrez suivre à la lettre pour avoir la garantie de faire une bonne
+documentation. Il s’agit simplement de vous décrire au mieux ma propre recette. Vous pourrez ainsi
+piocher (ou non) quelque idée pour définir votre propre méthode.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Liens_Web:</th><td class="field-body"><ul class="first last simple">
+<li><a class="reference external" href="http://cours.education/dufacilitateur/2016/07/24/atelier-comment-documenter-son-projet-v1/">http://cours.education/dufacilitateur/2016/07/24/atelier-comment-documenter-son-projet-v1/</a>
+# une aide à la documentation proposée par le FacLab</li>
+<li><a class="reference external" href="http://carrefour-numerique.cite-sciences.fr/fablab/wiki/doku.php?id=aide:documenter">http://carrefour-numerique.cite-sciences.fr/fablab/wiki/doku.php?id=aide:documenter</a>
+# une aide à la documentation proposée par Le Carrefour Numérique</li>
+<li><a class="reference external" href="http://blog.wikifab.org/2016/07/19/pourquoi-documenter-et-partager-mon-projet/">http://blog.wikifab.org/2016/07/19/pourquoi-documenter-et-partager-mon-projet/</a>
+# une description de pourquoi, pour qui donnée par WikiFab</li>
+<li><a class="reference external" href="https://reso-nance.org/wiki/_media/projets/documentation-fablab.pdf">https://reso-nance.org/wiki/_media/projets/documentation-fablab.pdf</a>
+# un petit PDF résumant les étapes de documentation</li>
+<li><a class="reference external" href="http://www.fao.org/capacity-development/resources/practical-tools/comment-documenter-et-partager-les-bonnes-pratiques-pour-generer-le-changement/fr/">http://www.fao.org/capacity-development/resources/practical-tools/comment-documenter-et-partager-les-bonnes-pratiques-pour-generer-le-changement/fr/</a>
+# Comment capitaliser et partager vos bonnes pratiques pour générer le changement</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="les-bonnes-questions-qu-il-faut-se-poser-pour-documenter-un-projet">
+<h2>Les bonnes questions qu’il faut se poser pour documenter un projet<a class="headerlink" href="#les-bonnes-questions-qu-il-faut-se-poser-pour-documenter-un-projet" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Il y a deux thèmes important dans la documentation :</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Pour qui et pourquoi</strong> : Ce thèmes permet de définir la cible principale à qui
+s’adresse la documentation</li>
+<li><strong>Quoi et comment</strong> : Ce thèmes permet de définir les outils nécessaires à la documentation.</li>
+</ul>
+</div></blockquote>
+</div>
+<hr class="docutils" />
+<div class="section" id="pour-qui-et-pourquoi">
+<h2>Pour qui et pourquoi ?<a class="headerlink" href="#pour-qui-et-pourquoi" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Dans la plus part des lectures que j’ai pu consulter, il revient une idée générale avec laquelle je
+ne suis pas d’accord. Cette idée, c’est :</p>
+<p>«&nbsp;Il faut documenter afin de partager son travail avec d’autres personnes&nbsp;»</p>
+<p>Pour ma part, je pense que le travail de documentation doit d’abord être un travail égoïste. La
+documentation doit être faite en priorité pour sois, mais écrite comme si nous ne savions pas de
+quoi il s’agit. De cette façon la documentation sera plus complète et plus précise.</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Exemple:</th><td class="field-body"><p class="first">Imaginez que vous soyez tout le temps en train de faire 50 trucs en même temps,
+plus les activités des enfants, le travail, les coures etc … (dur à imaginer
+n’est ce pas ? :p ). Dans cette situation il peut arriver qu’un projet soit mit de
+coté pendant plusieurs mois voir plusieurs années.</p>
+<p>Lorsque vous allez enfin pouvoir reprendre votre projet, vous aurez oublié une
+grande partie du million de détails qui constitue votre projet. Trois choix se
+présente alors :</p>
+<blockquote class="last">
+<div><ul class="simple">
+<li>Vous reprenez le projet depuis le début pour essayer de comprendre comment
+vous avez fait tel opération ou pourquoi vous aviez privilégier une solution
+plutôt qu’une autre.</li>
+<li>Vous remettez votre projet sous les tas de poussière sous lequel il était
+enterrer et vous vous empressez de l’oublier consciencieusement car il le
+reprendre depuis le début représenterait un investissement en temps et en
+pressage de citron beaucoup trop important.</li>
+<li>Vous ouvrez simplement la documentation que vous avez pris soin d’écrire tout
+au long du projet, ce qui vous permet reprendre rapidement et facilement
+vos travaux.</li>
+</ul>
+</div></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>Vous l’aurez compris, vous êtes le premier destinataire de la documentation que vous allez produire.
+Cependant, comme vous aurez pris la peine de vous faire une doc (et donc elle est déjà faite), il ne
+vous reste plus qu’a la partagé avec la Terre entière puisque que cela ne vous coutera pas plus
+de travail.</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="quoi-et-comment">
+<h2>Quoi et comment ?<a class="headerlink" href="#quoi-et-comment" title="Lien permanent vers ce titre">¶</a></h2>
+<p>[WIP]
+[WIP]</p>
+<div class="section" id="boite-a-idees">
+<h3>Boite à idées<a class="headerlink" href="#boite-a-idees" title="Lien permanent vers ce titre">¶</a></h3>
+<p>[WIP]
+[WIP]</p>
+</div>
+<div class="section" id="journal-de-manip-bug-et-todo-list">
+<h3>Journal de manip, Bug et TODO list<a class="headerlink" href="#journal-de-manip-bug-et-todo-list" title="Lien permanent vers ce titre">¶</a></h3>
+<p>[WIP]
+[WIP]</p>
+</div>
+<div class="section" id="les-outils-et-medias-de-diffusions">
+<h3>Les outils et medias de diffusions<a class="headerlink" href="#les-outils-et-medias-de-diffusions" title="Lien permanent vers ce titre">¶</a></h3>
+<p>[WIP]
+[WIP]</p>
+</div>
+<div class="section" id="les-licences">
+<h3>Les licences<a class="headerlink" href="#les-licences" title="Lien permanent vers ce titre">¶</a></h3>
+<p>[WIP]
+[WIP]</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table des Matières</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">HowTo_Doc</a><ul>
+<li><a class="reference internal" href="#avant-d-attaquer">Avant d’attaquer</a><ul>
+<li><a class="reference internal" href="#pourquoi-encore-un-document-sur-comment-faire-de-la-doc">Pourquoi encore un document sur «&nbsp;comment faire de la doc</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#les-bonnes-questions-qu-il-faut-se-poser-pour-documenter-un-projet">Les bonnes questions qu’il faut se poser pour documenter un projet</a></li>
+<li><a class="reference internal" href="#pour-qui-et-pourquoi">Pour qui et pourquoi ?</a></li>
+<li><a class="reference internal" href="#quoi-et-comment">Quoi et comment ?</a><ul>
+<li><a class="reference internal" href="#boite-a-idees">Boite à idées</a></li>
+<li><a class="reference internal" href="#journal-de-manip-bug-et-todo-list">Journal de manip, Bug et TODO list</a></li>
+<li><a class="reference internal" href="#les-outils-et-medias-de-diffusions">Les outils et medias de diffusions</a></li>
+<li><a class="reference internal" href="#les-licences">Les licences</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="includeMe.html" title="Chapitre précédent">README</a></li>
+      <li>Next: <a href="Bug_ToDoLst.html" title="Chapitre suivant">Bug et ToDo-list</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>Cette page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/howTo_Doc.rst.txt"
+            rel="nofollow">Montrer le code source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Recherche rapide</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, Poltergeist42.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/howTo_Doc.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
