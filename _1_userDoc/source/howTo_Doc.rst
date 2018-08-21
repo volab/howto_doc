@@ -95,14 +95,62 @@ de travail.
 Quoi et comment ?
 =================
 
-[WIP]
-[WIP]
+Que faut il mettre dans la documentation ?
+
+A cette question ma réponse est : Tous ce que vous pouvez ! 
+
+    * Toutes les idées que vous avez eu, celles que vous avez expérimenté, pourquoi certaines 
+      n'ont pas été conservé, pourquoi les autres oui. 
+
+    * Tous les croquis que vous avez dessinez sur un coin de nappe (avant de vous apercevoir
+      qu'elle était en tissu ;) )
+
+    * La fiche de description du projet
+
+    * les plans de fabrication
+
+    * Les listes des matériaux avec leur provenance et leur prix
+
+    * les schémas électronique, les typons et les PCB
+
+    * La liste des composants électronique avec leur provenance et leur prix
+
+    * le code source du programme
+
+    * Les sources des informations que vous utiliser pour avancé dans votre projet
+
+En résumé, tous ce que vous avez produit ou utiliser pour réaliser votre projet.
 
 Boite à idées
 -------------
 
-[WIP]
-[WIP]
+Une idée n'est bonne que si on s'en souvient !
+
+C'est toujours une bonne pratique que de noté toutes vos idée dans un document. Vous pouvez avoir
+plusieurs boites à idée. Une global dans laquelle vous allez décrire vos idées qui vous permettrons
+de commencer d'autre projets qui n'aurons peut être rien à voir les uns avec les autres. Et une par
+projet vous servira à améliorer votre projet.
+
+documenter régulierement
+------------------------
+
+La plus grosse erreur que vous pouvez faire c'est de vouloir faire la documentation quant tous le
+reste sera terminé. Si vous vous dites cela, vous pouvez être certain que vous ne ferez pas de
+documentation. Voici par exemple certaines raison qui vous en empêcherons :
+
+    * Il y a de grandes chances pour que vous enchainiez directement sur un autre projet.
+
+    * Vous n'aurez pas le temps car vous serez trop occupé ailleurs (souvenez vous, la vie, le
+      travail, les enfants tous ça).
+
+    * Faire la documentation en dernier équivaux à recommencer tout le projet depuis le début. On
+      se retrouve dans la même situation que j'ai donnée en exemple un peu plus haut. Je suis
+      certain qu'à ce moment vous serez atteint d'un mal assez connu que l'on nomme : "la flemme".
+
+Pour évité cette situation il faut documenter régulièrement vos travaux, consigner toutes vos
+expérimentations, prendre des notes sur vos manipulation (voir "journal de manip") et si possible
+faire une fiche descriptive du projet a partir de la quelle vous pourrez définir plusieurs petits
+objectifs qui seront plus facile à réaliser et donc à documenter.
 
 Journal de manip, Bug et TODO list
 ----------------------------------

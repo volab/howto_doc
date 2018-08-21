@@ -43,5 +43,5 @@ projet.Cette arborescence est à reproduire si vous récupérez ce dépôt depui
     \--webDoc              # Dossier racine de la documentation qui doit être publiée
        |
        \--html             # (branch gh-pages) C'est dans se dossier que Sphinx va
-                       # générer la documentation à publié sur internet
+                           # générer la documentation à publié sur internet
 
