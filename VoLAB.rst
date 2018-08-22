@@ -1,10 +1,3 @@
-.. image:: logoVoLAB_200x200.jpg
-   :align: center
-
-=====
-VoLAB
-=====
-
 Nous connaître
 --------------
 
