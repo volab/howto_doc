@@ -167,8 +167,66 @@ objectifs qui seront plus facile à réaliser et donc à documenter.
 Journal de manip, Bug et TODO list
 ----------------------------------
 
-[WIP]
-[WIP]
+Journal de manip
+++++++++++++++++
+
+Un projet n'est jamais réaliser de façon linéaire. Vous serez souvent ammené à vous détourner de
+votre objectif principale afin de pour découvrir de nouvelle chose, expérimenter une nouvelle
+technique, tester un outil ou une appli ou encore tester du matériel. Tout cela représente de
+l'expérience.
+
+L'expérience, c'est comme les idées. Cela ne sert à rien si on ne les conserve pas. Pour évité de
+perdre toutes cette précieuse éxpérience, vous pouvez créez **un journal de manip**.
+
+Le journal de manip, est un document dans lequel vous allez noter tous ce que vous avez pu faire ou
+tester sur un sujet donnée. Vous pouvez faire un journal de manip par projet, mais je vous conseil
+de faire un journal de manip global car au cours de vos diférent projet vous allez certainement
+traivailler sur des thèmes commun ou similaire.
+
+Ce journal de manip vous servira égallement de support pour votre documentation.
+
+Bug et TODO list
+++++++++++++++++
+
+Tout au long du dévélopement de votre projet, vous allez le tester et le faire évoluer. Au cours de
+ces test, il arrive souvent que l'on constate un défaut ou un point qu'il faudra améliorer. Si ces
+défauts ne sont pas bloquant, il n'est pas nécéssaire d'interrompre le travail en cours. Cependant,
+pour ne pas oublier que c'est chose sont a faire, je vous conseil de créer un document dans lequel
+tous ces problèmes sont référencés.
+
+Voici le modèle que je me suis défini : ::
+
+    Model Type
+    ==========
+
+        :Date de saisie:        Date à laquelle la problématique à été identifiée
+        :Date de traitemant:    Date du traitement de la probélmatique
+        :Cible:                 [userDoc, modelisation, software, PCB, autre]
+        :Status:                [NONE, WIP, DONE]
+        :Problematique:         Déscriptif de la problématique
+        :Traitement:            Déscriptif du traitement de la probélmatique
+
+Comme vous pouvez le constatez le modèle est assez simple. Les 2 seules éléments qui peuvent posés
+problème :
+
+    * **Cible** : C'est ici que je renseigne la "catégorie" de l'élément impacter comme la doc, le
+      progamme, le matériel, etc ...
+
+    * **Status** : C'est ici que je renseigne l'état d'avancement du traivail à faire
+
+        - None : Le travail n'est pas commencé
+
+        - WIP : (Work In Progress) Travail en cours
+
+        - Done: Travail fini
+
+Vous ouvez consulter le fichier `Bug_ToDoLst <https://github.com/poltergeist42/howto_doc/blob/master/_1_userDoc/source/Bug_ToDoLst.rst>`_
+de ce projet pour voir comment je l'utilise.
+
+Tout comme moi, vous pouvez intégrer ce document à la documentation du projet.
+
+**N.B** : N'hésitez pas à joindre tous vos documents de travail dans votre documentation car ils
+représente de l'information que vous serez content d'avoir après une longue pause dans le projet
 
 Impeu d'organisation
 --------------------
@@ -188,7 +246,7 @@ de faire du copier coller (ou même de réécrire) quelque chose qui a déjà é
 mettre un liens dans votre dumentation pointant vers l'endroit ou l'information existe déjà.
 
 **N.B** : N'oubliez pas de cités les sources et les auteurs des informations d'une tiers parti que
-      vous incorporez dans vos documents.
+vous incorporez dans vos documents.
 
 Uniformiser les projet
 ++++++++++++++++++++++
@@ -210,11 +268,16 @@ Ne pas négliger la sécurité
 
 Demander de l'aide de temps en temps
 ------------------------------------
-[WIP]
-TODO : 
-    - Relecture
-    - Aide à l'utilisation des logiciels
-[WIP]
+
+De la même façon qu'il est difficile de mener un projet entierment seul, il peut être intéressant de
+demander l'aide d'une ou plusieurs personnes pour faire une documentation.
+
+La première chose que je vous conseille de demande, si vous trouvé une personne de bonne volontée,
+c'est de demandé à ce que quelqun relise votre doc. Vous aurez ainsi un avis objectif sur ce qui est
+bien, ce qui ne l'est pas et sur les choses incompréensible qu'il serai bon de clarifié.
+
+La seconde chose à demander, peut être que l'on vous aide à la prise en main de certains outils qui,
+si on en a pas l'habitude, peuvent être difficile à maitriser.
 
 Les outils et medias de diffusions
 ----------------------------------

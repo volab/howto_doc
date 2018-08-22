@@ -16,7 +16,7 @@
     <script type="text/javascript" src="_static/translations.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Recherche" href="search.html" />
-    <link rel="next" title="VoLAB, le 1ier FabLab du Val d’Oise (Depuis 2013)" href="includeLab.html" />
+    <link rel="next" title="Bug et ToDo-list" href="Bug_ToDoLst.html" />
     <link rel="prev" title="README" href="includeMe.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -196,8 +196,63 @@ objectifs qui seront plus facile à réaliser et donc à documenter.</p>
 </div>
 <div class="section" id="journal-de-manip-bug-et-todo-list">
 <h3>Journal de manip, Bug et TODO list<a class="headerlink" href="#journal-de-manip-bug-et-todo-list" title="Lien permanent vers ce titre">¶</a></h3>
-<p>[WIP]
-[WIP]</p>
+<div class="section" id="journal-de-manip">
+<h4>Journal de manip<a class="headerlink" href="#journal-de-manip" title="Lien permanent vers ce titre">¶</a></h4>
+<p>Un projet n’est jamais réaliser de façon linéaire. Vous serez souvent ammené à vous détourner de
+votre objectif principale afin de pour découvrir de nouvelle chose, expérimenter une nouvelle
+technique, tester un outil ou une appli ou encore tester du matériel. Tout cela représente de
+l’expérience.</p>
+<p>L’expérience, c’est comme les idées. Cela ne sert à rien si on ne les conserve pas. Pour évité de
+perdre toutes cette précieuse éxpérience, vous pouvez créez <strong>un journal de manip</strong>.</p>
+<p>Le journal de manip, est un document dans lequel vous allez noter tous ce que vous avez pu faire ou
+tester sur un sujet donnée. Vous pouvez faire un journal de manip par projet, mais je vous conseil
+de faire un journal de manip global car au cours de vos diférent projet vous allez certainement
+traivailler sur des thèmes commun ou similaire.</p>
+<p>Ce journal de manip vous servira égallement de support pour votre documentation.</p>
+</div>
+<div class="section" id="bug-et-todo-list">
+<h4>Bug et TODO list<a class="headerlink" href="#bug-et-todo-list" title="Lien permanent vers ce titre">¶</a></h4>
+<p>Tout au long du dévélopement de votre projet, vous allez le tester et le faire évoluer. Au cours de
+ces test, il arrive souvent que l’on constate un défaut ou un point qu’il faudra améliorer. Si ces
+défauts ne sont pas bloquant, il n’est pas nécéssaire d’interrompre le travail en cours. Cependant,
+pour ne pas oublier que c’est chose sont a faire, je vous conseil de créer un document dans lequel
+tous ces problèmes sont référencés.</p>
+<p>Voici le modèle que je me suis défini :</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Model</span> <span class="n">Type</span>
+<span class="o">==========</span>
+
+    <span class="p">:</span><span class="n">Date</span> <span class="n">de</span> <span class="n">saisie</span><span class="p">:</span>        <span class="n">Date</span> <span class="n">à</span> <span class="n">laquelle</span> <span class="n">la</span> <span class="n">problématique</span> <span class="n">à</span> <span class="n">été</span> <span class="n">identifiée</span>
+    <span class="p">:</span><span class="n">Date</span> <span class="n">de</span> <span class="n">traitemant</span><span class="p">:</span>    <span class="n">Date</span> <span class="n">du</span> <span class="n">traitement</span> <span class="n">de</span> <span class="n">la</span> <span class="n">probélmatique</span>
+    <span class="p">:</span><span class="n">Cible</span><span class="p">:</span>                 <span class="p">[</span><span class="n">userDoc</span><span class="p">,</span> <span class="n">modelisation</span><span class="p">,</span> <span class="n">software</span><span class="p">,</span> <span class="n">PCB</span><span class="p">,</span> <span class="n">autre</span><span class="p">]</span>
+    <span class="p">:</span><span class="n">Status</span><span class="p">:</span>                <span class="p">[</span><span class="n">NONE</span><span class="p">,</span> <span class="n">WIP</span><span class="p">,</span> <span class="n">DONE</span><span class="p">]</span>
+    <span class="p">:</span><span class="n">Problematique</span><span class="p">:</span>         <span class="n">Déscriptif</span> <span class="n">de</span> <span class="n">la</span> <span class="n">problématique</span>
+    <span class="p">:</span><span class="n">Traitement</span><span class="p">:</span>            <span class="n">Déscriptif</span> <span class="n">du</span> <span class="n">traitement</span> <span class="n">de</span> <span class="n">la</span> <span class="n">probélmatique</span>
+</pre></div>
+</div>
+<p>Comme vous pouvez le constatez le modèle est assez simple. Les 2 seules éléments qui peuvent posés
+problème :</p>
+<blockquote>
+<div><ul>
+<li><p class="first"><strong>Cible</strong> : C’est ici que je renseigne la «&nbsp;catégorie&nbsp;» de l’élément impacter comme la doc, le
+progamme, le matériel, etc …</p>
+</li>
+<li><p class="first"><strong>Status</strong> : C’est ici que je renseigne l’état d’avancement du traivail à faire</p>
+<blockquote>
+<div><ul class="simple">
+<li>None : Le travail n’est pas commencé</li>
+<li>WIP : (Work In Progress) Travail en cours</li>
+<li>Done: Travail fini</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p>Vous ouvez consulter le fichier <a class="reference external" href="https://github.com/poltergeist42/howto_doc/blob/master/_1_userDoc/source/Bug_ToDoLst.rst">Bug_ToDoLst</a>
+de ce projet pour voir comment je l’utilise.</p>
+<p>Tout comme moi, vous pouvez intégrer ce document à la documentation du projet.</p>
+<p><strong>N.B</strong> : N’hésitez pas à joindre tous vos documents de travail dans votre documentation car ils
+représente de l’information que vous serez content d’avoir après une longue pause dans le projet</p>
+</div>
 </div>
 <div class="section" id="impeu-d-organisation">
 <h3>Impeu d’organisation<a class="headerlink" href="#impeu-d-organisation" title="Lien permanent vers ce titre">¶</a></h3>
@@ -211,10 +266,8 @@ organisé.</p>
 <p>On peut également étendre le concept à : Ne répéte pas ce que les autres on déjà dit. Il est inutile
 de faire du copier coller (ou même de réécrire) quelque chose qui a déjà été écris. Il suffit de
 mettre un liens dans votre dumentation pointant vers l’endroit ou l’information existe déjà.</p>
-<dl class="docutils">
-<dt><strong>N.B</strong> <span class="classifier-delimiter">:</span> <span class="classifier">N’oubliez pas de cités les sources et les auteurs des informations d’une tiers parti que</span></dt>
-<dd>vous incorporez dans vos documents.</dd>
-</dl>
+<p><strong>N.B</strong> : N’oubliez pas de cités les sources et les auteurs des informations d’une tiers parti que
+vous incorporez dans vos documents.</p>
 </div>
 <div class="section" id="uniformiser-les-projet">
 <h4>Uniformiser les projet<a class="headerlink" href="#uniformiser-les-projet" title="Lien permanent vers ce titre">¶</a></h4>
@@ -234,15 +287,13 @@ mettre un liens dans votre dumentation pointant vers l’endroit ou l’informat
 </div>
 <div class="section" id="demander-de-l-aide-de-temps-en-temps">
 <h3>Demander de l’aide de temps en temps<a class="headerlink" href="#demander-de-l-aide-de-temps-en-temps" title="Lien permanent vers ce titre">¶</a></h3>
-<p>[WIP]
-TODO :</p>
-<blockquote>
-<div><ul class="simple">
-<li>Relecture</li>
-<li>Aide à l’utilisation des logiciels</li>
-</ul>
-</div></blockquote>
-<p>[WIP]</p>
+<p>De la même façon qu’il est difficile de mener un projet entierment seul, il peut être intéressant de
+demander l’aide d’une ou plusieurs personnes pour faire une documentation.</p>
+<p>La première chose que je vous conseille de demande, si vous trouvé une personne de bonne volontée,
+c’est de demandé à ce que quelqun relise votre doc. Vous aurez ainsi un avis objectif sur ce qui est
+bien, ce qui ne l’est pas et sur les choses incompréensible qu’il serai bon de clarifié.</p>
+<p>La seconde chose à demander, peut être que l’on vous aide à la prise en main de certains outils qui,
+si on en a pas l’habitude, peuvent être difficile à maitriser.</p>
 </div>
 <div class="section" id="les-outils-et-medias-de-diffusions">
 <h3>Les outils et medias de diffusions<a class="headerlink" href="#les-outils-et-medias-de-diffusions" title="Lien permanent vers ce titre">¶</a></h3>
@@ -285,9 +336,8 @@ TODO :</p>
 <li class="toctree-l2"><a class="reference internal" href="#quoi-et-comment">Quoi et comment ?</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="includeLab.html">VoLAB, le 1ier FabLab du Val d’Oise (Depuis 2013)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="includeLab.html#volab">VoLAB</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Bug_ToDoLst.html">Bug et ToDo-list</a></li>
+<li class="toctree-l1"><a class="reference internal" href="includeLab.html">VoLAB, le 1ier FabLab du Val d’Oise (Depuis 2013)</a></li>
 </ul>
 
 <div class="relations">
@@ -295,7 +345,7 @@ TODO :</p>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
       <li>Previous: <a href="includeMe.html" title="Chapitre précédent">README</a></li>
-      <li>Next: <a href="includeLab.html" title="Chapitre suivant">VoLAB, le 1ier FabLab du Val d’Oise (Depuis 2013)</a></li>
+      <li>Next: <a href="Bug_ToDoLst.html" title="Chapitre suivant">Bug et ToDo-list</a></li>
   </ul></li>
 </ul>
 </div>
