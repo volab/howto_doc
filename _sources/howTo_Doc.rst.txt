@@ -158,6 +158,12 @@ Journal de manip, Bug et TODO list
 [WIP]
 [WIP]
 
+Impeu d'organisation
+--------------------
+
+[WIP]
+[WIP]
+
 Les outils et medias de diffusions
 ----------------------------------
 
