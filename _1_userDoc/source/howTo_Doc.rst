@@ -121,6 +121,18 @@ A cette question ma réponse est : Tous ce que vous pouvez !
 
 En résumé, tous ce que vous avez produit ou utiliser pour réaliser votre projet.
 
+Il ne faut jamais trop se faire condiance. Si vous pensez : 
+
+    - "ça c'est bon, je m'en souviendrais. Je n'est pas besoin de le noter !"
+
+ou :
+
+    - "c'est parfaitement comprehensible, je n'ai pas besoin de l'expliquer !"
+
+Vous pouvez êtres certain que NON vous ne vous en souviendrez pas et que NON ce n'est pas si
+comprehensible que ça quant vous n'avez pas touchez au projet depuis 6 mois. Il vous faut donc
+systèmatiquement noter et documenter même les choses évidentes et / ou apparement simple.
+
 Boite à idées
 -------------
 
@@ -156,6 +168,52 @@ Journal de manip, Bug et TODO list
 ----------------------------------
 
 [WIP]
+[WIP]
+
+Impeu d'organisation
+--------------------
+
+Impeu de paresse est bon pour la santé
+++++++++++++++++++++++++++++++++++++++
+
+Si vous faite de la programmation, vous avez peut être déjà rencontré l'expression DRY (Don't
+Repeat Yourself) qui signifie : Ne te répéte pas toi même.
+
+Il faut faire attention a ne pas répéter. Il serai dommage de documenter 2 fois une partie du projet
+parce que cette partie en question est référencer à plusieurs endrois dans votre basard (pas si)
+organisé.
+
+On peut également étendre le concept à : Ne répéte pas ce que les autres on déjà dit. Il est inutile
+de faire du copier coller (ou même de réécrire) quelque chose qui a déjà été écris. Il suffit de
+mettre un liens dans votre dumentation pointant vers l'endroit ou l'information existe déjà.
+
+**N.B** : N'oubliez pas de cités les sources et les auteurs des informations d'une tiers parti que
+      vous incorporez dans vos documents.
+
+Uniformiser les projet
+++++++++++++++++++++++
+
+[WIP]
+[WIP]
+
+versionning et nommage des fichiers
++++++++++++++++++++++++++++++++++++
+
+[WIP]
+[WIP]
+
+Ne pas négliger la sécurité
++++++++++++++++++++++++++++
+
+[WIP]
+[WIP]
+
+Demander de l'aide de temps en temps
+------------------------------------
+[WIP]
+TODO : 
+    - Relecture
+    - Aide à l'utilisation des logiciels
 [WIP]
 
 Les outils et medias de diffusions

@@ -5,7 +5,8 @@ Informations générales howTo_doc
 :Autheur:            `Poltergeist42 <https://github.com/poltergeist42>`_
 :Projet:             howTo_doc
 :dépôt GitHub:       https://github.com/poltergeist42/howto_doc
-:documentation:      https://poltergeist42.github.io/howto_doc/
+:doc GitHub:         https://poltergeist42.github.io/howto_doc/
+:doc ReadTheDocs:    https://howto-doc.readthedocs.io
 :Licence:            CC BY-NC-SA 4.0
 :Liens:              https://creativecommons.org/licenses/by-nc-sa/4.0/
 
