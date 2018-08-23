@@ -8,7 +8,7 @@ Comment documenter un projet
    includeMe
    howTo_Doc
    Bug_ToDoLst
-   includeLab
+   VoLAB 
 
 Index et table des matières
 ===========================
