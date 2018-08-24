@@ -1,9 +1,10 @@
-=========
-HowTo_Doc
-=========
+============================
+Comment documenter un projet
+============================
 
+----------------
 Avant d'attaquer
-================
+----------------
 
 Lorsque l'on fait une simple recherche sur internet avec les mots clef : ::
 
@@ -13,11 +14,11 @@ On se rend compte qu'il y a déjà beaucoup d'informations disponible sur ce suj
 d'ailleurs pas un instant en vous renvoyant de temps à autres vers l'un ou l'autre de ces sites.
 
 Pourquoi encore un document sur "comment faire de la doc
---------------------------------------------------------
+========================================================
 
 Tous d'abord parce qu'il est toujours intéressant d'avoir plusieurs point de vue sur un sujet
 lorsque l'on décide de s'y intéresser, pour pouvoir se forger sa propre opinion. Ensuite ce document
-n'est quelque chose que vous devrez suivre à la lettre pour avoir la garantie de faire une bonne
+n'est pas quelque chose que vous devrez suivre à la lettre pour avoir la garantie de faire une bonne
 documentation. Il s'agit simplement de vous décrire au mieux ma propre recette. Vous pourrez ainsi
 piocher (ou non) quelque idée pour définir votre propre méthode.
 
@@ -39,8 +40,9 @@ piocher (ou non) quelque idée pour définir votre propre méthode.
 
 ####
 
+------------------------------------------------------------------
 Les bonnes questions qu'il faut se poser pour documenter un projet
-==================================================================
+------------------------------------------------------------------
 
 Il y a deux thèmes important dans la documentation :
 
@@ -51,8 +53,9 @@ Il y a deux thèmes important dans la documentation :
 
 ####
 
+----------------------
 Pour qui et pourquoi ?
-======================
+----------------------
 
 Dans la plus part des lectures que j'ai pu consulter, il revient une idée générale avec laquelle je
 ne suis pas d'accord. Cette idée, c'est :
@@ -92,8 +95,9 @@ de travail.
 
 ####
 
+-----------------
 Quoi et comment ?
-=================
+-----------------
 
 Que faut il mettre dans la documentation ?
 
@@ -121,20 +125,20 @@ A cette question ma réponse est : Tous ce que vous pouvez !
 
 En résumé, tous ce que vous avez produit ou utiliser pour réaliser votre projet.
 
-Il ne faut jamais trop se faire condiance. Si vous pensez : 
+Il ne faut jamais trop se faire confiance. Si vous pensez : 
 
     - "ça c'est bon, je m'en souviendrais. Je n'est pas besoin de le noter !"
 
 ou :
 
-    - "c'est parfaitement comprehensible, je n'ai pas besoin de l'expliquer !"
+    - "c'est parfaitement compréhensible, je n'ai pas besoin de l'expliquer !"
 
 Vous pouvez êtres certain que NON vous ne vous en souviendrez pas et que NON ce n'est pas si
-comprehensible que ça quant vous n'avez pas touchez au projet depuis 6 mois. Il vous faut donc
-systèmatiquement noter et documenter même les choses évidentes et / ou apparement simple.
+compréhensible que ça quant vous n'avez pas touchez au projet depuis 6 mois. Il vous faut donc
+systématiquement noter et documenter même les choses évidentes et / ou apparemment simple.
 
 Boite à idées
--------------
+=============
 
 Une idée n'est bonne que si on s'en souvient !
 
@@ -143,8 +147,8 @@ plusieurs boites à idée. Une global dans laquelle vous allez décrire vos idé
 de commencer d'autre projets qui n'aurons peut être rien à voir les uns avec les autres. Et une par
 projet vous servira à améliorer votre projet.
 
-documenter régulierement
-------------------------
+Documenter régulièrement
+========================
 
 La plus grosse erreur que vous pouvez faire c'est de vouloir faire la documentation quant tous le
 reste sera terminé. Si vous vous dites cela, vous pouvez être certain que vous ne ferez pas de
@@ -165,32 +169,32 @@ faire une fiche descriptive du projet a partir de la quelle vous pourrez défini
 objectifs qui seront plus facile à réaliser et donc à documenter.
 
 Journal de manip, Bug et TODO list
-----------------------------------
+==================================
 
 Journal de manip
-++++++++++++++++
+----------------
 
-Un projet n'est jamais réaliser de façon linéaire. Vous serez souvent ammené à vous détourner de
-votre objectif principale afin de pour découvrir de nouvelle chose, expérimenter une nouvelle
+Un projet n'est jamais réaliser de façon linéaire. Vous serez souvent amené à vous détourner de
+votre objectif principale afin de découvrir de nouvelles choses, expérimenter une nouvelle
 technique, tester un outil ou une appli ou encore tester du matériel. Tout cela représente de
 l'expérience.
 
 L'expérience, c'est comme les idées. Cela ne sert à rien si on ne les conserve pas. Pour évité de
-perdre toutes cette précieuse éxpérience, vous pouvez créez **un journal de manip**.
+perdre toutes cette précieuse expérience, vous pouvez créez **un journal de manip**.
 
 Le journal de manip, est un document dans lequel vous allez noter tous ce que vous avez pu faire ou
 tester sur un sujet donnée. Vous pouvez faire un journal de manip par projet, mais je vous conseil
-de faire un journal de manip global car au cours de vos diférent projet vous allez certainement
-traivailler sur des thèmes commun ou similaire.
+de faire un journal de manip global car au cours de vos différent projet vous allez certainement
+traivailler sur des thèmes communs ou similaires.
 
-Ce journal de manip vous servira égallement de support pour votre documentation.
+Ce journal de manip vous servira également de support pour votre documentation.
 
 Bug et TODO list
-++++++++++++++++
+----------------
 
-Tout au long du dévélopement de votre projet, vous allez le tester et le faire évoluer. Au cours de
+Tout au long du développement de votre projet, vous allez le tester et le faire évoluer. Au cours de
 ces test, il arrive souvent que l'on constate un défaut ou un point qu'il faudra améliorer. Si ces
-défauts ne sont pas bloquant, il n'est pas nécéssaire d'interrompre le travail en cours. Cependant,
+défauts ne sont pas bloquant, il n'est pas nécessaire d'interrompre le travail en cours. Cependant,
 pour ne pas oublier que c'est chose sont a faire, je vous conseil de créer un document dans lequel
 tous ces problèmes sont référencés.
 
@@ -210,9 +214,9 @@ Comme vous pouvez le constatez le modèle est assez simple. Les 2 seules éléme
 problème :
 
     * **Cible** : C'est ici que je renseigne la "catégorie" de l'élément impacter comme la doc, le
-      progamme, le matériel, etc ...
+      programme, le matériel, etc ...
 
-    * **Status** : C'est ici que je renseigne l'état d'avancement du traivail à faire
+    * **Status** : C'est ici que je renseigne l'état d'avancement du travail à faire
 
         - None : Le travail n'est pas commencé
 
@@ -220,7 +224,7 @@ problème :
 
         - Done: Travail fini
 
-Vous ouvez consulter le fichier `Bug_ToDoLst <https://github.com/poltergeist42/howto_doc/blob/master/_1_userDoc/source/Bug_ToDoLst.rst>`_
+Vous pouvez consulter le fichier `Bug_ToDoLst <https://github.com/poltergeist42/howto_doc/blob/master/_1_userDoc/source/Bug_ToDoLst.rst>`_
 de ce projet pour voir comment je l'utilise.
 
 Tout comme moi, vous pouvez intégrer ce document à la documentation du projet.
@@ -228,65 +232,97 @@ Tout comme moi, vous pouvez intégrer ce document à la documentation du projet.
 **N.B** : N'hésitez pas à joindre tous vos documents de travail dans votre documentation car ils
 représente de l'information que vous serez content d'avoir après une longue pause dans le projet
 
-Impeu d'organisation
---------------------
+Un peu d'organisation
+=====================
 
-Impeu de paresse est bon pour la santé
-++++++++++++++++++++++++++++++++++++++
+Un peu de paresse est bon pour la santé
+---------------------------------------
 
 Si vous faite de la programmation, vous avez peut être déjà rencontré l'expression DRY (Don't
-Repeat Yourself) qui signifie : Ne te répéte pas toi même.
+Repeat Yourself) qui signifie : Ne te répète pas toi même.
 
 Il faut faire attention a ne pas répéter. Il serai dommage de documenter 2 fois une partie du projet
-parce que cette partie en question est référencer à plusieurs endrois dans votre basard (pas si)
+parce que cette partie en question est référencer à plusieurs endroit dans votre bazar (pas si)
 organisé.
 
-On peut également étendre le concept à : Ne répéte pas ce que les autres on déjà dit. Il est inutile
+On peut également étendre le concept à : Ne répète pas ce que les autres on déjà dit. Il est inutile
 de faire du copier coller (ou même de réécrire) quelque chose qui a déjà été écris. Il suffit de
-mettre un liens dans votre dumentation pointant vers l'endroit ou l'information existe déjà.
+mettre un liens dans votre documentation pointant vers l'endroit ou l'information existe déjà.
 
 **N.B** : N'oubliez pas de cités les sources et les auteurs des informations d'une tiers parti que
 vous incorporez dans vos documents.
 
 Uniformiser les projet
-++++++++++++++++++++++
+----------------------
 
 [WIP]
 [WIP]
 
 versionning et nommage des fichiers
-+++++++++++++++++++++++++++++++++++
+-----------------------------------
 
 [WIP]
 [WIP]
 
 Ne pas négliger la sécurité
-+++++++++++++++++++++++++++
+---------------------------
 
 [WIP]
 [WIP]
 
 Demander de l'aide de temps en temps
-------------------------------------
+====================================
 
-De la même façon qu'il est difficile de mener un projet entierment seul, il peut être intéressant de
+De la même façon qu'il est difficile de mener un projet entièrement seul, il peut être intéressant de
 demander l'aide d'une ou plusieurs personnes pour faire une documentation.
 
-La première chose que je vous conseille de demande, si vous trouvé une personne de bonne volontée,
-c'est de demandé à ce que quelqun relise votre doc. Vous aurez ainsi un avis objectif sur ce qui est
-bien, ce qui ne l'est pas et sur les choses incompréensible qu'il serai bon de clarifié.
+La première chose que je vous conseille de demander, si vous trouvé une personne de bonne volontés,
+c'est de demander à ce que quelqu'un relise votre doc. Vous aurez ainsi un avis objectif sur ce qui est
+bien, ce qui ne l'est pas et sur les choses incompréhensible qu'il serai bon de clarifié.
 
 La seconde chose à demander, peut être que l'on vous aide à la prise en main de certains outils qui,
 si on en a pas l'habitude, peuvent être difficile à maitriser.
 
 Les outils et medias de diffusions
-----------------------------------
+==================================
 
 [WIP]
+Les outils de dessin
+--------------------
+
+    * Inkscape
+
+    * The Gimp
+
+Les outils de production
+------------------------
+
+    * Fusion 360
+
+    * Kicad
+
+    * Un éditeur de texte
+
+Les outils d'aide à la documentation
+------------------------------------
+
+Les langages de balisage en texte clair (Plantext Markup Language)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    * reStructuredText
+
+    * Markdown
+
+Les générateurs documentation
++++++++++++++++++++++++++++++
+
+Les outils de publication de documentation
+------------------------------------------
+
 [WIP]
 
 Les licences
-------------
+============
 
 [WIP]
 [WIP]

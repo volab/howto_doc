@@ -1,6 +1,6 @@
-================================
-Informations générales howTo_doc
-================================
+==============================================
+Informations générales sur le projet howTo_doc
+==============================================
 
 :Autheur:            `Poltergeist42 <https://github.com/poltergeist42>`_
 :Projet:             howTo_doc
@@ -13,11 +13,11 @@ Informations générales howTo_doc
 Déscription
 ===========
 
-Ce projet a pour objectif de fournir quelques clefs et idée pour aider à la documentation
+Ce projet a pour objectif de fournir quelques clefs et idées pour aider à la documentation
 d'un projet.
 
 Il ne s'agit pas d'une doctrine qu'il faut respecter absolument, mais simplement de la façon dont
-j'envisage la documentation. tout au long de ce projet, je vais essayer de vous décrire mes petits
+j'envisage la documentation. Tout au long de ce projet, je vais essayer de vous décrire mes petits
 trucs ainsi que quelques outils vous permettant de réaliser la documentation.
 
 Arborescence du projet
