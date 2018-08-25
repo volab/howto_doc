@@ -2,7 +2,7 @@
 Informations générales sur le projet howTo_doc
 ==============================================
 
-:Autheur:            `Poltergeist42 <https://github.com/poltergeist42>`_
+:Auteur:            `Poltergeist42 <https://github.com/poltergeist42>`_
 :Projet:             howTo_doc
 :dépôt GitHub:       https://github.com/poltergeist42/howto_doc
 :doc GitHub:         https://poltergeist42.github.io/howto_doc/
@@ -10,7 +10,7 @@ Informations générales sur le projet howTo_doc
 :Licence:            CC BY-NC-SA 4.0
 :Liens:              https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-Déscription
+Description
 ===========
 
 Ce projet a pour objectif de fournir quelques clefs et idées pour aider à la documentation
@@ -24,7 +24,7 @@ Arborescence du projet
 ======================
 
 Pour aider à la compréhension de mon organisation, voici un bref descriptif de l'arborescence de se 
-projet.Cette arborescence est à reproduire si vous récupérez ce dépôt depuis GitHub. ::
+projet. Cette arborescence est à reproduire si vous récupérez ce dépôt depuis GitHub. ::
 
     ProjectDir_Name        # Dossier racine du projet (non versionner)
     |
@@ -43,6 +43,7 @@ projet.Cette arborescence est à reproduire si vous récupérez ce dépôt depui
     |
     \--webDoc              # Dossier racine de la documentation qui doit être publiée
        |
-       \--html             # (branch gh-pages) C'est dans se dossier que Sphinx va
-                           # générer la documentation à publié sur internet
+       \--html             # (branch gh-pages) C'est dans ce dossier que Sphinx va
+                           # générer la documentation a publié sur internet
+
 
