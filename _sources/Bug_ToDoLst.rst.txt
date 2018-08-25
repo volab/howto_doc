@@ -46,12 +46,12 @@ ToDo-list
 =========
 
     :Date de saisie:        180817
-    :Date de traitement:    
+    :Date de traitement:    180825
     :Cible:                 userDoc
-    :Statu:                
+    :Statu:                 Done
     :Problématique:         Dans la partie comment, ne pas oublier de parler du versionning
                             et de l'horodatage
-    :Traitement:            
+    :Traitement:            Traité dans la partie 'Un peu d'organisation'
 
 ------------------------------------------------------------------------------------------
 
@@ -61,7 +61,7 @@ ToDo-list
     :Date de saisie:        180825
     :Date de traitement:    
     :Cible:                 userDoc
-    :Statu:                
+    :Statu:                 None
     :Problématique:         Dans finissions, parler des banques d'image libre de droits
     :Traitement:            
 

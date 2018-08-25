@@ -353,7 +353,6 @@ JSON.
 Versionner et  nommer les fichiers
 -----------------------------------
 
-[WIP]
 Versionner des fichiers
 +++++++++++++++++++++++
 
@@ -416,15 +415,70 @@ Dans la vie d'un projet, il est parfois nécessaire de tester une partie sans d�
 fonctionnel. Pour cela, il faut pouvoir créer une version fonctionnel et une version d'essais. La
 technique de l'horodatage est efficace au niveau des fichiers, mais pas au niveau des projets.
 
-La solution est donc d'utiliser un logiciel gestion de version 
+La solution est donc d'utiliser un logiciel gestion de version. Le plus connu (et le plus utiliser)
+est GIT. Les liens sont disponible dans les outils de production.
 
-[WIP]
+GIT permet de conserver toutes les versions des fichiers. Il offre ainsi la possibilité de comparer
+la version actuel avec une version antérieur d'un fichier. Il permet également de créer plusieurs
+branche de travail :
+
+    * La branche 'Master' : c'est la branche principale (Obligatoire). Elle est utiliser pour les 
+      versions Stable et / ou fonctionnelles des projet
+
+    * Les autres branches que vous devrez créer, sont utilisée pour les version de développement ou
+      pour tester de nouvelle fonctionnalités
+
+Il s'utilise en ligne de commandes et permet de porter vos projet vers des dépôt distant comme
+GitHub ou GitLab (voir outils de publications)
+
+Pour les allergique à la ligne de commande, il existe Tortoise (outil de production) qui est un
+interface graphique pour GIT. Il s'intègre dans le menu contextuel de windows
+
+Nommer les fichiers et les dossiers correctement
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Beaucoup d'entre vous l'ignore, mais on ne doit pas nommer les fichier n'importe comment. Il y a des
+règles de syntaxe à respecter. La où les systèmes d'exploitation fond des piège (Windows en
+particulier), c'est que bien qu'on ne doit pas nommé les fichiers n'importe comment, le système ne
+nous l'interdit pas.
+
+Je vous encourage a consulter le site ci-dessous pour prendre connaissance des contrainte de
+nommage des fichiers :
+
+    * https://bpmi.geneses.fr/3-2-nommer-dossiers-fichiers/
+
+Voici un résumer de ce qu'il faut faire ou pas
+
+    * Pas d'espace
+
+    * Pas de caractère "bizarres" ou accentués
+
+    * Ne pas utiliser des noms trop long
+
+    * Utiliser uniquement les 26 caractères de l'alphabet (Majuscule et / ou minuscule)
+
+    * Les chiffres de 0 à 9 sont autorisés
+
+    * les caractères '_' et '-' sont autorisés
+
+Il est important de respecter ses règles de nommage car les outils que vous allez utiliser comme :
+Le Raspberry Pi (ou toutes les machines linux), Github, Wikimedia (et tous le WEB en général),
+Sphinx, Doxygen et bien d'autre encore.
 
 Ne pas négliger la sécurité
 ---------------------------
 
-[WIP]
-[WIP]
+**Il ne faut jamais laisser des informations personnels dans vos documentations, dépôt ou code !**
+
+Les identifiants et mots de passe, les codes bancaires, adresse et numéros de téléphones sont autant
+d'informations que vous ne devez en aucun cas diffuser. 
+
+Si dans l'un de vos code vous avez besoin de renseigner se genre d'informations il faut les placer
+dans un dossier séparer (par exemple 'Creds' ou 'Credential') et vous assurer que seul votre code
+(en local) peut accéder à ce dossier et qu'il ne sera pousser avec le reste du projet sur les
+réseaux. GIT vous permet de d'ignorer les éléments qui sont renseigner dans le fichier '.gitignore'
+Vous devez donc ajouter '\*/Creds/\*' dans se fichier pour qu'il ne soit pas pris en compte dans la 
+gestion du projet.
 
 Demander de l'aide de temps en temps
 ====================================
@@ -451,6 +505,8 @@ Les outils de dessin
 
     * The Gimp
 
+    * XnView
+
 [WIP]
 
 Les outils de production
@@ -462,6 +518,14 @@ Les outils de production
     * Kicad
 
     * Un éditeur de texte
+
+    * Logiciel de gestion de version
+
+        * GIT
+
+        * Tortoise
+
+        * Autres
 
 [WIP]
 
@@ -500,6 +564,13 @@ Les outils de publication de documentation
 [WIP]
 
 ####
+
+----------------------------------------
+Avant, pendant et après la documentation
+----------------------------------------
+
+[WIP]
+[WIP]
 
 --------------
 Les finitions

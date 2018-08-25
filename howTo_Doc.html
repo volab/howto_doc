@@ -357,9 +357,8 @@ JSON.</p>
 </div>
 <div class="section" id="versionner-et-nommer-les-fichiers">
 <h4>Versionner et  nommer les fichiers<a class="headerlink" href="#versionner-et-nommer-les-fichiers" title="Lien permanent vers ce titre">¶</a></h4>
-<p>[WIP]
-Versionner des fichiers
-+++++++++++++++++++++++</p>
+<div class="section" id="versionner-des-fichiers">
+<h5>Versionner des fichiers<a class="headerlink" href="#versionner-des-fichiers" title="Lien permanent vers ce titre">¶</a></h5>
 <p>L’un des problèmes qu’on rencontre souvent est qu’elle est la bonne version du fichier à utiliser et
 comment le nommer de façon intelligente et compréhensible ?</p>
 <blockquote>
@@ -414,19 +413,70 @@ simplement en consultant son nom</li>
 également automatiquement classé par ordre chronologique</li>
 </ul>
 </div></blockquote>
+</div>
 <div class="section" id="versionner-tout-un-projet">
 <h5>Versionner tout un projet<a class="headerlink" href="#versionner-tout-un-projet" title="Lien permanent vers ce titre">¶</a></h5>
 <p>Dans la vie d’un projet, il est parfois nécessaire de tester une partie sans défaire la partie déjà
 fonctionnel. Pour cela, il faut pouvoir créer une version fonctionnel et une version d’essais. La
 technique de l’horodatage est efficace au niveau des fichiers, mais pas au niveau des projets.</p>
-<p>La solution est donc d’utiliser un logiciel gestion de version</p>
-<p>[WIP]</p>
+<p>La solution est donc d’utiliser un logiciel gestion de version. Le plus connu (et le plus utiliser)
+est GIT. Les liens sont disponible dans les outils de production.</p>
+<p>GIT permet de conserver toutes les versions des fichiers. Il offre ainsi la possibilité de comparer
+la version actuel avec une version antérieur d’un fichier. Il permet également de créer plusieurs
+branche de travail :</p>
+<blockquote>
+<div><ul class="simple">
+<li>La branche “Master” : c’est la branche principale (Obligatoire). Elle est utiliser pour les
+versions Stable et / ou fonctionnelles des projet</li>
+<li>Les autres branches que vous devrez créer, sont utilisée pour les version de développement ou
+pour tester de nouvelle fonctionnalités</li>
+</ul>
+</div></blockquote>
+<p>Il s’utilise en ligne de commandes et permet de porter vos projet vers des dépôt distant comme
+GitHub ou GitLab (voir outils de publications)</p>
+<p>Pour les allergique à la ligne de commande, il existe Tortoise (outil de production) qui est un
+interface graphique pour GIT. Il s’intègre dans le menu contextuel de windows</p>
+</div>
+<div class="section" id="nommer-les-fichiers-et-les-dossiers-correctement">
+<h5>Nommer les fichiers et les dossiers correctement<a class="headerlink" href="#nommer-les-fichiers-et-les-dossiers-correctement" title="Lien permanent vers ce titre">¶</a></h5>
+<p>Beaucoup d’entre vous l’ignore, mais on ne doit pas nommer les fichier n’importe comment. Il y a des
+règles de syntaxe à respecter. La où les systèmes d’exploitation fond des piège (Windows en
+particulier), c’est que bien qu’on ne doit pas nommé les fichiers n’importe comment, le système ne
+nous l’interdit pas.</p>
+<p>Je vous encourage a consulter le site ci-dessous pour prendre connaissance des contrainte de
+nommage des fichiers :</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference external" href="https://bpmi.geneses.fr/3-2-nommer-dossiers-fichiers/">https://bpmi.geneses.fr/3-2-nommer-dossiers-fichiers/</a></li>
+</ul>
+</div></blockquote>
+<p>Voici un résumer de ce qu’il faut faire ou pas</p>
+<blockquote>
+<div><ul class="simple">
+<li>Pas d’espace</li>
+<li>Pas de caractère «&nbsp;bizarres&nbsp;» ou accentués</li>
+<li>Ne pas utiliser des noms trop long</li>
+<li>Utiliser uniquement les 26 caractères de l’alphabet (Majuscule et / ou minuscule)</li>
+<li>Les chiffres de 0 à 9 sont autorisés</li>
+<li>les caractères “_” et “-“ sont autorisés</li>
+</ul>
+</div></blockquote>
+<p>Il est important de respecter ses règles de nommage car les outils que vous allez utiliser comme :
+Le Raspberry Pi (ou toutes les machines linux), Github, Wikimedia (et tous le WEB en général),
+Sphinx, Doxygen et bien d’autre encore.</p>
 </div>
 </div>
 <div class="section" id="ne-pas-negliger-la-securite">
 <h4>Ne pas négliger la sécurité<a class="headerlink" href="#ne-pas-negliger-la-securite" title="Lien permanent vers ce titre">¶</a></h4>
-<p>[WIP]
-[WIP]</p>
+<p><strong>Il ne faut jamais laisser des informations personnels dans vos documentations, dépôt ou code !</strong></p>
+<p>Les identifiants et mots de passe, les codes bancaires, adresse et numéros de téléphones sont autant
+d’informations que vous ne devez en aucun cas diffuser.</p>
+<p>Si dans l’un de vos code vous avez besoin de renseigner se genre d’informations il faut les placer
+dans un dossier séparer (par exemple “Creds” ou “Credential”) et vous assurer que seul votre code
+(en local) peut accéder à ce dossier et qu’il ne sera pousser avec le reste du projet sur les
+réseaux. GIT vous permet de d’ignorer les éléments qui sont renseigner dans le fichier “.gitignore”
+Vous devez donc ajouter “*/Creds/*” dans se fichier pour qu’il ne soit pas pris en compte dans la
+gestion du projet.</p>
 </div>
 </div>
 <div class="section" id="demander-de-l-aide-de-temps-en-temps">
@@ -449,6 +499,7 @@ Les outils de dessin
 <dd><ul class="first last simple">
 <li>Inkscape</li>
 <li>The Gimp</li>
+<li>XnView</li>
 </ul>
 </dd>
 </dl>
@@ -457,10 +508,22 @@ Les outils de dessin
 <h4>Les outils de production<a class="headerlink" href="#les-outils-de-production" title="Lien permanent vers ce titre">¶</a></h4>
 <dl class="docutils">
 <dt>[WIP]</dt>
-<dd><ul class="first last simple">
-<li>Fusion 360</li>
-<li>Kicad</li>
-<li>Un éditeur de texte</li>
+<dd><ul class="first last">
+<li><p class="first">Fusion 360</p>
+</li>
+<li><p class="first">Kicad</p>
+</li>
+<li><p class="first">Un éditeur de texte</p>
+</li>
+<li><p class="first">Logiciel de gestion de version</p>
+<blockquote>
+<div><ul class="simple">
+<li>GIT</li>
+<li>Tortoise</li>
+<li>Autres</li>
+</ul>
+</div></blockquote>
+</li>
 </ul>
 </dd>
 </dl>
@@ -503,6 +566,11 @@ Les outils de dessin
 </div>
 </div>
 <hr class="docutils" />
+<div class="section" id="avant-pendant-et-apres-la-documentation">
+<h2>Avant, pendant et après la documentation<a class="headerlink" href="#avant-pendant-et-apres-la-documentation" title="Lien permanent vers ce titre">¶</a></h2>
+<p>[WIP]
+[WIP]</p>
+</div>
 <div class="section" id="les-finitions">
 <h2>Les finitions<a class="headerlink" href="#les-finitions" title="Lien permanent vers ce titre">¶</a></h2>
 <p>[WIP]
@@ -545,6 +613,7 @@ Les outils de dessin
 <li class="toctree-l2"><a class="reference internal" href="#les-bonnes-questions-qu-il-faut-se-poser-pour-documenter-un-projet">Les bonnes questions qu’il faut se poser pour documenter un projet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#pour-qui-et-pourquoi">Pour qui et pourquoi ?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#quoi-et-comment">Quoi et comment ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#avant-pendant-et-apres-la-documentation">Avant, pendant et après la documentation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#les-finitions">Les finitions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#les-licences">Les licences</a></li>
 </ul>
