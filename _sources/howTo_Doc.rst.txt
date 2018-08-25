@@ -435,7 +435,7 @@ Pour les allergique à la ligne de commande, il existe Tortoise (outil de produc
 interface graphique pour GIT. Il s'intègre dans le menu contextuel de windows
 
 Nommer les fichiers et les dossiers correctement
-+++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
 
 Beaucoup d'entre vous l'ignore, mais on ne doit pas nommer les fichier n'importe comment. Il y a des
 règles de syntaxe à respecter. La où les systèmes d'exploitation fond des piège (Windows en
