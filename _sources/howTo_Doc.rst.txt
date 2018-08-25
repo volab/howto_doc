@@ -509,7 +509,7 @@ un point particulier.
                 images.
 
                 On peut trouvé facilement des tutos en faisant une recheche : 
-                `inkscape <https://www.google.fr/search?num=50&ei=-7qBW4OGF7T89AOkoquIBQ&q=inkscape+tuto&oq=inkscape+tuto&gs_l=psy-ab.3..0l10.319393.322629.0.323765.5.5.0.0.0.0.1480.3006.5-1j1j1.3.0....0...1.1.64.psy-ab..2.3.3005...0i67k1.0.B9kSfPWuHz4>`_
+                `inkscape tuto <https://www.google.fr/search?num=50&ei=-7qBW4OGF7T89AOkoquIBQ&q=inkscape+tuto&oq=inkscape+tuto&gs_l=psy-ab.3..0l10.319393.322629.0.323765.5.5.0.0.0.0.1480.3006.5-1j1j1.3.0....0...1.1.64.psy-ab..2.3.3005...0i67k1.0.B9kSfPWuHz4>`_
 
     :GIMP:
                 `GIMP <https://www.gimp.org/fr/>`_ est un logiciel de traitement d'image Bitmap. Ce
