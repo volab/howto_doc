@@ -185,9 +185,14 @@ perdre toutes cette précieuse expérience, vous pouvez créez **un journal de m
 Le journal de manip, est un document dans lequel vous allez noter tous ce que vous avez pu faire ou
 tester sur un sujet donnée. Vous pouvez faire un journal de manip par projet, mais je vous conseil
 de faire un journal de manip global car au cours de vos différent projet vous allez certainement
-traivailler sur des thèmes communs ou similaires.
+travailler sur des thèmes communs ou similaires.
 
 Ce journal de manip vous servira également de support pour votre documentation.
+
+Vous pouvez consulter mon propre `journal de manip <https://poltergeist42.github.io/JDM/>`_. Je ne 
+l'ai pas organiser comme un journal dans lequel je saisie toutes mes manip au quotidien, mais comme 
+un référentiel technique dans lequel je répertorie les éléments sur lesquels j'ai été amené à
+travailler une ou plusieurs fois.
 
 Bug et TODO list
 ----------------
@@ -235,6 +240,13 @@ représente de l'information que vous serez content d'avoir après une longue pa
 Un peu d'organisation
 =====================
 
+De façon général, vous ne pourrez pas travailler efficacement si vous ne tentez pas un tout petit
+peu de vous discipliner et d'organiser votre espace de travail et votre travail lui même.
+
+Il y a quelques bonnes pratiques que vous pouvez adopter. Vous les trouverez peut être un peu
+contraignantes au début mais lorsque vous vous y serez habitué, vous serez content de retrouver
+toujours les mêmes types d'éléments au mêmes endroit.
+
 Un peu de paresse est bon pour la santé
 ---------------------------------------
 
@@ -256,9 +268,10 @@ Uniformiser les projet
 ----------------------
 
 [WIP]
+
 [WIP]
 
-versionning et nommage des fichiers
+versionner et  nommer les fichiers
 -----------------------------------
 
 [WIP]
@@ -290,21 +303,28 @@ Les outils et medias de diffusions
 Les outils de dessin
 --------------------
 
+[WIP]
     * Inkscape
 
     * The Gimp
+[WIP]
 
 Les outils de production
 ------------------------
 
+[WIP]
     * Fusion 360
 
     * Kicad
 
     * Un éditeur de texte
+[WIP]
 
 Les outils d'aide à la documentation
 ------------------------------------
+
+[WIP]
+[WIP]
 
 Les langages de balisage en texte clair (Plantext Markup Language)
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -316,13 +336,35 @@ Les langages de balisage en texte clair (Plantext Markup Language)
 Les générateurs documentation
 +++++++++++++++++++++++++++++
 
+[WIP]
+[WIP]
+
 Les outils de publication de documentation
 ------------------------------------------
 
 [WIP]
+[WIP]
 
+[WIP]
+
+####
+
+--------------
+Les finissions
+--------------
+
+[WIP]
+[WIP]
+
+Agrémenter sa documentation
+===========================
+
+[WIP]
+[WIP]
+
+------------
 Les licences
-============
+------------
 
 [WIP]
 [WIP]
