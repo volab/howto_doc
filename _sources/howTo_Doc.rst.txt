@@ -265,7 +265,7 @@ mettre un liens dans votre documentation pointant vers l'endroit ou l'informatio
 vous incorporez dans vos documents.
 
 Uniformiser les projets
-----------------------
+-----------------------
 
 Lorsqu'on travail sur un projet, on peut être amener à manipuler de nombreux éléments différents
 comme :
