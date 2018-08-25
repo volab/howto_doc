@@ -80,7 +80,7 @@ quoi il s'agit. De cette façon la documentation sera plus complète et plus pr�
                       plutôt qu'une autre.
 
                     * Vous remettez votre projet sous les tas de poussière sous lequel il était
-                      enterrer et vous vous empressez de l'oublier consciencieusement car il le
+                      enterrer et vous vous empressez de l'oublier consciencieusement car le
                       reprendre depuis le début représenterait un investissement en temps et en
                       pressage de citron beaucoup trop important.
 
@@ -89,7 +89,7 @@ quoi il s'agit. De cette façon la documentation sera plus complète et plus pr�
                       vos travaux.
                       
 Vous l'aurez compris, vous êtes le premier destinataire de la documentation que vous allez produire.
-Cependant, comme vous aurez pris la peine de vous faire une doc (et donc elle est déjà faite), il ne
+Cependant, comme vous aurez pris la peine de vous faire une doc (et donc elle existe déjà), il ne
 vous reste plus qu'à la partagé avec la Terre entière puisque que cela ne vous coutera pas plus
 de travail.
 
@@ -145,7 +145,7 @@ Une idée n'est bonne que si on s'en souvient !
 C'est toujours une bonne pratique que de noté toutes vos idées dans un document. Vous pouvez avoir
 plusieurs boites à idée. Une global dans laquelle vous allez décrire vos idées qui vous permettrons
 de commencer d'autre projets qui n'aurons peut-être rien à voir les uns avec les autres. Et une par
-projet vous servira à améliorer votre projet.
+projet qui vous servira à améliorer ou à développer votre projet.
 
 Documenter régulièrement
 ========================
@@ -211,14 +211,14 @@ Voici le modèle que je me suis défini : ::
         :Date de saisie:        Date à laquelle la problématique à été identifiée
         :Date de traitement:    Date du traitement de la problématique
         :Cible:                 [userDoc, modelisation, software, PCB, autre]
-        :Statu:                [NONE, WIP, DONE]
+        :Statu:                 [NONE, WIP, DONE]
         :Problématique:         Descriptif de la problématique
         :Traitement:            Descriptif du traitement de la problématique
 
 Comme vous pouvez le constatez le modèle est assez simple. Les 2 seules éléments qui peuvent posés
-problème :
+problème sont :
 
-    * **Cible** : C'est ici que je renseigne la "catégorie" de l'élément impacter comme la doc, le
+    * **Cible** : C'est ici que je renseigne la "catégorie" de l'élément impacté comme la doc, le
       programme, le matériel, etc.
 
     * **Statu** : C'est ici que je renseigne l'état d'avancement du travail à faire
@@ -235,7 +235,7 @@ de ce projet pour voir comment je l'utilise.
 Tout comme moi, vous pouvez intégrer ce document à la documentation du projet.
 
 **N. B** : N'hésitez pas à joindre tous vos documents de travail dans votre documentation car ils
-représente de l'information que vous serez content d'avoir après une longue pause dans le projet
+représentent de l'information que vous serez content d'avoir après une longue pause dans le projet
 
 Un peu d'organisation
 =====================
@@ -322,7 +322,7 @@ Voici en exemple l'arborescence que je me suis définit ::
     |  +--_3_software      # Contiens toute la partie programmation du projet
     |  |
     |  \--_4_PCB           # Contient toutes les parties des circuits imprimés (routage,
-    |                      # implantation, typon, fichier de perçage, etc
+    |                      # implantation, typon, fichier de perçage, etc)
     |
     \--webDoc              # Dossier racine de la documentation qui doit être publiée
        |
@@ -338,9 +338,9 @@ Pour être certain d'utiliser toujours la même arborescence, vous devez limiter
 
     * **Solution 2** : Vous vous faites un petit programme qui vas créer pour tous les répertoire et
       sous répertoire nécessaires. Ce genre de programme est très simple à faire et ceux quelque
-      le langage de programmation que vous utiliser. Vous faire en sorte que ce programme mette en 
-      place une structure plus évoluer comme par exemple : installer GIT dans votre projet ou
-      initialiser Sphinx à la création du projet.
+      soit le langage de programmation que vous utiliser. Vous pouvez faire en sorte que ce 
+      programme mette en place une structure plus évoluée comme par exemple : installer GIT dans 
+      votre projet ou initialiser Sphinx à la création du projet.
 
 La deuxième solution est plus compliquée à mettre en œuvre, mais elle vous facilitera vraiment le 
 processus de création d'un nouveau projet.
@@ -371,7 +371,7 @@ comment le nommer de façon intelligente et compréhensible ?
                 Je pense que vous avez compris ou je voulais en venir.
 
 Pour éviter ce genre de problème il existe une technique simple que l'on nomme : "l'horodatage".
-Cette technique consiste à ajouter, en préfixe, la date en version contactée au nom de votre 
+Cette technique consiste à ajouter, en préfixe, la date en version courte au nom de votre 
 fichier. Ce préfixe de la façon suivante : ::
 
     AAAAMMJJ
@@ -400,7 +400,7 @@ solution est alors d'ajouter l'heure en plus de la date : ::
 
 Cette technique présente plusieurs avantage :
 
-    * Vous évitez les nom prêtant à confusion
+    * Vous évitez les noms prêtant à confusion
 
     * Vous pouvez repérez immédiatement la version du fichier que vous souhaitez consulter
       simplement en consultant son nom
@@ -435,7 +435,7 @@ Pour les allergique à la ligne de commande, il existe Tortoise (outil de produc
 interface graphique pour GIT. Il s'intègre dans le menu contextuel de windows
 
 Nommer les fichiers et les dossiers correctement
-+++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
 
 Beaucoup d'entre vous l'ignore, mais on ne doit pas nommer les fichier n'importe comment. Il y a des
 règles de syntaxe à respecter. La où les systèmes d'exploitation fond des piège (Windows en
@@ -463,7 +463,7 @@ Voici un résumer de ce qu'il faut faire ou pas
 
 Il est important de respecter ses règles de nommage car les outils que vous allez utiliser comme :
 Le Raspberry Pi (ou toutes les machines linux), Github, Wikimedia (et tous le WEB en général),
-Sphinx, Doxygen et bien d'autre encore.
+Sphinx, Doxygen et bien d'autre encore, respect ces règles.
 
 Ne pas négliger la sécurité
 ---------------------------
@@ -477,8 +477,8 @@ Si dans l'un de vos code vous avez besoin de renseigner se genre d'informations 
 dans un dossier séparer (par exemple 'Creds' ou 'Credential') et vous assurer que seul votre code
 (en local) peut accéder à ce dossier et qu'il ne sera pousser avec le reste du projet sur les
 réseaux. GIT vous permet de d'ignorer les éléments qui sont renseigner dans le fichier '.gitignore'
-Vous devez donc ajouter '\*/Creds/\*' dans se fichier pour qu'il ne soit pas pris en compte dans la 
-gestion du projet.
+Vous devez donc ajouter '\*/Creds/\*' dans se fichier, si votre dossier se nomme 'Creds', pour qu'il
+ne soit pas pris en compte dans la gestion du projet.
 
 Demander de l'aide de temps en temps
 ====================================
@@ -500,14 +500,30 @@ Les outils et médias de diffusions
 Les outils de dessin
 --------------------
 
-[WIP]
-    * Inkscape
+Il est toujours intéressant de pouvoir ajouter un croquis ou une image pour permettre d'illustrer
+un point particulier.
 
-    * The Gimp
+    :Inkscape:
+                `Inkscape <https://inkscape.org/en/>`_ est un logiciel de dessin vectoriel. Ce
+                logiciel Open-source permet de créer facilement de croquis, des schéma ou des
+                images.
 
-    * XnView
+                On peut trouvé facilement des tutos en faisant une recheche : 
+                `inkscape tuto <https://www.google.fr/search?num=50&ei=-7qBW4OGF7T89AOkoquIBQ&q=inkscape+tuto&oq=inkscape+tuto&gs_l=psy-ab.3..0l10.319393.322629.0.323765.5.5.0.0.0.0.1480.3006.5-1j1j1.3.0....0...1.1.64.psy-ab..2.3.3005...0i67k1.0.B9kSfPWuHz4>`_
 
-[WIP]
+    :GIMP:
+                `GIMP <https://www.gimp.org/fr/>`_ est un logiciel de traitement d'image Bitmap. Ce
+                logiciel Open-source permet de manipuler des images de la même façon que
+                Photoshop d'Adobe.
+
+                De nombreux tutos sont disponible : 
+                `Gimp tuto <https://www.google.fr/search?num=50&ei=6ryBW-nVGei-0PEP_bWw0A8&q=Gimp+tuto&oq=Gimp+tuto&gs_l=psy-ab.3..0i20i263k1j0l2j0i20i263k1j0l6.241156.246275.0.246574.6.6.0.0.0.0.200.531.2j1j1.4.0....0...1.1.64.psy-ab..2.4.529...35i39k1j0i67k1j0i7i30k1.0.TQ6YNVU51Dw>`_
+
+
+    :XnView:
+                `XnView <https://www.xnview.com/fr/>`_ est un logiciel Open-souce de traitement
+                d'image par lot. Il vous permet de redimensioner, de convertir ou renommer vos 
+                images par lot
 
 Les outils de production
 ------------------------
@@ -532,9 +548,12 @@ Les outils de production
 Les outils de traduction des textes
 -----------------------------------
 
-    * `Google Translate <https://translate.google.fr/>`\
+[WIP]
+    * `Google Translate <https://translate.google.fr/>`_
 
-    * `Deepl <https://www.deepl.com/translator>`\
+    * `Deepl <https://www.deepl.com/translator>`_
+
+[WIP]
 
 Les outils d'aide à la documentation
 ------------------------------------
@@ -548,6 +567,8 @@ Les langages de balisage en texte clair (Plantext Markup Language)
     * reStructuredText
 
     * Markdown
+
+    * LaTeX
 
 Les générateurs documentation
 +++++++++++++++++++++++++++++
