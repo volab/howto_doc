@@ -6,37 +6,37 @@ Comment documenter un projet
 Avant d'attaquer
 ----------------
 
-Lorsque l'on fait une simple recherche sur internet avec les mots clef : ::
+Lorsque l'on fait une simple recherche sur internet avec les mots clefs : ::
 
     comment documenter un projet
 
 On se rend compte qu'il y a déjà beaucoup d'informations disponible sur ce sujet. Je n'hésiterai
 d'ailleurs pas un instant en vous renvoyant de temps à autres vers l'un ou l'autre de ces sites.
 
-Pourquoi encore un document sur "comment faire de la doc
-========================================================
+:Liens_Web:
+        * http://cours.education/dufacilitateur/2016/07/24/atelier-comment-documenter-son-projet-v1/
+            # une aide à la documentation proposée par le FacLab
+
+        * http://carrefour-numerique.cite-sciences.fr/fablab/wiki/doku.php?id=aide:documenter
+            # une aide à la documentation proposée par Le Carrefour Numérique
+
+        * http://blog.wikifab.org/2016/07/19/pourquoi-documenter-et-partager-mon-projet/
+            # une description de pourquoi, pour qui donnée par WikiFab
+
+        * https://reso-nance.org/wiki/_media/projets/documentation-fablab.pdf
+            # un petit PDF résumant les étapes de documentation
+          
+        * http://www.fao.org/capacity-development/resources/practical-tools/comment-documenter-et-partager-les-bonnes-pratiques-pour-generer-le-changement/fr/
+            # Comment capitaliser et partager vos bonnes pratiques pour générer le changement
+
+Pourquoi encore un document sur "comment faire de la doc"
+=========================================================
 
 Tous d'abord parce qu'il est toujours intéressant d'avoir plusieurs points de vue sur un sujet
 lorsque l'on décide de s'y intéresser, pour pouvoir se forger sa propre opinion. Ensuite ce document
 n'est pas quelque chose que vous devrez suivre à la lettre pour avoir la garantie de faire une bonne
 documentation. Il s'agit simplement de vous décrire au mieux ma propre recette. Vous pourrez ainsi
 piocher (ou non) quelque idée pour définir votre propre méthode.
-
-:Liens_Web:
-        * http://cours.education/dufacilitateur/2016/07/24/atelier-comment-documenter-son-projet-v1/
-          # une aide à la documentation proposée par le FacLab
-
-        * http://carrefour-numerique.cite-sciences.fr/fablab/wiki/doku.php?id=aide:documenter
-          # une aide à la documentation proposée par Le Carrefour Numérique
-
-        * http://blog.wikifab.org/2016/07/19/pourquoi-documenter-et-partager-mon-projet/
-          # une description de pourquoi, pour qui donnée par WikiFab
-
-        * https://reso-nance.org/wiki/_media/projets/documentation-fablab.pdf
-          # un petit PDF résumant les étapes de documentation
-          
-        * http://www.fao.org/capacity-development/resources/practical-tools/comment-documenter-et-partager-les-bonnes-pratiques-pour-generer-le-changement/fr/
-          # Comment capitaliser et partager vos bonnes pratiques pour générer le changement
 
 ####
 
@@ -60,7 +60,7 @@ Pour qui et pourquoi ?
 Dans la plupart des lectures que j'ai pu consulter, il revient une idée générale avec laquelle je
 ne suis pas d'accord. Cette idée, c'est :
 
-"Il faut documenter afin de partager son travail avec d'autres personnes"
+    *"Il faut documenter afin de partager son travail avec d'autres personnes"*
 
 Pour ma part, je pense que le travail de documentation doit d'abord être un travail égoïste. La 
 documentation doit être faite en priorité pour soi, mais écrite comme si nous ne savions pas de
@@ -127,11 +127,11 @@ En résumé, tous ce que vous avez produit ou utiliser pour réaliser votre proj
 
 Il ne faut jamais trop se faire confiance. Si vous pensez : 
 
-    - "ça c'est bon, je m'en souviendrais. Je n'ai pas besoin de le noter !"
+    *"ça c'est bon, je m'en souviendrais. Je n'ai pas besoin de le noter !"*
 
 ou :
 
-    - "c'est parfaitement compréhensible, je n'ai pas besoin de l'expliquer !"
+    *"c'est parfaitement compréhensible, je n'ai pas besoin de l'expliquer !"*
 
 Vous pouvez êtres certains que NON vous ne vous en souviendrez pas et que NON ce n'est pas si
 compréhensible que ça quand vous n'avez pas touchez au projet depuis 6 mois. Il vous faut donc
@@ -143,7 +143,7 @@ Boite à idées
 Une idée n'est bonne que si on s'en souvient !
 
 C'est toujours une bonne pratique que de noté toutes vos idées dans un document. Vous pouvez avoir
-plusieurs boites à idée. Une global dans laquelle vous allez décrire vos idées qui vous permettrons
+plusieurs boites à idée. Une global dans laquelle vous allez décrire les idées qui vous permettrons
 de commencer d'autre projets qui n'aurons peut-être rien à voir les uns avec les autres. Et une par
 projet qui vous servira à améliorer ou à développer votre projet.
 
@@ -160,19 +160,20 @@ documentation. Voici par exemple certaines raisons qui vous en empêcherons :
       travail, les enfants tout ça).
 
     * Faire la documentation en dernier équivaux à recommencer tout le projet depuis le début. On
-      se retrouve dans la même situation que j'ai donnée en exemple un peu plus haut. Je suis
-      certain qu'à ce moment vous serez atteint d'un mal assez connu que l'on nomme : "la flemme".
+      se retrouve dans la même situation que celle qui a été donné en exemple un peu plus haut. Je 
+      suis certain qu'à ce moment vous serez atteint d'un mal assez connu que l'on nomme : 
+      "la flemme".
 
 Pour éviter cette situation il faut documenter régulièrement vos travaux, consigner toutes vos
-expérimentations, prendre des notes sur vos manipulation (voir "journal de manip") et si possible
+expérimentations, prendre des notes sur vos manipulation (voir "`Le Journal de Manip`_") et si possible
 faire une fiche descriptive du projet a partir de laquelle vous pourrez définir plusieurs petits
 objectifs qui seront plus facile à réaliser et donc à documenter.
 
 Journal de manip, Bug et TODO list
 ==================================
 
-Journal de manip
-----------------
+Le Journal de manip
+-------------------
 
 Un projet n'est jamais réalisé de façon linéaire. Vous serez souvent amené à vous détourner de
 votre objectif principale afin de découvrir de nouvelles choses, expérimenter une nouvelle
@@ -180,7 +181,7 @@ technique, tester un outil ou une appli ou encore tester du matériel. Tout cela
 l'expérience.
 
 L'expérience, c'est comme les idées. Cela ne sert à rien si on ne les conserve pas. Pour éviter de
-perdre toutes cette précieuse expérience, vous pouvez créer **un journal de manip**.
+perdre toutes ces précieuses expériences, vous pouvez créer **un journal de manip**.
 
 Le journal de manip, est un document dans lequel vous allez noter tous ce que vous avez pu faire ou
 tester sur un sujet donnée. Vous pouvez faire un journal de manip par projet, mais je vous conseil
@@ -193,6 +194,9 @@ Vous pouvez consulter mon propre `journal de manip <https://poltergeist42.github
 l'ai pas organiser comme un journal dans lequel je saisie toutes mes manip au quotidien, mais comme 
 un référentiel technique dans lequel je répertorie les éléments sur lesquels j'ai été amené à
 travailler une ou plusieurs fois.
+
+A vous de trouvez l'organisation qui vous convient le mieux pour la gestion de votre 
+Journal de manip.
 
 Bug et TODO list
 ----------------
@@ -253,9 +257,9 @@ Un peu de paresse est bon pour la santé
 Si vous faite de la programmation, vous avez peut-être déjà rencontré l'expression DRY (Don't
 Repeat Yourself) qui signifie : Ne te répète pas toi-même.
 
-Il faut faire attention à ne pas répéter. Il serait dommage de documenter 2 fois une partie du projet
-parce que cette partie en question est référencer à plusieurs endroit dans votre bazar (pas si)
-organisé.
+Il faut faire attention à ne pas ce répéter. Il serait dommage de documenter 2 fois une partie du
+projet parce que cette partie en question est référencer à plusieurs endroit dans votre bazar
+(pas si) organisé.
 
 On peut également étendre le concept à : Ne répète pas ce que les autres ont déjà dit. Il est inutile
 de faire du copier-coller (ou même de réécrire) quelque chose qui a déjà été écris. Il suffit de
@@ -284,16 +288,16 @@ comme :
 
 Pour gérer ces documents, vous avez plusieurs solution :
 
-    * Tout réunir dans un seule dossier : Vous aurez tous les éléments au même endroit mais il n'y
+    * **Tout réunir dans un seule dossier** : Vous aurez tous les éléments au même endroit mais il n'y
       aura certainement pas d'organisation logique
 
-    * Tout répartir à différents endroit sur votre disque dur : Vous aurez un semblant
+    * **Tout répartir à différents endroit sur votre disque dur** : Vous aurez un semblant
       d'organisation mais il deviendra difficile de partager votre projet en l'état. Vous serez donc
       obligé de regrouper tous les éléments en un même endroit quant vous souhaiterez le diffuser.
       Créant ainsi un doublons des différents éléments et augmentant la difficulté de maintenir le 
       projet.
 
-    * Une troisième solution et de créer un dossier pour le projet et de créer des sous répertoire
+    * **Une troisième solution** et de créer un dossier pour le projet et de créer des sous répertoire
       pour l'organisation des différents documents. Vous aurez donc tous le projet dans un seul 
       répertoire, une meilleure organisation du projet et une meilleure facilite de maintenance et 
       de diffusion.
@@ -305,7 +309,7 @@ C'est à ce moment qu'il faut un peut de discipline. Vous devez vous définir un
 standardisée dans laquelle vous aurez toujours les mêmes noms de dossier. Ce qui vous permettra de
 rangé les différents type de documents toujours de la même façon quelque soit votre projet
 
-Vous devez utiliser la même arborescence pour tous vos projet pour facilité le travail
+Vous devez utiliser la même arborescence dans tous vos projet pour vous facilité le travail
 
 Voici en exemple l'arborescence que je me suis définit ::
 
@@ -339,8 +343,8 @@ Pour être certain d'utiliser toujours la même arborescence, vous devez limiter
     * **Solution 2** : Vous vous faites un petit programme qui vas créer pour tous les répertoire et
       sous répertoire nécessaires. Ce genre de programme est très simple à faire et ceux quelque
       soit le langage de programmation que vous utiliser. Vous pouvez faire en sorte que ce 
-      programme mette en place une structure plus évoluée comme par exemple : installer GIT dans 
-      votre projet ou initialiser Sphinx à la création du projet.
+      programme mette en place une structure plus évoluée comme par exemple : initialiser GIT et 
+      Sphinx en même temps que la création de l'arborescence du projet.
 
 La deuxième solution est plus compliquée à mettre en œuvre, mais elle vous facilitera vraiment le 
 processus de création d'un nouveau projet.
@@ -350,16 +354,39 @@ en python. Ce programme me crée une arborescence, copie ou crée certain fichie
 Sphinx dans la foulée. De plus je peux modifier mon arborescence en modifiant simplement un fichier
 JSON.
 
+    :Petite Astuce:
+
+                    Si vous utiliser toujours la même arborescence, vous aurez forcement des
+                    dossiers vides. Pour être sûre de ne pas passez votre temps à ouvrir ces
+                    dossiers vides ajoutez le suffixe '_v' au nom de chaque dossier. Vous pouvez
+                    même le faire directement dans votre modèle. De cette façon, lorsque vous
+                    ajoutez des données dans un dossier, il vous suffit de retirer se suffixe pour
+                    obtenir immédiatement un indicateur visuel sur l'état (data ou vide) d'un
+                    dossier. ::
+
+                                ex:
+                                # Pas de données
+                                |
+                                \--_1_userDoc_v
+
+                                # Dossier avec données
+                                |
+                                \--_1_userDoc
+                                    |
+                                    \--MaSupperDoc.txt
+
 Versionner et  nommer les fichiers
 -----------------------------------
 
 Versionner des fichiers
 +++++++++++++++++++++++
 
-L'un des problèmes qu'on rencontre souvent est qu'elle est la bonne version du fichier à utiliser et
-comment le nommer de façon intelligente et compréhensible ?
+L'un des problèmes qu'on rencontre souvent est :
 
-    :Exemple :  Vous venez de terminé le travail sur un fichier. Étant certain que vous n'aurez plus
+    "*qu'elle est la bonne version du fichier à utiliser et comment le nommer de façon intelligente
+    et compréhensible ?*"
+
+    :Exemple:  Vous venez de terminé le travail sur un fichier. Étant certain que vous n'aurez plus
                 à travailler dessus, vous le renommer en 'final': 'mon_super_fichier_final.txt'. 
                 Seulement, le lendemain, vous vous apercevez qu'en faite vous avez oublié de parler 
                 d'un truc important. Vous modifier votre fichier et là cette fois c'est sûre, c'est 
@@ -386,17 +413,17 @@ Votre ficher aura alors la forme : ::
     AAMMJJ_[Nom_du_fichier].ext
 
     ex:
-    180825_mon_super_fichier.txt
+        '180825_mon_super_fichier.txt'
 
 Pour m'a part je me contente de préfixé mes fichiers avec la date. Il peut malgré tout y avoir des
-situation ou vous souhaiterez avoir une information plus précise sur l'horodatage du fichier. La 
+situations ou vous souhaiterez avoir une information plus précise sur l'horodatage du fichier. La 
 solution est alors d'ajouter l'heure en plus de la date : ::
 
     AAMMJJ-HHMM[SS]_[Nom_du_fichier].ext
     # N. B : on peut ne pas spécifié les secondes
 
     ex:
-    180825-1843_mon_super_fichier.txt
+        '180825-1843_mon_super_fichier.txt'
 
 Cette technique présente plusieurs avantage :
 
@@ -416,11 +443,11 @@ fonctionnel. Pour cela, il faut pouvoir créer une version fonctionnel et une ve
 technique de l'horodatage est efficace au niveau des fichiers, mais pas au niveau des projets.
 
 La solution est donc d'utiliser un logiciel gestion de version. Le plus connu (et le plus utiliser)
-est GIT. Les liens sont disponible dans les outils de production.
+est GIT. Les liens sont disponible dans `Les outils de production`_.
 
-GIT permet de conserver toutes les versions des fichiers. Il offre ainsi la possibilité de comparer
-la version actuel avec une version antérieur d'un fichier. Il permet également de créer plusieurs
-branche de travail :
+GIT permet de conserver toutes les versions de tous les fichiers. Il offre ainsi la possibilité de 
+comparer la version actuel avec une version antérieur d'un fichier. Il permet également de créer
+plusieurs branche de travail :
 
     * La branche 'Master' : c'est la branche principale (Obligatoire). Elle est utiliser pour les 
       versions Stable et / ou fonctionnelles des projet
@@ -429,10 +456,10 @@ branche de travail :
       pour tester de nouvelle fonctionnalités
 
 Il s'utilise en ligne de commandes et permet de porter vos projet vers des dépôt distant comme
-GitHub ou GitLab (voir outils de publications)
+GitHub ou GitLab (voir `Les outils de publication de documentation`_)
 
-Pour les allergique à la ligne de commande, il existe Tortoise (outil de production) qui est un
-interface graphique pour GIT. Il s'intègre dans le menu contextuel de windows
+Pour les allergique à la ligne de commande, il existe Tortoise (`Outils de production <Les outils de production>`_)
+qui est un interface graphique pour GIT. Il s'intègre dans le menu contextuel de Windows.
 
 Nommer les fichiers et les dossiers correctement
 ++++++++++++++++++++++++++++++++++++++++++++++++
@@ -475,7 +502,7 @@ d'informations que vous ne devez en aucun cas diffuser.
 
 Si dans l'un de vos code vous avez besoin de renseigner se genre d'informations il faut les placer
 dans un dossier séparer (par exemple 'Creds' ou 'Credential') et vous assurer que seul votre code
-(en local) peut accéder à ce dossier et qu'il ne sera pousser avec le reste du projet sur les
+(en local) peut accéder à ce dossier et qu'il ne sera pas pousser avec le reste du projet sur les
 réseaux. GIT vous permet de d'ignorer les éléments qui sont renseigner dans le fichier '.gitignore'
 Vous devez donc ajouter '\*/Creds/\*' dans se fichier, si votre dossier se nomme 'Creds', pour qu'il
 ne soit pas pris en compte dans la gestion du projet.
@@ -497,6 +524,14 @@ Les outils et médias de diffusions
 ==================================
 
 [WIP]
+
+Comme pour tous travaux, il y a toujours plusieurs façon de les réaliser. En fonction de ce que l'on
+veux faire il faut utiliser le bon outils. La difficulté étant de savoir quels sont les outils qui
+existe et ce qu'ils font.
+
+Voici donc les quelques outils que j'utilise. Ils en existe d'autre, ce sera à vous de les découvrir
+et de vous les approprier.
+
 Les outils de dessin
 --------------------
 
@@ -529,6 +564,7 @@ Les outils de production
 ------------------------
 
 [WIP]
+
     * Fusion 360
 
     * Kicad
@@ -549,6 +585,7 @@ Les outils de traduction des textes
 -----------------------------------
 
 [WIP]
+
     * `Google Translate <https://translate.google.fr/>`_
 
     * `Deepl <https://www.deepl.com/translator>`_
@@ -590,8 +627,35 @@ Les outils de publication de documentation
 Avant, pendant et après la documentation
 ----------------------------------------
 
-[WIP]
-[WIP]
+    :Avant:     Vous devez vous créer une structure de travail, rassembler les différentes 
+                documentation que vous avez déjà et définir les objectifs de votre projet.
+
+                Ces éléments vous servirons à la fois : à la réalisation de votre projet et à 
+                l'établissement de votre documentation.
+
+    :Pendant:   Essayer d'écrire votre documentation en parallèle du développement de votre projet.
+                Puisque le travail de rédaction prend toujours beaucoup de temps, il y a de grande 
+                chance vous que vous soyer souvent amené à vous interrompre en cours d'écriture. Vous
+                devez vous laisser des informations vous signalant qu'un paragraphe n'est pas encore
+                terminé. Pour ma part, j'entoure les éléments en cours de rédaction (ou pour 
+                lesquels une modification est a effectué) par 2 bloc '[WIP]'. Ces bloc sont 
+                supprimés quand la partie en cours est complète ::
+
+                    ex:
+                    [WIP]
+
+                    Un bout de doc vachement bien mais encore incomplet ...
+
+                    [WIP]
+
+                Cela vous permet d'avoir immédiatement une information visuel sur ce qui est complet.
+
+                N'oubliez pas de vous relire (souvent) pour vous assurer qu'il n'y a pas de doublons,
+                de non-sens, d'incohérence ou simplement de coquille dans votre doc.
+
+    :Après:     Relisez votre document, faite le relire par quelqu'un d'autre et lorsque tous semble
+                correcte, essayez d'agrémenter un peu votre document. C'est particulièrement 
+                important si votre document est exclusivement textuel. Voir `Les finitions`_.
 
 --------------
 Les finitions
