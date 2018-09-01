@@ -354,15 +354,22 @@ en python. Ce programme me crée une arborescence, copie ou crée certain fichie
 Sphinx dans la foulée. De plus je peux modifier mon arborescence en modifiant simplement un fichier
 JSON.
 
-    :Petite Astuce:
+    .. image:: ./Images/Deco/ampoule.png
+       :name: Astuces
+       :width: 50px
+       :height: 50px
+       :align: left
 
-                    Si vous utiliser toujours la même arborescence, vous aurez forcement des
-                    dossiers vides. Pour être sûre de ne pas passez votre temps à ouvrir ces
-                    dossiers vides ajoutez le suffixe '_v' au nom de chaque dossier. Vous pouvez
-                    même le faire directement dans votre modèle. De cette façon, lorsque vous
-                    ajoutez des données dans un dossier, il vous suffit de retirer se suffixe pour
-                    obtenir immédiatement un indicateur visuel sur l'état (data ou vide) d'un
-                    dossier. ::
+    :Petites Astuces:
+
+
+                    #. Si vous utiliser toujours la même arborescence, vous aurez forcement des
+                       dossiers vides. Pour être sûre de ne pas passez votre temps à ouvrir ces
+                       dossiers vides ajoutez le suffixe '_v' au nom de chaque dossier. Vous pouvez
+                       même le faire directement dans votre modèle. De cette façon, lorsque vous
+                       ajoutez des données dans un dossier, il vous suffit de retirer se suffixe 
+                       pour obtenir immédiatement un indicateur visuel sur l'état (data ou vide)
+                       d'un dossier. ::
 
                                 ex:
                                 # Pas de données
@@ -374,6 +381,32 @@ JSON.
                                 \--_1_userDoc
                                     |
                                     \--MaSupperDoc.txt
+
+                    #. En plus d'une arborescence standardisée, il est aussi possible de créer un 
+                       certain nombre de fichiers qui seront toujour structuré de la même façon. Je
+                       vous conseil de créer un fichiers : README à la racine de votre projet. Ce
+                       fichier doit contenir les éléments suivant :
+                       
+                            * Le ou les auteurs du projet (normalement vous)
+
+                            * `La licence <Les licences>`_ sous laquelle le projet est distribué
+
+                            * les informations sur la documentation et sur le dépôt (endroit de mise
+                              à disposition) du projet.
+
+                            * Une breve déscription du projet, 
+
+                            * Quelques informations permettant le démarrage ou la prise en main du 
+                              projet
+
+                            * Quelques informations supplémentaire comme par exemple l'arborescence
+                              du projet
+
+                       Mon programme 'arboProject' me crée se fichier automatiquement. Je fait
+                       systématiquement apparaitre ce fichier en premier dans ma documentation.
+
+                       Vous pouvez consulter le `fichier README de ce projet <https://github.com/poltergeist42/howto_doc/blob/master/README.rst>`_
+                       pour voir à quoi cela ressemble.
 
 Versionner et  nommer les fichiers
 -----------------------------------
@@ -592,20 +625,29 @@ Les outils de traduction des textes
 
 [WIP]
 
-Les outils d'aide à la documentation
-------------------------------------
-
-[WIP]
-[WIP]
-
 Les langages de balisage en texte clair (Plantext Markup Language)
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-    * reStructuredText
+Les langages de balisages en texte clair sont des langages qui doivent pouvoir être interprété 
+informatiquement tout en en restant parfaitement lisible par un les humains. Cela permet d'écrire
+un document sans avoir à ce préoccuper de l'aspect esthétique. Seule une syntaxe peu contraignante 
+est à respectée pour que le document puisse être interpréter par l'ordinateur.
 
-    * Markdown
+    :Liens_Web:
+                * https://fr.wikipedia.org/wiki/Langage_de_balisage_l%C3%A9ger
+                    # Petite explication sur les langage de balisage simple
 
-    * LaTeX
+    * `reStructuredText <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#document-structure>`_:
+      Ce langage est utilisé nativement par Github, ReadTheDoc et Sphinx. Ce document est rédigé
+      dans ce langage.
+
+    * `Markdown <https://daringfireball.net/projects/markdown/syntax>`_
+
+    * `LaTeX <https://fr.wikibooks.org/wiki/LaTeX>`_
+
+    * `MediaWiki <https://www.mediawiki.org/wiki/Help:Formatting/fr>`_
+
+    * `DokuWiki <https://doc.ubuntu-fr.org/wiki/syntaxe>`_
 
 Les générateurs documentation
 +++++++++++++++++++++++++++++
@@ -617,6 +659,13 @@ Les outils de publication de documentation
 ------------------------------------------
 
 [WIP]
+
+    * Les Wiki (`moteur MediaWiki <https://fr.wikipedia.org/wiki/MediaWiki>`_ et `moteur DokuWiki <https://fr.wikipedia.org/wiki/DokuWiki>`_)
+
+    * les gestionnaires de dépôt distant (Github, ReadTheDoc)
+
+    * Presse écrite et revue scientifique
+
 [WIP]
 
 [WIP]
@@ -657,18 +706,7 @@ Avant, pendant et après la documentation
                 correcte, essayez d'agrémenter un peu votre document. C'est particulièrement 
                 important si votre document est exclusivement textuel. Voir `Les finitions`_.
 
---------------
-Les finitions
---------------
-
-[WIP]
-[WIP]
-
-Agrémenter sa documentation
-===========================
-
-[WIP]
-[WIP]
+####
 
 ------------
 Les licences
@@ -694,13 +732,17 @@ la modifier et de la redistribuer selon c'est propre conditions, il faut utilise
 
 Vous pouvez consulter les différentes licences depuis le liens Web ci-dessous :
 
-    * www.gnu.org/licenses/license-list.fr.html#GPLCompatibleLicensesv
+    * `Liste des licences <https://www.gnu.org/licenses/license-list.fr.html#GPLCompatibleLicensesv>`_
 
-Pour ma part, j'utilise systématiquement la licence : `CC BY-NC-SA <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_.
+Pour ma part, j'utilise systématiquement la licence : 
 
-    .. image: ./Images/CC/cc-by-nc-sa_88x31.png
+    `CC BY-NC-SA <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_.
+
+    .. image:: ./Images/CC/cc-by-nc-sa_88x31.png
        :align: center
+       :name: CC-BY-NC-SA
        :alt: CC-BY-NC-SA
+       :target: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
 Cette licence définit le thermes suivants :
 
@@ -713,6 +755,51 @@ Cette licence définit le thermes suivants :
       s'attribuer la paternité du projet ni changer le type de licence.
 
 Je place cette licence systématiquement dans le fichiers 'README.RST' présent dans tous mes projets.
+
+####
+
+--------------
+Les finitions
+--------------
+
+Lorsque vous aurez enfin tout fini. Vous pourrez passer aux petits détails de dernières minutes,
+comme la décoration ou la publication de la doc et du projet.
+
+Agrémenter sa documentation
+===========================
+
+[WIP]
+Lorsque vous aurez terminé votre documentation, vous allez certainement vous trouver face à un bloc
+de texte monolithique. Pour rendre votre documentation plus attractive il vous suffit d'ajouter
+quelques images et / ou dessins.
+
+Vous ne pouvez pas utilisé la première photo de chatons venus car vous ne le savez peut être pas
+mais la plupart des photos que l'on trouve sur internet ne sont pas libre de droits. Vous n'avez
+donc pas le droits de les utiliser.
+
+Pour trouver des images libre de droits, il vous suffit de faire la recherche suivante : ::
+
+    # Recherche avec mots clefs en Français
+    image domaine public gratuit 
+    # ou encore
+    illustration domaine public
+
+    # Recheche avec mots clefs en Anglais
+    public domain pictures
+
+    # Recherche de dessins vectoriser et clipart
+    public domain vector
+
+Publié sa documentation et son projet
+=====================================
+
+La publication de votre documentation doit être envisager dès le début de votre projet car les
+outils de rédactions sont différents selon que vous souhaitiez publier sur un WIKI, sur Github ou
+une revue scientifique.
+
+**N. B.**: En plus des outils, la syntaxe des langages utilisée est également très différentes
+
+####
 
 -----------
 Conclusions
