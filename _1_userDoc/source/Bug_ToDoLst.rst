@@ -18,6 +18,8 @@ Description
         petites choses à fort potentiel d'oubli ou des tâches qui ne peuvent pas faire
         l'objet d'un traitement immédiat.
 
+####
+
 Model Type
 ==========
 
@@ -28,7 +30,7 @@ Model Type
     :Problématique:         Descriptif de la problématique
     :Traitement:            Descriptif du traitement de la problématique
 
-------------------------------------------------------------------------------------------
+####
 
 Bug identifiés
 ==============
@@ -40,7 +42,7 @@ Bug identifiés
     :Problématique:         
     :Traitement:            
     
-------------------------------------------------------------------------------------------
+####
 
 ToDo-list
 =========
@@ -53,10 +55,7 @@ ToDo-list
                             et de l'horodatage
     :Traitement:            Traité dans la partie 'Un peu d'organisation'
 
-------------------------------------------------------------------------------------------
-
-ToDo-list
-=========
+####
 
     :Date de saisie:        180825
     :Date de traitement:    
