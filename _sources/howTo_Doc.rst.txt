@@ -635,7 +635,7 @@ Avant, pendant et après la documentation
 
     :Pendant:   Essayer d'écrire votre documentation en parallèle du développement de votre projet.
                 Puisque le travail de rédaction prend toujours beaucoup de temps, il y a de grande 
-                chance vous que vous soyer souvent amené à vous interrompre en cours d'écriture. Vous
+                chance que vous soyer souvent amené à vous interrompre en cours d'écriture. Vous
                 devez vous laisser des informations vous signalant qu'un paragraphe n'est pas encore
                 terminé. Pour ma part, j'entoure les éléments en cours de rédaction (ou pour 
                 lesquels une modification est a effectué) par 2 bloc '[WIP]'. Ces bloc sont 
@@ -674,6 +674,55 @@ Agrémenter sa documentation
 Les licences
 ------------
 
-[WIP]
-[WIP]
+Il est important que vous attribuiez une licence à vos travaux. La documentation ne fait pas
+exemption.
 
+Par défaut, si vous ne définissez pas explicitement une licence pour vos projets ou vos 
+documentations, c'est le `Copyright <https://fr.wikipedia.org/wiki/Copyright>`_ (appelé 
+"`droit d'auteur <https://www.service-public.fr/professionnels-entreprises/vosdroits/F23431>`_" 
+en France) qui s'applique par défaut sur vos œuvres et créations. Dans se cas une personne tiers ne
+pourra consulter et utiliser vos création que dans les conditions de mise à disposition de l'œuvre
+que vous aurez défini.
+
+Si votre projet n'a pas vocation à être 'libre' ou open sources, assurez vous d'en avoir bien
+définit la paternité en la signant avec votre nom ou un pseudonyme (à condition que ce derniers ne 
+soit pas lui aussi utilisé par une tiers personne).
+
+Si vous souhaitez mettre votre création à disposition de tout le monde et permettre à quiconque de
+la modifier et de la redistribuer selon c'est propre conditions, il faut utiliser la 
+`licence X11 (licence MIT) <https://directory.fsf.org/wiki/License:X11>`_.
+
+Vous pouvez consulter les différentes licences depuis le liens Web ci-dessous :
+
+    * www.gnu.org/licenses/license-list.fr.html#GPLCompatibleLicensesv
+
+Pour ma part, j'utilise systématiquement la licence : `CC BY-NC-SA <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_.
+
+    .. image: ./Images/CC/cc-by-nc-sa_88x31.png
+       :align: center
+       :alt: CC-BY-NC-SA
+
+Cette licence définit le thermes suivants :
+
+    * **BY** : l'attribution. En cas d'utilisation ou de modification, l'auteur doit être cité
+
+    * **NC** : Pas d'utilisation commerciale. Une tiers personne ne peut pas vendre tout ou parti du
+      projet.
+
+    * **SA** : Partage dans les même condition. Même si quelqu'un modifie le projet, il ne peut pas
+      s'attribuer la paternité du projet ni changer le type de licence.
+
+Je place cette licence systématiquement dans le fichiers 'README.RST' présent dans tous mes projets.
+
+-----------
+Conclusions
+-----------
+
+Vous devriez maintenant avoir suffise ment d'information pour pouvoir faire votre propre 
+documentation.
+
+Je vous conseil de faire ce travail de documentation car au delà de vous aider en cas de reprise 
+d'un projet, le travail de documentation vous aidera à fournir un meilleur travail sur votre projet.
+
+N'hésitez pas à rendre dans un FabLab (VoLAB ?) pour trouver de l'aide vous permettant de d'aller
+au bout de vos projets.
