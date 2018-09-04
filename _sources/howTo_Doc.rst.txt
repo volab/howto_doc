@@ -608,7 +608,7 @@ Les outils de production
 
         * GIT
 
-        * Tortoise
+        * `Tortoise <https://tortoisegit.org/>`_
 
         * Autres
 
@@ -617,13 +617,15 @@ Les outils de production
 Les outils de traduction des textes
 -----------------------------------
 
-[WIP]
+Que ce soit dans la préparation ou dans la réalisation de votre projet, vous allez certainement
+devoir consulter des sites ou des docs écrit dans une autres langue. Cela peut vite être très
+handicapant. Voici 2 outils qui permettent de traduire : un mot, un texte, un document ou un site.
 
-    * `Google Translate <https://translate.google.fr/>`_
+    * `Google Translate <https://translate.google.fr/>`_ : Il s'agit de l'outil de google que tous 
+      le monde connait.
 
-    * `Deepl <https://www.deepl.com/translator>`_
-
-[WIP]
+    * `Deepl <https://www.deepl.com/translator>`_ : Il s'agit d'un outil de traduction qui amène
+      plus de nuance dans les traductions et qui génères des traductions de meilleur qualité.
 
 Les langages de balisage en texte clair (Plantext Markup Language)
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -637,22 +639,34 @@ est à respectée pour que le document puisse être interpréter par l'ordinateu
                 * https://fr.wikipedia.org/wiki/Langage_de_balisage_l%C3%A9ger
                     # Petite explication sur les langage de balisage simple
 
-    * `reStructuredText <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#document-structure>`_:
-      Ce langage est utilisé nativement par Github, ReadTheDoc et Sphinx. Ce document est rédigé
-      dans ce langage.
+                * https://fr.wikipedia.org/wiki/LaTeX
+                    # Page Wiki de présentation du LaTeX
 
-    * `Markdown <https://daringfireball.net/projects/markdown/syntax>`_
+    * `reStructuredText <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#document-structure>`_
+      et `Markdown <https://daringfireball.net/projects/markdown/syntax>`_ : Ces langages sont 
+      utilisés nativement par Github, ReadTheDoc et GitLab. Sphinx s'appuie sur le reStrucredText.
 
-    * `LaTeX <https://fr.wikibooks.org/wiki/LaTeX>`_
+    * `LaTeX <https://fr.wikibooks.org/wiki/LaTeX>`_ : il s'agit d'un langage permettant
+      l'élaboration de document très élaborer. Il est très utiliser par la communauté scientifique
+      pour ces possibilités d'écriture de systèmes mathématiques. Il est également de plus en plus
+      utiliser dans la presse pour ces possibilité des gestions des mises en page.
 
-    * `MediaWiki <https://www.mediawiki.org/wiki/Help:Formatting/fr>`_
+      **Attention** Il s'agit d'un outil très puissant mais très compliqué à utiliser et a
+      mettre en œuvre.
 
-    * `DokuWiki <https://doc.ubuntu-fr.org/wiki/syntaxe>`_
+    * `MediaWiki <https://www.mediawiki.org/wiki/Help:Formatting/fr>`_ et `DokuWiki <https://doc.ubuntu-fr.org/wiki/syntaxe>`_ :
+      Il y a actuellement 2 type de plateforme WIKI. Chacune utilisant une syntaxe diférente.
+
 
 Les générateurs documentation
 +++++++++++++++++++++++++++++
 
 [WIP]
+
+    :Liens_Web:
+                * https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9rateur_de_documentation
+                    # Page WIKI sur les générateur de documentation
+
 [WIP]
 
 Les outils de publication de documentation
@@ -682,28 +696,73 @@ Avant, pendant et après la documentation
                 Ces éléments vous servirons à la fois : à la réalisation de votre projet et à 
                 l'établissement de votre documentation.
 
-    :Pendant:   Essayer d'écrire votre documentation en parallèle du développement de votre projet.
-                Puisque le travail de rédaction prend toujours beaucoup de temps, il y a de grande 
-                chance que vous soyer souvent amené à vous interrompre en cours d'écriture. Vous
-                devez vous laisser des informations vous signalant qu'un paragraphe n'est pas encore
-                terminé. Pour ma part, j'entoure les éléments en cours de rédaction (ou pour 
-                lesquels une modification est a effectué) par 2 bloc '[WIP]'. Ces bloc sont 
-                supprimés quand la partie en cours est complète ::
 
-                    ex:
-                    [WIP]
+    :Pendant:   #. Essayer d'écrire votre documentation en parallèle du développement de votre 
+                   projet. Puisque le travail de rédaction prend toujours beaucoup de temps, il y a 
+                   de grande chance que vous soyez souvent amené à vous interrompre en cours
+                   d'écriture. Vous devez vous laisser des informations vous signalant qu'un
+                   paragraphe n'est pas encore terminé. Pour ma part, j'entoure les éléments en 
+                   cours de rédaction (ou pour lesquels une modification est a effectué) par 2 bloc 
+                   '[WIP]'. Ces bloc sont supprimés quand la partie en cours est complète ::
 
-                    Un bout de doc vachement bien mais encore incomplet ...
+                        ex:
+                        [WIP]
 
-                    [WIP]
+                        Un bout de doc vachement bien mais encore incomplet ...
 
-                Cela vous permet d'avoir immédiatement une information visuel sur ce qui est complet.
+                        [WIP]
 
-                N'oubliez pas de vous relire (souvent) pour vous assurer qu'il n'y a pas de doublons,
-                de non-sens, d'incohérence ou simplement de coquille dans votre doc.
+                   Cela vous permet d'avoir immédiatement une information visuel sur ce qui est
+                   complet.
 
-    :Après:     Relisez votre document, faite le relire par quelqu'un d'autre et lorsque tous semble
-                correcte, essayez d'agrémenter un peu votre document. C'est particulièrement 
+                #. Une autre petite astuce est d'insérer des penses bêtes dans vos documents pour
+                   que vous vous rappeliez que vouliez parler d'un truc. Je mets ces penses bêtes 
+                   dans le fichiers "Bug_ToDo_lst" (qu'il faut consulter régulièrement). Cependant,
+                   dans le feu de l'action, il m'arrive
+                   de les mettre directement dans mon document. Pour les identifier, je les
+                   entoures encore une fois par 2 blocs : [TODO] ::
+
+                        ex:
+                        [TODO]
+
+                        Parler du trucs super important que j'oublie tous le temps
+
+                        [TODO]
+
+                        ou:
+                        [TODO]
+
+                        Mettre la rubrique machin avant le paragraphe bidule-truc
+
+                        [TODO]
+
+                #. Essayez d'avoir une construction logique dans votre document. Il faut que votre
+                   document soit facile à lire. Pour cela, il faut éviter de renvoyer le lecteur
+                   vers une autre parti du texte avant de revenir sur la partie actuelle.
+
+                #. Pour vous aidez à naviguer facilement dans votre documentation, insérez une
+                   **Table de matières** dans votre documentation. Il est a noté que les outils de
+                   publication WEB (WIKI, Sphinx, etc.) ajoutent automatiquement cette table des
+                   matières.
+                   
+                   Si votre documentation n'est pas dynamique (PDF, papier, etc.), pensez
+                   à ajouter les numéros de pages en face de chaque rubriques. Les logiciels de
+                   traitement de textes (Word, Libre Office, etc.) sont capables de générer cette
+                   table des matières en ajustant automatiquement les numéros de pages.
+
+                   Pour que les logiciels fassent une partie du travail à votre place, il faut leur
+                   préparer le travail. Dans le cas des tables des matières, il faut utiliser le
+                   balisage des titres présent dans ces logiciels.
+
+                   **N. B.** : Pour les WIKI ou pour Sphinx, les titres sont définit par des
+                   conventions syntaxiques.
+
+                #. N'oubliez pas de vous relire (souvent) pour vous assurer qu'il n'y a pas de
+                   doublons, de non-sens, d'incohérence ou simplement de coquille dans votre doc.
+
+
+    :Après:     Relisez votre document, faites le relire par quelqu'un d'autre et lorsque tout
+                semble correcte, essayez d'agrémenter un peu votre document. C'est particulièrement 
                 important si votre document est exclusivement textuel. Voir `Les finitions`_.
 
 ####
@@ -768,7 +827,6 @@ comme la décoration ou la publication de la doc et du projet.
 Agrémenter sa documentation
 ===========================
 
-[WIP]
 Lorsque vous aurez terminé votre documentation, vous allez certainement vous trouver face à un bloc
 de texte monolithique. Pour rendre votre documentation plus attractive il vous suffit d'ajouter
 quelques images et / ou dessins.
