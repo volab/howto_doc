@@ -571,27 +571,20 @@ Les outils de dessin
 Il est toujours intéressant de pouvoir ajouter un croquis ou une image pour permettre d'illustrer
 un point particulier.
 
-    :Inkscape:
-                `Inkscape <https://inkscape.org/en/>`_ est un logiciel de dessin vectoriel. Ce
-                logiciel Open-source permet de créer facilement de croquis, des schéma ou des
-                images.
+    * `Inkscape <https://inkscape.org/en/>`_ est un logiciel de dessin vectoriel. Ce
+      logiciel Open-source permet de créer facilement de croquis, des schéma ou des images.
 
-                On peut trouvé facilement des tutos en faisant une recheche : 
-                `inkscape tuto <https://www.google.fr/search?num=50&ei=-7qBW4OGF7T89AOkoquIBQ&q=inkscape+tuto&oq=inkscape+tuto&gs_l=psy-ab.3..0l10.319393.322629.0.323765.5.5.0.0.0.0.1480.3006.5-1j1j1.3.0....0...1.1.64.psy-ab..2.3.3005...0i67k1.0.B9kSfPWuHz4>`_
-
-    :GIMP:
-                `GIMP <https://www.gimp.org/fr/>`_ est un logiciel de traitement d'image Bitmap. Ce
-                logiciel Open-source permet de manipuler des images de la même façon que
-                Photoshop d'Adobe.
-
-                De nombreux tutos sont disponible : 
-                `Gimp tuto <https://www.google.fr/search?num=50&ei=6ryBW-nVGei-0PEP_bWw0A8&q=Gimp+tuto&oq=Gimp+tuto&gs_l=psy-ab.3..0i20i263k1j0l2j0i20i263k1j0l6.241156.246275.0.246574.6.6.0.0.0.0.200.531.2j1j1.4.0....0...1.1.64.psy-ab..2.4.529...35i39k1j0i67k1j0i7i30k1.0.TQ6YNVU51Dw>`_
+      On peut trouvé facilement des tutos en faisant une recheche : `inkscape tuto <https://www.google.fr/search?num=50&ei=-7qBW4OGF7T89AOkoquIBQ&q=inkscape+tuto&oq=inkscape+tuto&gs_l=psy-ab.3..0l10.319393.322629.0.323765.5.5.0.0.0.0.1480.3006.5-1j1j1.3.0....0...1.1.64.psy-ab..2.3.3005...0i67k1.0.B9kSfPWuHz4>`_
 
 
-    :XnView:
-                `XnView <https://www.xnview.com/fr/>`_ est un logiciel Open-souce de traitement
-                d'image par lot. Il vous permet de redimensioner, de convertir ou renommer vos 
-                images par lot
+    * `GIMP <https://www.gimp.org/fr/>`_ est un logiciel de traitement d'image Bitmap. Ce logiciel 
+      Open-source permet de manipuler des images de la même façon que Photoshop d'Adobe.
+
+      De nombreux tutos sont disponible : `Gimp tuto <https://www.google.fr/search?num=50&ei=6ryBW-nVGei-0PEP_bWw0A8&q=Gimp+tuto&oq=Gimp+tuto&gs_l=psy-ab.3..0i20i263k1j0l2j0i20i263k1j0l6.241156.246275.0.246574.6.6.0.0.0.0.200.531.2j1j1.4.0....0...1.1.64.psy-ab..2.4.529...35i39k1j0i67k1j0i7i30k1.0.TQ6YNVU51Dw>`_
+
+
+    * `XnView <https://www.xnview.com/fr/>`_ est un logiciel Open-souce de traitement d'image par
+      lot. Il vous permet de redimensionner, de convertir ou renommer vos images par lot
 
 Les outils de production
 ------------------------
@@ -695,7 +688,6 @@ Avant, pendant et après la documentation
 
                 Ces éléments vous servirons à la fois : à la réalisation de votre projet et à 
                 l'établissement de votre documentation.
-
 
     :Pendant:   #. Essayer d'écrire votre documentation en parallèle du développement de votre 
                    projet. Puisque le travail de rédaction prend toujours beaucoup de temps, il y a 
