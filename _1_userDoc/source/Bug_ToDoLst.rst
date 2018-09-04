@@ -58,10 +58,9 @@ ToDo-list
 ####
 
     :Date de saisie:        180825
-    :Date de traitement:    
+    :Date de traitement:    180904
     :Cible:                 userDoc
-    :Statu:                 None
+    :Statu:                 Done
     :Problématique:         Dans finissions, parler des banques d'image libre de droits
-    :Traitement:            
-
+    :Traitement:            Traité dans la sous-rubrique : "Agrémenter sa documentation"
 
