@@ -556,8 +556,6 @@ si on en a pas l'habitude, peuvent être difficile à maitriser.
 Les outils et médias de diffusions
 ==================================
 
-[WIP]
-
 Comme pour tous travaux, il y a toujours plusieurs façon de les réaliser. En fonction de ce que l'on
 veux faire il faut utiliser le bon outils. La difficulté étant de savoir quels sont les outils qui
 existe et ce qu'ils font.
@@ -591,11 +589,33 @@ Les outils de production
 
 [WIP]
 
-    * Fusion 360
+    * `Fusion 360 <https://www.autodesk.com/products/fusion-360/overview>`_: Il s'agit d'un logiciel
+      de modélisation 3D de design industriel. Bien qu'étant un produit Autodesk (donc close source),
+      il est gratuit pour les hobbyistes, les étudiants, les enthousiastes et les entrepreneurs 
+      réalisant un chiffre d'affaire de moins de 100 K$ par ans.
 
-    * Kicad
+      La communauté est très active et il y a une `chaine dédié sur Youtube <https://www.youtube.com/user/AutodeskFusion360>`_
+      qui propose énormément de tutos.
 
-    * Un éditeur de texte
+    * `Kicad <http://kicad-pcb.org/>`_ : Permet d'éditer des schéma électronique, router des PCB,
+      générer les typons et gérer le fichier ficher de perçage. Ce logiciel open-source à une
+      forte communauté, ce qui permet de trouver de l'aide facilement.
+
+    * Un éditeur de texte : Je préfère travailler avec des éditeurs de texte simple permettant la 
+      coloration syntaxique, la numération automatique des lignes et l'édition de code. 
+      
+      J'utilise `VIM <https://www.vim.org/>`_ par ce qu'il est disponible sur toutes les
+      plateformes (Windows, MacOs, Linux, BSD). Cet un outil un peu compliqué à utiliser car il 
+      pour l'utiliser il faut tout apprendre depuis le début. Même tache aussi simple qu'un 
+      copier / coller est compliqué.
+
+      Si vous êtes sous Windows, vous pouvez utilisez `Notepad ++ <https://notepad-plus-plus.org/fr/>`_
+      qui fera très biens le boulots.
+
+      Si vous ne faites pas de code et que vous préférez le confort d'un éditeur de texte `WYSIWIG <https://fr.wikipedia.org/wiki/What_you_see_is_what_you_get>`_
+      comme `Word <https://products.office.com/fr-fr/word>`_ ou `Libre Office <https://fr.libreoffice.org/>`_,
+      cela ne pose aucun problème. Souvenez vous simplement que ce genre de soft peut parfois vous
+      réserver des surprises au niveau du formatage du texte lorsque vous l'exporterez vers un WIKI.
 
     * Logiciel de gestion de version
 
@@ -614,14 +634,14 @@ Que ce soit dans la préparation ou dans la réalisation de votre projet, vous a
 devoir consulter des sites ou des docs écrit dans une autres langue. Cela peut vite être très
 handicapant. Voici 2 outils qui permettent de traduire : un mot, un texte, un document ou un site.
 
-    * `Google Translate <https://translate.google.fr/>`_ : Il s'agit de l'outil de google que tous 
+    * `Google Translate <https://translate.google.fr/>`_ : Il s'agit de l'outil de Google que tous 
       le monde connait.
 
     * `Deepl <https://www.deepl.com/translator>`_ : Il s'agit d'un outil de traduction qui amène
       plus de nuance dans les traductions et qui génères des traductions de meilleur qualité.
 
 Les langages de balisage en texte clair (Plantext Markup Language)
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------
 
 Les langages de balisages en texte clair sont des langages qui doivent pouvoir être interprété 
 informatiquement tout en en restant parfaitement lisible par un les humains. Cela permet d'écrire
@@ -648,11 +668,11 @@ est à respectée pour que le document puisse être interpréter par l'ordinateu
       mettre en œuvre.
 
     * `MediaWiki <https://www.mediawiki.org/wiki/Help:Formatting/fr>`_ et `DokuWiki <https://doc.ubuntu-fr.org/wiki/syntaxe>`_ :
-      Il y a actuellement 2 type de plateforme WIKI. Chacune utilisant une syntaxe diférente.
+      Il y a actuellement 2 type de plateforme WIKI. Chacune utilisant une syntaxe différente.
 
 
 Les générateurs documentation
-+++++++++++++++++++++++++++++
+-----------------------------
 
 [WIP]
 
@@ -669,13 +689,11 @@ Les outils de publication de documentation
 
     * Les Wiki (`moteur MediaWiki <https://fr.wikipedia.org/wiki/MediaWiki>`_ et `moteur DokuWiki <https://fr.wikipedia.org/wiki/DokuWiki>`_)
 
-    * les gestionnaires de dépôt distant (Github, ReadTheDoc)
+    * les gestionnaires de dépôt distant (Github, ReadTheDoc, GitLab)
 
     * Presse écrite et revue scientifique
 
-[WIP]
-
-[WIP]
+    [WIP]
 
 ####
 
