@@ -148,7 +148,6 @@ de commencer d'autres projets qui n'auront peut-être rien à voir les uns avec 
 projet qui vous servira à améliorer ou à développer votre projet.
 
     .. image:: ./Images/Deco/ampoule.png
-       :name: Astuces
        :width: 50px
        :height: 50px
        :align: left
@@ -156,8 +155,9 @@ projet qui vous servira à améliorer ou à développer votre projet.
     :Petites Astuces:
 
                     #. Tant que vous n'avez pas commencer le projet, laissez-le dormir dans la 
-                       la boite à idées. Cela vous évitera d'avoir de dossier projets vide qui 
-                       ne contienne en tout et pour tout que la déscription globale.
+                       la boite à idées. Cela vous évitera d'avoir des tones de dossiers projets 
+                       vide qui ne contiennes en tout et pour tout que la déscription globale de 
+                       votre idée.
 
                     #. Utilisez, pour votre boite à idées, la même structure / arborescence que
                        pour vos projet.
@@ -378,7 +378,6 @@ Sphinx dans la foulée. De plus je peux modifier mon arborescence en modifiant s
 JSON.
 
     .. image:: ./Images/Deco/ampoule.png
-       :name: Astuces
        :width: 50px
        :height: 50px
        :align: left
@@ -557,9 +556,9 @@ Une chose importante à la quelle il faut être vigilant, c'est de s'assurer que
 toujours sur la même source d'un projet (ou de la documentation).
 
     :Exemple:   Admettons que vous ayez le dossier de votre projet en local sur votre PC
-                sur "D:\Mon_Super_Projet\". Vous pourriez envisager que votre disque dur risque de
+                sur "D:\\Mon_Super_Projet\\". Vous pourriez envisager que votre disque dur risque de
                 tombé en pane. Vous allez alors vouloir en mettre une copie sur le 
-                réseau : "\\serveur_en_reseau\Mon_Super_Projet\". Lorsque vous publierez votre
+                réseau : "\\\\serveur_en_reseau\\Mon_Super_Projet\\". Lorsque vous publierez votre
                 projet, vous allez à nouveau mettre une copie de votre projet sur un dépôt distant.
 
 Dans cet exemple, vous vous retrouvez alors avec trois versions de votre projet. Ce qui signifie que
@@ -594,7 +593,7 @@ Pour évité cette gestion difficile, voici ce que vous pouvez faire.
                principale différence entre les offres gratuites et payantes est, la plupart du 
                temps, l'espace mis à votre dispositions.
 
-        Si vous le pouvez, privilégier la seconde solution car le travail est effectué
+        Si vous le pouvez, privilégiez la seconde solution car le travail est effectué
         automatiquement en tache de fond et vous aurez en plus des possibilité de sauvegarde et de 
         restauration.
 
@@ -609,9 +608,9 @@ Pour évité cette gestion difficile, voici ce que vous pouvez faire.
       `Versionner tout un projet <Versionner tout un projet>`_ on travail avec la notion de branche.
       Il faut envisager GIT comme un arbre. Avec la branche Master pour le tronc et toutes vos 
       autres branches (Dev, gh-pages, test_fonction_truc, etc.) comme un branchage avec les
-      différentes ramification.
+      différentes ramifications.
 
-      N.B : Certains outils de gestion de projet ou certains IDE permettent nativement de "pousser"
+      **N.B** : Certains outils de gestion de projet ou certains IDE permettent nativement de "pousser"
       vos fichiers directement sur les dépôts distant.
 
 Ne pas négliger la sécurité
