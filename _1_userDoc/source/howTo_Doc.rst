@@ -147,6 +147,27 @@ plusieurs boites à idée. Une global dans laquelle vous allez décrire les idé
 de commencer d'autres projets qui n'auront peut-être rien à voir les uns avec les autres. Et une par
 projet qui vous servira à améliorer ou à développer votre projet.
 
+    .. image:: ./Images/Deco/ampoule.png
+       :name: Astuces
+       :width: 50px
+       :height: 50px
+       :align: left
+
+    :Petites Astuces:
+
+                    #. Tant que vous n'avez pas commencer le projet, laissez-le dormir dans la 
+                       la boite à idées. Cela vous évitera d'avoir de dossier projets vide qui 
+                       ne contienne en tout et pour tout que la déscription globale.
+
+                    #. Utilisez, pour votre boite à idées, la même structure / arborescence que
+                       pour vos projet.
+
+                       Souvent lorsqu'on a une idée, elle nous entousiasme tellement qu'on a 
+                       tendance à faire tout de suite des recherches dessus. Si vous avez 
+                       organisé votre boite à idée comme un projet, vous allez pouvoir y stocker
+                       le fruit de vos recherche en attendant que votre idée devienne un vrai
+                       projet.
+
 Documenter régulièrement
 ========================
 
@@ -364,7 +385,6 @@ JSON.
 
     :Petites Astuces:
 
-
                     #. Si vous utiliser toujours la même arborescence, vous aurez forcement des
                        dossiers vides. Pour être sûre de ne pas passez votre temps à ouvrir ces
                        dossiers vides ajoutez le suffixe '_v' au nom de chaque dossier. Vous pouvez
@@ -530,11 +550,11 @@ Il est important de respecter ses règles de nommage car les outils que vous all
 Le Raspberry Pi (ou toutes les machines linux), Github, Wikimedia (et tous le WEB en général),
 Sphinx, Doxygen et bien d'autre encore, respect ces règles.
 
-Ne pas multiplier le copie d'un projet
---------------------------------------
+Ne pas multiplier les copie d'un projet
+---------------------------------------
 
 Une chose importante à la quelle il faut être vigilant, c'est de s'assurer que vous travaillez
-toujours sur la même source d'un projet.
+toujours sur la même source d'un projet (ou de la documentation).
 
     :Exemple:   Admettons que vous ayez le dossier de votre projet en local sur votre PC
                 sur "D:\Mon_Super_Projet\". Vous pourriez envisager que votre disque dur risque de
@@ -544,39 +564,55 @@ toujours sur la même source d'un projet.
 
 Dans cet exemple, vous vous retrouvez alors avec trois versions de votre projet. Ce qui signifie que
 vous allez devoir maintenir ces trois versions à chaque évolution de votre projet. Cela demande
-beaucoup de temps et de rigueur. Cela vous ajoute en autant de risque de faire des erreurs comme :
+beaucoup de temps et de rigueur. Cela vous ajoute autant de risque de faire des erreurs comme :
 oublier de modifier l'une des version ou encore modifier la mauvaise version.
 
 Pour évité cette gestion difficile, voici ce que vous pouvez faire.
 
     * **Travail en réseau** : 
       
-        - Si vous êtes en entreprise, vous ne devez travailler que sur le 
-          serveur. Aucune copie en local sur votre poste. L'administrateur réseau de votre société 
-          fait des sauvegardes du serveur.
+        - Si vous êtes en entreprise, vous ne devez travailler que sur le serveur. Aucune copie en 
+          local sur votre poste. L'administrateur réseau de votre société fait des sauvegardes du 
+          serveur.
 
-        - Si vous êtes un particulier, à moins d'avoir un logiciel qui sauvegarde 
-          vos données automatiquement sur un media externe comme par exemple "Cobian Backup", Je
-          vous déconseille la copie d'un projet sur un media externe (ou un disque réseau) si se
-          média externe et égallement un support de travail. Vous éviterez ainsi de travailler sur
-          deux version en parallèle.
+        - Si vous êtes un particulier, à moins d'avoir un logiciel qui sauvegarde vos données 
+          automatiquement sur un média externe comme par exemple "Cobian Backup", Je vous 
+          déconseille la copie d'un projet sur un média externe (ou un disque réseau) si se média 
+          externe et également un support de travail. Vous éviterez ainsi de travailler sur deux 
+          version en parallèle.
 
-          Il peut arriver que l'on ai pas le choix, nottement dans le cas ou vos projet sont stockés
-          bien au chaud sur un serveur et que vous souhaitiez malgrés tout travailler dessus lorsque
+          Il peut arriver que l'on ai pas le choix, notamment dans le cas ou vos projet sont stockés
+          bien au chaud sur un serveur et que vous souhaitiez malgré tout travailler dessus lorsque
           vous serrez en voyage. Dans ce cas 2 solutions s'ouvrent à vous :
 
             #. Utiliser un logiciel de synchronisation des donnés comme RSync ou FreeFile Sync. Vous
                devrez être vigilant lors des synchronisation que les données sont bien synchronisée
                dans le bon sens.
 
-            #. Utiliser une solution de stockage dans le Cloud comme OneDrive, DropBox ou
-               Google Drive. Ces trois services proposes des solutions gratuites ou payantes. La
-               principale diférence entre les offres gratuites et payantes est, la plupart du temps,
-               l'espace mis à votre dispositions.
+            #. Utiliser une solution de stockage dans le Cloud comme *OneDrive*, *DropBox* ou
+               *Google Drive*. Ces trois services proposes des solutions gratuites ou payantes. La
+               principale différence entre les offres gratuites et payantes est, la plupart du 
+               temps, l'espace mis à votre dispositions.
 
-        Si vous le pouvez, privilégier la seconde solution car le travail est effectue
+        Si vous le pouvez, privilégier la seconde solution car le travail est effectué
         automatiquement en tache de fond et vous aurez en plus des possibilité de sauvegarde et de 
         restauration.
+
+    * **Publication sur un dépôt distant** :
+
+      La gestion publique est toujours compliqué, car par principe on publie la version stable, même
+      si cette version n'a pas toutes les fonctionnalité. Une version stable est une version 
+      fonctionnelle et n'ayant pas de problèmes bloquant. 
+
+      L'utilisation de GIT et d'un gestionnaire de dépôt distant comme Github ou Gitlab permet de 
+      s'affranchir de cette gestion des versions puisque comme indiquer dans 
+      `Versionner tout un projet <Versionner tout un projet>`_ on travail avec la notion de branche.
+      Il faut envisager GIT comme un arbre. Avec la branche Master pour le tronc et toutes vos 
+      autres branches (Dev, gh-pages, test_fonction_truc, etc.) comme un branchage avec les
+      différentes ramification.
+
+      N.B : Certains outils de gestion de projet ou certains IDE permettent nativement de "pousser"
+      vos fichiers directement sur les dépôts distant.
 
 Ne pas négliger la sécurité
 ---------------------------
