@@ -148,7 +148,6 @@ de commencer d'autres projets qui n'auront peut-être rien à voir les uns avec 
 projet qui vous servira à améliorer ou à développer votre projet.
 
     .. image:: ./Images/Deco/ampoule.png
-       :name: Astuces
        :width: 50px
        :height: 50px
        :align: left
@@ -378,7 +377,6 @@ Sphinx dans la foulée. De plus je peux modifier mon arborescence en modifiant s
 JSON.
 
     .. image:: ./Images/Deco/ampoule.png
-       :name: Astuces
        :width: 50px
        :height: 50px
        :align: left

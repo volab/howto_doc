@@ -53,6 +53,7 @@ ToDo-list
     :Statu:                 * Done
     :Problématique:         * Dans la partie comment, ne pas oublier de parler du versionning
                               et de l'horodatage
+
     :Traitement:            * Traité dans la partie 'Un peu d'organisation'
 
 ####
@@ -72,6 +73,7 @@ ToDo-list
     :Statu:                 * Done
     :Problématique:         * Dans la partie Comment, parler des problèmes de maintenance et de MAJ 
                               de la difficulté de gestion des source multiples
+
     :Traitement:            * La rubrique : "Ne pas multiplier les copie d'un projet" a été créer
                               spécialement pour cette problématique.
 
