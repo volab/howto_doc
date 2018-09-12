@@ -26,7 +26,7 @@ Model Type
     :Date de saisie:        Date à laquelle la problématique a été identifiée
     :Date de traitement:    Date du traitement de la problématique
     :Cible:                 [userDoc, modelisation, software, PCB, autre]
-    :Statu:                [NONE, WIP, DONE]
+    :Statu:                 [NONE, WIP, DONE]
     :Problématique:         Descriptif de la problématique
     :Traitement:            Descriptif du traitement de la problématique
 
@@ -62,5 +62,35 @@ ToDo-list
     :Cible:                 userDoc
     :Statu:                 Done
     :Problématique:         Dans finissions, parler des banques d'image libre de droits
-    :Traitement:            Traité dans la sous-rubrique : "Agrémenter sa documentation"
+    :Traitement:            Traité dans la sous rubrique : "Agrémenter sa documentation"
+
+####
+
+    :Date de saisie:        180906
+    :Date de traitement:    
+    :Cible:                 userDoc
+    :Statu:                 WIP
+    :Problématique:         Dans la partie Comment, parler des problèmes de maintenance et de MAJ 
+                            de la difficulté de gestion des source multiples
+    :Traitement:            
+
+####
+
+    :Date de saisie:        180906
+    :Date de traitement:    
+    :Cible:                 userDoc
+    :Statu:                 None
+    :Problématique:         Dans Finissions / Publication, parler des problèmes lier à la 
+                            publication sur les blogs ou les forums
+    :Traitement:            
+
+####
+
+    :Date de saisie:        180912
+    :Date de traitement:    
+    :Cible:                 userDoc
+    :Statu:                 None
+    :Problématique:         Dans versionning, parler des numéros de versions (Doc et Projet)
+    :Traitement:            
+
 

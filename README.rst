@@ -20,6 +20,9 @@ Il ne s'agit pas d'une doctrine qu'il faut respecter absolument, mais simplement
 j'envisage la documentation. Tout au long de ce projet, je vais essayer de vous décrire mes petits
 trucs ainsi que quelques outils vous permettant de réaliser la documentation.
 
+Ma philosophie étant que : projet et documentation sont indissociables l'un de l'autre, ce document
+vous présentera également différents éléments pour la gestion de l'organisation des projets.
+
 Arborescence du projet
 ======================
 
@@ -39,11 +42,12 @@ projet. Cette arborescence est à reproduire si vous récupérez ce dépôt depu
     |  +--_3_software      # Contiens toute la partie programmation du projet
     |  |
     |  \--_4_PCB           # Contient toutes les parties des circuits imprimés (routage,
-    |                      # implantation, typon, fichier de perçage, etc
+    |                      # Implantation, typon, fichier de perçage, etc
     |
     \--webDoc              # Dossier racine de la documentation qui doit être publiée
        |
        \--html             # (branch gh-pages) C'est dans ce dossier que Sphinx va
                            # générer la documentation a publié sur internet
+
 
 
