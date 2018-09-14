@@ -99,7 +99,7 @@ de travail.
 Quoi et comment ?
 -----------------
 
-Que faut-il mettre dans la documentation ?
+**Que faut il mettre dans la documentation ?**
 
 A cette question ma réponse est : Tous ce que vous pouvez ! 
 
@@ -108,6 +108,10 @@ A cette question ma réponse est : Tous ce que vous pouvez !
 
     * Tous les croquis que vous avez dessinez sur un coin de nappe (avant de vous apercevoir
       qu'elle était en tissu ;) )
+
+    * Vos succès, vos echecs, vos erreurs
+
+    * Les objectifs majeurs, mineurs et transitoires du projet
 
     * La fiche de description du projet
 
@@ -125,7 +129,9 @@ A cette question ma réponse est : Tous ce que vous pouvez !
 
 En résumé, tous ce que vous avez produit ou utiliser pour réaliser votre projet.
 
-Il ne faut jamais trop se faire confiance. Si vous pensez : 
+**Il ne faut jamais trop se faire confiance.**
+
+Si vous pensez : 
 
     *"ça c'est bon, je m'en souviendrais. Je n'ai pas besoin de le noter !"*
 
@@ -136,6 +142,21 @@ Ou :
 Vous pouvez être certains que NON vous ne vous en souviendrez pas et que NON ce n'est pas si
 compréhensible que ça quand vous n'avez pas touchez au projet depuis 6 mois. Il vous faut donc
 systématiquement noter et documenter même les choses évidentes et / ou apparemment simple.
+
+**Soyez clair et efficace dans vos explications.**
+
+N'hésitez pas à lire à haute voix ce ce que vous avez écris. Cela vous aidera à définir si ce que 
+vous avez écris est :
+
+    * Suffisamment explicite
+
+    * Pertinent
+
+    * Pas trop compliqué. Pas besoin d'avoir une doc pour comprendre la doc
+      (qui à dit : "meuble Ikéa" ?).
+
+    * Pas trop verbeux. Il s'agit d'une documentation, pas d'un essai littéraire. Il ne faut pas que
+      les informations soit perdue dans un flots de blabla inutile.
 
 Boite à idées
 =============
@@ -177,7 +198,7 @@ documentation. Voici par exemple certaines raisons qui vous en empêcherons :
 
     * Il y a de grandes chances pour que vous enchainiez directement sur un autre projet.
 
-    * Vous n'aurez pas le temps car vous serez trop occupé ailleurs (souvenez-vous, la vie, le
+    * Vous n'aurez pas le temps car vous serez trop occupé ailleurs (souvenez vous, la vie, le
       travail, les enfants tout ça).
 
     * Faire la documentation en dernier équivaux à recommencer tout le projet depuis le début. On
@@ -306,7 +327,7 @@ comme :
 
     * Vos propres notes et documentation
 
-    * ETC
+    * ETC.
 
 Pour gérer ces documents, vous avez plusieurs solutions :
 
@@ -321,10 +342,10 @@ Pour gérer ces documents, vous avez plusieurs solutions :
 
     * **Une troisième solution** et de créer un dossier pour le projet et de créer des sous 
       répertoire pour l'organisation des différents documents. Vous aurez donc tous le projet dans 
-      un seul répertoire, une meilleure organisation du projet et une meilleure facilite de 
+      un seul répertoire, une meilleure organisation du projet et une meilleure facilité de 
       maintenance et de diffusion.
 
-La troisième solution est la bonne, mais comment allez-vous organiser le prochain projet ? En créant
+La troisième solution est la bonne, mais comment allez vous organiser le prochain projet ? En créant
 un nouveau dossier principal et une nouvelle sous arborescence.
 
 C'est à ce moment qu'il faut un peu de discipline (ce que j'appelle la paresse organisée). Vous 
@@ -406,7 +427,7 @@ JSON.
                     #. En plus d'une arborescence standardisée, il est aussi possible de créer un 
                        certain nombre de fichiers qui seront toujours structuré de la même façon. Je
                        vous conseil de créer un fichier : README à la racine de votre projet. Ce
-                       fichier doit contenir les éléments suivant :
+                       fichier devrait contenir les éléments suivant :
                        
                             * Le ou les auteurs du projet (normalement vous)
 
@@ -414,6 +435,8 @@ JSON.
 
                             * les informations sur la documentation et sur le dépôt (endroit de mise
                               à disposition) du projet.
+
+                            * le numéro de version de la documentation
 
                             * Une brève description du projet, 
 
@@ -453,7 +476,7 @@ L'un des problèmes que l'on rencontre souvent est :
 
 Pour éviter ce genre de problème il existe une technique simple que l'on nomme : "l'horodatage".
 Cette technique consiste à ajouter, en préfixe, la date en version courte au nom de votre 
-fichier. Ce préfixe de la façon suivante : ::
+fichier. Ce préfixe est formater de la façon suivante : ::
 
     AAAAMMJJ
 
@@ -534,7 +557,7 @@ autres éléments du projet.
 
 Il est toujours difficile de définir une bonne nomenclature pour affecter un numéros de version.
 Cette décision vous revient. Il y a plusieurs écoles sur ce point. La plus courante étant : 
-"SemVer" (Semantic Versioning. ::
+"SemVer" (Semantic Versioning). ::
 
     Majeur.Mineure.correctif
 
@@ -545,7 +568,7 @@ Consultez les liens ci-dessus pour plus de détail.
 
 Pour ma part je préfère ne pas utiliser SemVer car je trouve ce procéder trop contraignant. Puisque 
 mes projets sont construit dans le temps, j'utilise la date comme numéros de versions. Pour
-différencier les version de développement des versions stables (en plus de ma gestion des branch
+différencier les versions de développement des versions stables (en plus de ma gestion des branch
 dans GIT), j'ajoute le suffixe "-dev" à la suite de la date. ::
 
     Format:
@@ -565,8 +588,8 @@ soucis de cohérence, je continue donc avec ce format.
 Vous comprenez pourquoi il faut y réfléchir avant d adopté un système de notation. Si vous décidiez 
 de changer de votre façon d'affecter des numéros version, sachez que cela pourrai vous gêner par la 
 suite dans vos gestion de projet mais cela reste acceptable tant que vous restez cohérent sur les 
-différente version de projet. Un changement de nomenclature ne peut donc être effectué qu'a partir 
-d'un nouveau projet.
+différentes versions de projet. **Un changement de nomenclature ne peut donc être effectué qu'a partir 
+d'un nouveau projet.**
 
 Je fait apparaitre ces numéros de versions au début de mes programmes. Lorsqu'il s'agit d'un projet
 orienté "blabla" comme le présent document, je le place dans le document "`README <https://poltergeist42.github.io/howto_doc/includeMe.html>`_"
@@ -581,9 +604,12 @@ particulier), c'est que bien qu'on ne doit pas nommer les fichiers n'importe com
 nous l'interdit pas.
 
 Je vous encourage à consulter le site ci-dessous pour prendre connaissance des contraintes de
-nommage des fichiers :
+nommage des fichiers.
 
-    * https://bpmi.geneses.fr/3-2-nommer-dossiers-fichiers/
+    :Liens_Web:
+
+                * https://bpmi.geneses.fr/3-2-nommer-dossiers-fichiers/
+                    # Page d'explication sur le nommage des fichiers
 
 Voici un résumé de ce qu'il faut faire ou pas
 
@@ -593,11 +619,8 @@ Voici un résumé de ce qu'il faut faire ou pas
 
     * Ne pas utiliser des noms trop longs
 
-    * Utiliser uniquement les 26 caractères de l'alphabet (Majuscule et / ou minuscule)
-
-    * Les chiffres de 0 à 9 sont autorisés
-
-    * les caractères '_' et '-' sont autorisés
+    * Utiliser uniquement les 26 caractères de l'alphabet (Majuscule et / ou minuscule), les 
+      chiffres de 0 à 9 et  les caractères '_' et '-'.
 
 Il est important de respecter ses règles de nommage car les outils que vous allez utiliser comme :
 Le Raspberry Pi (ou toutes les machines linux), Github, Wikimedia (et tous le WEB en général),
@@ -849,24 +872,22 @@ Avant, pendant et après la documentation
             Ces éléments vous servirons à la fois : à la réalisation de votre projet et à 
             l'établissement de votre documentation.
 
-                    .. image:: ./Images/Deco/ampoule.png
-                       :width: 50px
-                       :height: 50px
-                       :align: left
+            .. image:: ./Images/Deco/ampoule.png
+               :width: 50px
+               :height: 50px
+               :align: left
 
-                       :Petites Astuces:
+            :Petites Astuces:   La création d'une fiche projet vous permettra non seulement de 
+                                définir les objectifs de votre projet mais en plus, cela vous
+                                permettra de synthétiser vos idées.
 
-                            La création d'une fiche projet vous permettra non seulement de définir
-                            les objectifs de votre projet mais en plus, cela vous permettra de 
-                            synthétiser vos idées.
+                                Lorsque vous aurez défini les objectifs de votre projet, identifiez 
+                                sur chacun d'entre eux les taches et action qui le compose. Cela 
+                                vous permettra d'avoir un ensemble de petits objectifs permmetant de 
+                                simplifier le processus global de création.
 
-                            Lorsque vous aurez défini les objectifs de votre projet, identifiez sur
-                            chacun d'entre eux les taches et action qui le compose. Cela vous
-                            permettra d'avoir un ensemble de petits objectifs permmetant de 
-                            simplifier le processus global de création.
-
-                            Ces sous-objectifs peuvent être intégrés dans la fiche projet et font
-                            parti intégrante de la documentation.
+                                Ces sous-objectifs peuvent être intégrés dans la fiche projet et 
+                                font parti intégrante de la documentation.
 
 :Pendant:   #. Essayer d'écrire votre documentation en parallèle du développement de votre 
                projet. Puisque le travail de rédaction prend toujours beaucoup de temps, il y a 
@@ -885,6 +906,7 @@ Avant, pendant et après la documentation
 
                Cela vous permet d'avoir immédiatement une information visuelle sur ce qui est
                complet.
+
 
                **N.B** : Même si vous avez supprimé ces block, vous pouvez faire des modifs ou 
                autres améliorations sur les paragraphes déjà traiter. Pensez juste à vous laisser
@@ -930,6 +952,7 @@ Avant, pendant et après la documentation
                préparer le travail. Dans le cas des tables des matières, il faut utiliser le
                balisage des titres présent dans ces logiciels.
 
+
                **N. B.** : Pour les WIKI ou pour Sphinx, les titres sont définit par des
                conventions syntaxiques.
 
@@ -939,7 +962,7 @@ Avant, pendant et après la documentation
             #. Définissez votre projet projet et tenez vous y. Il est possible voir fréquent q'un
                projet évolue en cours de route. Tant que vous ne cherchez pas à le faire évoluer en
                permanence. Essayez d'aller au bout du projet sous la forme que vous avez défini et 
-               par la suite faite une nouvelle version du projet qui elle aussi sera défini selon 
+               par la suite, faites une nouvelle version du projet qui elle aussi sera défini selon 
                des objectifs précis (ou à peut près). C'est la seule façon de pourvoir finir un
                projet et cela aide à ne pas se décourager (voir à abandonner) en cours de route.
 
