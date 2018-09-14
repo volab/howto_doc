@@ -99,7 +99,7 @@ de travail.
 Quoi et comment ?
 -----------------
 
-Que faut-il mettre dans la documentation ?
+**Que faut il mettre dans la documentation ?**
 
 A cette question ma réponse est : Tous ce que vous pouvez ! 
 
@@ -108,6 +108,10 @@ A cette question ma réponse est : Tous ce que vous pouvez !
 
     * Tous les croquis que vous avez dessinez sur un coin de nappe (avant de vous apercevoir
       qu'elle était en tissu ;) )
+
+    * Vos succès, vos echecs, vos erreurs
+
+    * Les objectifs majeurs, mineurs et transitoires du projet
 
     * La fiche de description du projet
 
@@ -125,7 +129,9 @@ A cette question ma réponse est : Tous ce que vous pouvez !
 
 En résumé, tous ce que vous avez produit ou utiliser pour réaliser votre projet.
 
-Il ne faut jamais trop se faire confiance. Si vous pensez : 
+**Il ne faut jamais trop se faire confiance.**
+
+Si vous pensez : 
 
     *"ça c'est bon, je m'en souviendrais. Je n'ai pas besoin de le noter !"*
 
@@ -136,6 +142,21 @@ Ou :
 Vous pouvez être certains que NON vous ne vous en souviendrez pas et que NON ce n'est pas si
 compréhensible que ça quand vous n'avez pas touchez au projet depuis 6 mois. Il vous faut donc
 systématiquement noter et documenter même les choses évidentes et / ou apparemment simple.
+
+**Soyez clair et efficace dans vos explications.**
+
+N'hésitez pas à lire à haute voix ce ce que vous avez écris. Cela vous aidera à définir si ce que 
+vous avez écris est :
+
+    * Suffisamment explicite
+
+    * Pertinent
+
+    * Pas trop compliqué. Pas besoin d'avoir une doc pour comprendre la doc
+      (qui à dit : "meuble Ikéa" ?).
+
+    * Pas trop verbeux. Il s'agit d'une documentation, pas d'un essai littéraire. Il ne faut pas que
+      les informations soit perdue dans un flots de blabla inutile.
 
 Boite à idées
 =============
@@ -177,7 +198,7 @@ documentation. Voici par exemple certaines raisons qui vous en empêcherons :
 
     * Il y a de grandes chances pour que vous enchainiez directement sur un autre projet.
 
-    * Vous n'aurez pas le temps car vous serez trop occupé ailleurs (souvenez-vous, la vie, le
+    * Vous n'aurez pas le temps car vous serez trop occupé ailleurs (souvenez vous, la vie, le
       travail, les enfants tout ça).
 
     * Faire la documentation en dernier équivaux à recommencer tout le projet depuis le début. On
@@ -534,7 +555,7 @@ autres éléments du projet.
 
 Il est toujours difficile de définir une bonne nomenclature pour affecter un numéros de version.
 Cette décision vous revient. Il y a plusieurs écoles sur ce point. La plus courante étant : 
-"SemVer" (Semantic Versioning. ::
+"SemVer" (Semantic Versioning). ::
 
     Majeur.Mineure.correctif
 
@@ -545,7 +566,7 @@ Consultez les liens ci-dessus pour plus de détail.
 
 Pour ma part je préfère ne pas utiliser SemVer car je trouve ce procéder trop contraignant. Puisque 
 mes projets sont construit dans le temps, j'utilise la date comme numéros de versions. Pour
-différencier les version de développement des versions stables (en plus de ma gestion des branch
+différencier les versions de développement des versions stables (en plus de ma gestion des branch
 dans GIT), j'ajoute le suffixe "-dev" à la suite de la date. ::
 
     Format:
@@ -565,7 +586,7 @@ soucis de cohérence, je continue donc avec ce format.
 Vous comprenez pourquoi il faut y réfléchir avant d adopté un système de notation. Si vous décidiez 
 de changer de votre façon d'affecter des numéros version, sachez que cela pourrai vous gêner par la 
 suite dans vos gestion de projet mais cela reste acceptable tant que vous restez cohérent sur les 
-différente version de projet. Un changement de nomenclature ne peut donc être effectué qu'a partir 
+différentes versions de projet. Un changement de nomenclature ne peut donc être effectué qu'a partir 
 d'un nouveau projet.
 
 Je fait apparaitre ces numéros de versions au début de mes programmes. Lorsqu'il s'agit d'un projet
@@ -884,6 +905,7 @@ Avant, pendant et après la documentation
                Cela vous permet d'avoir immédiatement une information visuelle sur ce qui est
                complet.
 
+
                **N.B** : Même si vous avez supprimé ces block, vous pouvez faire des modifs ou 
                autres améliorations sur les paragraphes déjà traiter. Pensez juste à vous laisser
                des indices si vous effectuez une refonte du paragraphe ou si vous y ajoutez un
@@ -928,6 +950,7 @@ Avant, pendant et après la documentation
                préparer le travail. Dans le cas des tables des matières, il faut utiliser le
                balisage des titres présent dans ces logiciels.
 
+
                **N. B.** : Pour les WIKI ou pour Sphinx, les titres sont définit par des
                conventions syntaxiques.
 
@@ -937,7 +960,7 @@ Avant, pendant et après la documentation
             #. Définissez votre projet projet et tenez vous y. Il est possible voir fréquent q'un
                projet évolue en cours de route. Tant que vous ne cherchez pas à le faire évoluer en
                permanence. Essayez d'aller au bout du projet sous la forme que vous avez défini et 
-               par la suite faite une nouvelle version du projet qui elle aussi sera défini selon 
+               par la suite, faites une nouvelle version du projet qui elle aussi sera défini selon 
                des objectifs précis (ou à peut près). C'est la seule façon de pourvoir finir un
                projet et cela aide à ne pas se décourager (voir à abandonner) en cours de route.
 
