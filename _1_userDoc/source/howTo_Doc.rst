@@ -518,6 +518,60 @@ GitHub ou GitLab (voir `Les outils de publication de documentation`_)
 Pour les allergique à la ligne de commande, il existe Tortoise (`Outils de production <Les outils de production>`_)
 qui est une interface graphique pour GIT. Il s'intègre dans le menu contextuel de Windows.
 
+Version et révision
+^^^^^^^^^^^^^^^^^^^
+
+    :Liens_Web:
+                * https://fr.wikipedia.org/wiki/Version_d%27un_logiciel
+                    # Page d'explication des versions logiciel
+
+                * https://semver.org/lang/fr/
+                    # Gestion sémantique de version
+
+Il est important, pour vous aussi bien que pour d'autre personnes qui souhaiterai utiliser votre 
+projet ou consulter votre documentation, de mettre des numéros de versions sur vos documents ou
+autres éléments du projet.
+
+Il est toujours difficile de définir une bonne nomenclature pour affecter un numéros de version.
+Cette décision vous revient. Il y a plusieurs écoles sur ce point. La plus courante étant : 
+"SemVer" (Semantic Versioning. ::
+
+    Majeur.Mineure.correctif
+
+    ex: 
+    2.6.2   --> le correctif 3 (la numérotation commence à 0) pour la révision Mineure 6 de la version 2
+
+Consultez les liens ci-dessus pour plus de détail.
+
+Pour ma part je préfère ne pas utiliser SemVer car je trouve ce procéder trop contraignant. Puisque 
+mes projets sont construit dans le temps, j'utilise la date comme numéros de versions. Pour
+différencier les version de développement des versions stables (en plus de ma gestion des branch
+dans GIT), j'ajoute le suffixe "-dev" à la suite de la date. ::
+
+    Format:
+    AAAAMMJJ
+
+    ex:
+    20180913
+    # version stable
+
+    20180914-dev
+    # version en cours de développement
+
+On constate que je pourrais simplifier mes numéros de version en supprimant les 2 premiers digits de
+l'année. Malheureusement, je n'y avait pas penser quand j'ai adopté se système de notation. Par 
+soucis de cohérence, je continue donc avec ce format.
+
+Vous comprenez pourquoi il faut y réfléchir avant d adopté un système de notation. Si vous décidiez 
+de changer de votre façon d'affecter des numéros version, sachez que cela pourrai vous gêner par la 
+suite dans vos gestion de projet mais cela reste acceptable tant que vous restez cohérent sur les 
+différente version de projet. Un changement de nomenclature ne peut donc être effectué qu'a partir 
+d'un nouveau projet.
+
+Je fait apparaitre ces numéros de versions au début de mes programmes. Lorsqu'il s'agit d'un projet
+orienté "blabla" comme le présent document, je le place dans le document "`README <https://poltergeist42.github.io/howto_doc/includeMe.html>`_"
+qui est présent dans tous mes projet (`voir : Uniformiser les projets <Uniformiser les projets>`_).
+
 Nommer les fichiers et les dossiers correctement
 ++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -789,79 +843,110 @@ Les outils de publication de documentation
 Avant, pendant et après la documentation
 ----------------------------------------
 
-    :Avant:     Vous devez vous créer une structure de travail, rassembler les différentes 
-                documentation que vous avez déjà et définir les objectifs de votre projet.
+:Avant:     Vous devez vous créer une structure de travail, rassembler les différentes 
+            documentation que vous avez déjà et définir les objectifs de votre projet.
 
-                Ces éléments vous servirons à la fois : à la réalisation de votre projet et à 
-                l'établissement de votre documentation.
+            Ces éléments vous servirons à la fois : à la réalisation de votre projet et à 
+            l'établissement de votre documentation.
 
-    :Pendant:   #. Essayer d'écrire votre documentation en parallèle du développement de votre 
-                   projet. Puisque le travail de rédaction prend toujours beaucoup de temps, il y a 
-                   de grande chance que vous soyez souvent amené à vous interrompre en cours
-                   d'écriture. Vous devez vous laisser des informations vous signalant qu'un
-                   paragraphe n'est pas encore terminé. Pour ma part, j'entoure les éléments en 
-                   cours de rédaction (ou pour lesquels une modification est a effectué) par 2 bloc 
-                   '[WIP]'. Ces blocs sont supprimés quand la partie en cours est complète ::
+                    .. image:: ./Images/Deco/ampoule.png
+                       :width: 50px
+                       :height: 50px
+                       :align: left
 
-                        Ex:
-                        [WIP]
+                       :Petites Astuces:
 
-                        Un bout de doc vachement bien mais encore incomplet ...
+                            La création d'une fiche projet vous permettra non seulement de définir
+                            les objectifs de votre projet mais en plus, cela vous permettra de 
+                            synthétiser vos idées.
 
-                        [WIP]
+                            Lorsque vous aurez défini les objectifs de votre projet, identifiez sur
+                            chacun d'entre eux les taches et action qui le compose. Cela vous
+                            permettra d'avoir un ensemble de petits objectifs permmetant de 
+                            simplifier le processus global de création.
 
-                   Cela vous permet d'avoir immédiatement une information visuelle sur ce qui est
-                   complet.
+                            Ces sous-objectifs peuvent être intégrés dans la fiche projet et font
+                            parti intégrante de la documentation.
 
-                #. Une autre petite astuce est d'insérer des penses bêtes dans vos documents pour
-                   que vous vous rappeliez que vouliez parler d'un truc. Je mets ces penses bêtes 
-                   dans les fichiers "Bug_ToDo_lst" (qu'il faut consulter régulièrement). Cependant,
-                   dans le feu de l'action, il m'arrive
-                   de les mettre directement dans mon document. Pour les identifier, je les
-                   entoures encore une fois par 2 blocs : [TODO] ::
+:Pendant:   #. Essayer d'écrire votre documentation en parallèle du développement de votre 
+               projet. Puisque le travail de rédaction prend toujours beaucoup de temps, il y a 
+               de grande chance que vous soyez souvent amené à vous interrompre en cours
+               d'écriture. Vous devez vous laisser des informations vous signalant qu'un
+               paragraphe n'est pas encore terminé. Pour ma part, j'entoure les éléments en 
+               cours de rédaction (ou pour lesquels une modification est a effectué) par 2 bloc 
+               '[WIP]'. Ces blocs sont supprimés quand la partie en cours est complète ::
 
-                        Ex:
-                        [TODO]
+                    Ex:
+                    [WIP]
 
-                        Parler des trucs super important que j'oublie tous le temps
+                    Un bout de doc vachement bien mais encore incomplet ...
 
-                        [TODO]
+                    [WIP]
 
-                        Ou:
-                        [TODO]
+               Cela vous permet d'avoir immédiatement une information visuelle sur ce qui est
+               complet.
 
-                        Mettre la rubrique machin avant le paragraphe bidule-truc
+               **N.B** : Même si vous avez supprimé ces block, vous pouvez faire des modifs ou 
+               autres améliorations sur les paragraphes déjà traiter. Pensez juste à vous laisser
+               des indices si vous effectuez une refonte du paragraphe ou si vous y ajoutez un
+               complément conséquent.
 
-                        [TODO]
+            #. Une autre petite astuce est d'insérer des penses bêtes dans vos documents pour
+               que vous vous rappeliez que vouliez parler d'un truc. Je mets ces penses bêtes 
+               dans les fichiers "Bug_ToDo_lst" (qu'il faut consulter régulièrement). Cependant,
+               dans le feu de l'action, il m'arrive
+               de les mettre directement dans mon document. Pour les identifier, je les
+               entoures encore une fois par 2 blocs : [TODO] ::
 
-                #. Essayez d'avoir une construction logique dans votre document. Il faut que votre
-                   document soit facile à lire. Pour cela, il faut éviter de renvoyer le lecteur
-                   vers une autre partie du texte avant de revenir sur la partie actuelle.
+                    Ex:
+                    [TODO]
 
-                #. Pour vous aider à naviguer facilement dans votre documentation, insérez une
-                   **Table de matières** dans votre documentation. Il est a noté que les outils de
-                   publication WEB (WIKI, Sphinx, etc.) ajoutent automatiquement cette table des
-                   matières.
+                    Parler des trucs super important que j'oublie tous le temps
+
+                    [TODO]
+
+                    Ou:
+                    [TODO]
+
+                    Mettre la rubrique machin avant le paragraphe bidule-truc
+
+                    [TODO]
+
+            #. Essayez d'avoir une construction logique dans votre document. Il faut que votre
+               document soit facile à lire. Pour cela, il faut éviter de renvoyer le lecteur
+               vers une autre partie du texte avant de revenir sur la partie actuelle.
+
+            #. Pour vous aider à naviguer facilement dans votre documentation, insérez une
+               **Table de matières** dans votre documentation. Il est a noté que les outils de
+               publication WEB (WIKI, Sphinx, etc.) ajoutent automatiquement cette table des
+               matières.
                    
-                   Si votre documentation n'est pas dynamique (PDF, papier, etc.), pensez
-                   à ajouter les numéros de pages en face de chaque rubrique. Les logiciels de
-                   traitement de textes (Word, Libre Office, etc.) sont capables de générer cette
-                   table des matières en ajustant automatiquement les numéros de pages.
+               Si votre documentation n'est pas dynamique (PDF, papier, etc.), pensez
+               à ajouter les numéros de pages en face de chaque rubrique. Les logiciels de
+               traitement de textes (Word, Libre Office, etc.) sont capables de générer cette
+               table des matières en ajustant automatiquement les numéros de pages.
 
-                   Pour que les logiciels fassent une partie du travail à votre place, il faut leur
-                   préparer le travail. Dans le cas des tables des matières, il faut utiliser le
-                   balisage des titres présent dans ces logiciels.
+               Pour que les logiciels fassent une partie du travail à votre place, il faut leur
+               préparer le travail. Dans le cas des tables des matières, il faut utiliser le
+               balisage des titres présent dans ces logiciels.
 
-                   **N. B.** : Pour les WIKI ou pour Sphinx, les titres sont définit par des
-                   conventions syntaxiques.
+               **N. B.** : Pour les WIKI ou pour Sphinx, les titres sont définit par des
+               conventions syntaxiques.
 
-                #. N'oubliez pas de vous relire (souvent) pour vous assurer qu'il n'y a pas de
-                   doublons, de non-sens, d'incohérence ou simplement de coquille dans votre doc.
+            #. N'oubliez pas de vous relire (souvent) pour vous assurer qu'il n'y a pas de
+               doublons, de non-sens, d'incohérence ou simplement de coquille dans votre doc.
+
+            #. Définissez votre projet projet et tenez vous y. Il est possible voir fréquent q'un
+               projet évolue en cours de route. Tant que vous ne cherchez pas à le faire évoluer en
+               permanence. Essayez d'aller au bout du projet sous la forme que vous avez défini et 
+               par la suite faite une nouvelle version du projet qui elle aussi sera défini selon 
+               des objectifs précis (ou à peut près). C'est la seule façon de pourvoir finir un
+               projet et cela aide à ne pas se décourager (voir à abandonner) en cours de route.
 
 
-    :Après:     Relisez votre document, faites le relire par quelqu'un d'autre et lorsque tout
-                semble correcte, essayez d'agrémenter un peu votre document. C'est particulièrement 
-                important si votre document est exclusivement textuel. Voir `Les finitions`_.
+:Après:     Relisez votre document, faites le relire par quelqu'un d'autre et lorsque tout
+            semble correcte, essayez d'agrémenter un peu votre document. C'est particulièrement 
+            important si votre document est exclusivement textuel. Voir `Les finitions`_.
 
 ####
 
