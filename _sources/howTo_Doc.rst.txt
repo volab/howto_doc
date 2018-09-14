@@ -849,24 +849,22 @@ Avant, pendant et après la documentation
             Ces éléments vous servirons à la fois : à la réalisation de votre projet et à 
             l'établissement de votre documentation.
 
-                    .. image:: ./Images/Deco/ampoule.png
-                       :width: 50px
-                       :height: 50px
-                       :align: left
+            .. image:: ./Images/Deco/ampoule.png
+               :width: 50px
+               :height: 50px
+               :align: left
 
-                       :Petites Astuces:
+            :Petites Astuces:   La création d'une fiche projet vous permettra non seulement de 
+                                définir les objectifs de votre projet mais en plus, cela vous
+                                permettra de synthétiser vos idées.
 
-                            La création d'une fiche projet vous permettra non seulement de définir
-                            les objectifs de votre projet mais en plus, cela vous permettra de 
-                            synthétiser vos idées.
+                                Lorsque vous aurez défini les objectifs de votre projet, identifiez 
+                                sur chacun d'entre eux les taches et action qui le compose. Cela 
+                                vous permettra d'avoir un ensemble de petits objectifs permmetant de 
+                                simplifier le processus global de création.
 
-                            Lorsque vous aurez défini les objectifs de votre projet, identifiez sur
-                            chacun d'entre eux les taches et action qui le compose. Cela vous
-                            permettra d'avoir un ensemble de petits objectifs permmetant de 
-                            simplifier le processus global de création.
-
-                            Ces sous-objectifs peuvent être intégrés dans la fiche projet et font
-                            parti intégrante de la documentation.
+                                Ces sous-objectifs peuvent être intégrés dans la fiche projet et 
+                                font parti intégrante de la documentation.
 
 :Pendant:   #. Essayer d'écrire votre documentation en parallèle du développement de votre 
                projet. Puisque le travail de rédaction prend toujours beaucoup de temps, il y a 
