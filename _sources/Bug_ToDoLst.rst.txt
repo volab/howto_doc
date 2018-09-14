@@ -104,4 +104,14 @@ ToDo-list
     :Problématique:         Commenter et Documenter son code
     :Traitement:            
 
+####
+
+    :Date de saisie:        180915
+    :Date de traitement:    
+    :Cible:                 userDoc
+    :Statu:                 None
+    :Problématique:         Dans "Uniformiser les projets", présenter l'arborescence complète d'un
+                            dossier projet.
+    :Traitement:            
+
 
