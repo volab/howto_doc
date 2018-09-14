@@ -198,8 +198,9 @@ projet qui vous servira à améliorer ou à développer votre projet.</p>
 <tr class="field-odd field"><th class="field-name" colspan="2">Petites Astuces:</th></tr>
 <tr class="field-odd field"><td>&#160;</td><td class="field-body"><ol class="first last arabic">
 <li><p class="first">Tant que vous n’avez pas commencer le projet, laissez-le dormir dans la
-la boite à idées. Cela vous évitera d’avoir de dossier projets vide qui
-ne contienne en tout et pour tout que la déscription globale.</p>
+la boite à idées. Cela vous évitera d’avoir des tones de dossiers projets
+vide qui ne contiennes en tout et pour tout que la déscription globale de
+votre idée.</p>
 </li>
 <li><p class="first">Utilisez, pour votre boite à idées, la même structure / arborescence que
 pour vos projet.</p>
@@ -549,6 +550,70 @@ ou pour tester de nouvelles fonctionnalités.</li>
 GitHub ou GitLab (voir <a class="reference internal" href="#les-outils-de-publication-de-documentation">Les outils de publication de documentation</a>)</p>
 <p>Pour les allergique à la ligne de commande, il existe Tortoise (<a class="reference external" href="Lesoutilsdeproduction">Outils de production</a>)
 qui est une interface graphique pour GIT. Il s’intègre dans le menu contextuel de Windows.</p>
+<div class="section" id="version-et-revision">
+<h6>Version et révision<a class="headerlink" href="#version-et-revision" title="Lien permanent vers ce titre">¶</a></h6>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Liens_Web:</th><td class="field-body"><ul class="first last simple">
+<li><dl class="first docutils">
+<dt><a class="reference external" href="https://fr.wikipedia.org/wiki/Version_d%27un_logiciel">https://fr.wikipedia.org/wiki/Version_d%27un_logiciel</a></dt>
+<dd># Page d’explication des versions logiciel</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><a class="reference external" href="https://semver.org/lang/fr/">https://semver.org/lang/fr/</a></dt>
+<dd># Gestion sémantique de version</dd>
+</dl>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>Il est important, pour vous aussi bien que pour d’autre personnes qui souhaiterai utiliser votre
+projet ou consulter votre documentation, de mettre des numéros de versions sur vos documents ou
+autres éléments du projet.</p>
+<p>Il est toujours difficile de définir une bonne nomenclature pour affecter un numéros de version.
+Cette décision vous revient. Il y a plusieurs écoles sur ce point. La plus courante étant :
+«&nbsp;SemVer&nbsp;» (Semantic Versioning.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Majeur</span><span class="o">.</span><span class="n">Mineure</span><span class="o">.</span><span class="n">correctif</span>
+
+<span class="n">ex</span><span class="p">:</span>
+<span class="mf">2.6</span><span class="o">.</span><span class="mi">2</span>   <span class="o">--&gt;</span> <span class="n">le</span> <span class="n">correctif</span> <span class="mi">3</span> <span class="p">(</span><span class="n">la</span> <span class="n">numérotation</span> <span class="n">commence</span> <span class="n">à</span> <span class="mi">0</span><span class="p">)</span> <span class="n">pour</span> <span class="n">la</span> <span class="n">révision</span> <span class="n">Mineure</span> <span class="mi">6</span> <span class="n">de</span> <span class="n">la</span> <span class="n">version</span> <span class="mi">2</span>
+</pre></div>
+</div>
+<p>Consultez les liens ci-dessus pour plus de détail.</p>
+<p>Pour ma part je préfère ne pas utiliser SemVer car je trouve ce procéder trop contraignant. Puisque
+mes projets sont construit dans le temps, j’utilise la date comme numéros de versions. Pour
+différencier les version de développement des versions stables (en plus de ma gestion des branch
+dans GIT), j’ajoute le suffixe «&nbsp;-dev&nbsp;» à la suite de la date.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Format</span><span class="p">:</span>
+<span class="n">AAAAMMJJ</span>
+
+<span class="n">ex</span><span class="p">:</span>
+<span class="mi">20180913</span>
+<span class="c1"># version stable</span>
+
+<span class="mi">20180914</span><span class="o">-</span><span class="n">dev</span>
+<span class="c1"># version en cours de développement</span>
+</pre></div>
+</div>
+<p>On constate que je pourrais simplifier mes numéros de version en supprimant les 2 premiers digits de
+l’année. Malheureusement, je n’y avait pas penser quand j’ai adopté se système de notation. Par
+soucis de cohérence, je continue donc avec ce format.</p>
+<p>Vous comprenez pourquoi il faut y réfléchir avant d adopté un système de notation. Si vous décidiez
+de changer de votre façon d’affecter des numéros version, sachez que cela pourrai vous gêner par la
+suite dans vos gestion de projet mais cela reste acceptable tant que vous restez cohérent sur les
+différente version de projet. Un changement de nomenclature ne peut donc être effectué qu’a partir
+d’un nouveau projet.</p>
+<p>Je fait apparaitre ces numéros de versions au début de mes programmes. Lorsqu’il s’agit d’un projet
+orienté «&nbsp;blabla&nbsp;» comme le présent document, je le place dans le document «&nbsp;<a class="reference external" href="https://poltergeist42.github.io/howto_doc/includeMe.html">README</a>&nbsp;»
+qui est présent dans tous mes projet (<a class="reference external" href="Uniformiserlesprojets">voir : Uniformiser les projets</a>).</p>
+</div>
 </div>
 <div class="section" id="nommer-les-fichiers-et-les-dossiers-correctement">
 <h5>Nommer les fichiers et les dossiers correctement<a class="headerlink" href="#nommer-les-fichiers-et-les-dossiers-correctement" title="Lien permanent vers ce titre">¶</a></h5>
@@ -589,9 +654,9 @@ toujours sur la même source d’un projet (ou de la documentation).</p>
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Exemple:</th><td class="field-body">Admettons que vous ayez le dossier de votre projet en local sur votre PC
-sur «&nbsp;D:Mon_Super_Projet&nbsp;». Vous pourriez envisager que votre disque dur risque de
+sur «&nbsp;D:\Mon_Super_Projet&quot;. Vous pourriez envisager que votre disque dur risque de
 tombé en pane. Vous allez alors vouloir en mettre une copie sur le
-réseau : «&nbsp;\serveur_en_reseauMon_Super_Projet&nbsp;». Lorsque vous publierez votre
+réseau : «&nbsp;\serveur_en_reseau\Mon_Super_Projet&quot;. Lorsque vous publierez votre
 projet, vous allez à nouveau mettre une copie de votre projet sur un dépôt distant.</td>
 </tr>
 </tbody>
@@ -632,7 +697,7 @@ temps, l’espace mis à votre dispositions.</li>
 </div></blockquote>
 </li>
 </ul>
-<p>Si vous le pouvez, privilégier la seconde solution car le travail est effectué
+<p>Si vous le pouvez, privilégiez la seconde solution car le travail est effectué
 automatiquement en tache de fond et vous aurez en plus des possibilité de sauvegarde et de
 restauration.</p>
 </div></blockquote>
@@ -646,8 +711,8 @@ s’affranchir de cette gestion des versions puisque comme indiquer dans
 <a class="reference external" href="Versionnertoutunprojet">Versionner tout un projet</a> on travail avec la notion de branche.
 Il faut envisager GIT comme un arbre. Avec la branche Master pour le tronc et toutes vos
 autres branches (Dev, gh-pages, test_fonction_truc, etc.) comme un branchage avec les
-différentes ramification.</p>
-<p>N.B : Certains outils de gestion de projet ou certains IDE permettent nativement de «&nbsp;pousser&nbsp;»
+différentes ramifications.</p>
+<p><strong>N.B</strong> : Certains outils de gestion de projet ou certains IDE permettent nativement de «&nbsp;pousser&nbsp;»
 vos fichiers directement sur les dépôts distant.</p>
 </li>
 </ul>
@@ -843,8 +908,7 @@ Il y a actuellement 2 types de plateforme WIKI. Chacune utilisant une syntaxe di
 <hr class="docutils" />
 <div class="section" id="avant-pendant-et-apres-la-documentation">
 <h2>Avant, pendant et après la documentation<a class="headerlink" href="#avant-pendant-et-apres-la-documentation" title="Lien permanent vers ce titre">¶</a></h2>
-<blockquote>
-<div><table class="docutils field-list" frame="void" rules="none">
+<table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
@@ -852,6 +916,8 @@ Il y a actuellement 2 types de plateforme WIKI. Chacune utilisant une syntaxe di
 documentation que vous avez déjà et définir les objectifs de votre projet.</p>
 <p>Ces éléments vous servirons à la fois : à la réalisation de votre projet et à
 l’établissement de votre documentation.</p>
+<blockquote>
+<div></div></blockquote>
 </td>
 </tr>
 <tr class="field-even field"><th class="field-name">Pendant:</th><td class="field-body"><ol class="first arabic">
@@ -872,6 +938,10 @@ cours de rédaction (ou pour lesquels une modification est a effectué) par 2 bl
 </div>
 <p>Cela vous permet d’avoir immédiatement une information visuelle sur ce qui est
 complet.</p>
+<p><strong>N.B</strong> : Même si vous avez supprimé ces block, vous pouvez faire des modifs ou
+autres améliorations sur les paragraphes déjà traiter. Pensez juste à vous laisser
+des indices si vous effectuez une refonte du paragraphe ou si vous y ajoutez un
+complément conséquent.</p>
 </li>
 <li><p class="first">Une autre petite astuce est d’insérer des penses bêtes dans vos documents pour
 que vous vous rappeliez que vouliez parler d’un truc. Je mets ces penses bêtes
@@ -916,6 +986,13 @@ conventions syntaxiques.</p>
 <li><p class="first">N’oubliez pas de vous relire (souvent) pour vous assurer qu’il n’y a pas de
 doublons, de non-sens, d’incohérence ou simplement de coquille dans votre doc.</p>
 </li>
+<li><p class="first">Définissez votre projet projet et tenez vous y. Il est possible voir fréquent q’un
+projet évolue en cours de route. Tant que vous ne cherchez pas à le faire évoluer en
+permanence. Essayez d’aller au bout du projet sous la forme que vous avez défini et
+par la suite faite une nouvelle version du projet qui elle aussi sera défini selon
+des objectifs précis (ou à peut près). C’est la seule façon de pourvoir finir un
+projet et cela aide à ne pas se décourager (voir à abandonner) en cours de route.</p>
+</li>
 </ol>
 </td>
 </tr>
@@ -926,7 +1003,6 @@ important si votre document est exclusivement textuel. Voir <a class="reference 
 </tr>
 </tbody>
 </table>
-</div></blockquote>
 </div>
 <hr class="docutils" />
 <div class="section" id="les-licences">
@@ -1043,7 +1119,10 @@ au bout de vos projets.</p>
 <li><a class="reference internal" href="#uniformiser-les-projets">Uniformiser les projets</a></li>
 <li><a class="reference internal" href="#versionner-et-nommer-les-fichiers">Versionner et  nommer les fichiers</a><ul>
 <li><a class="reference internal" href="#versionner-des-fichiers">Versionner des fichiers</a></li>
-<li><a class="reference internal" href="#versionner-tout-un-projet">Versionner tout un projet</a></li>
+<li><a class="reference internal" href="#versionner-tout-un-projet">Versionner tout un projet</a><ul>
+<li><a class="reference internal" href="#version-et-revision">Version et révision</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#nommer-les-fichiers-et-les-dossiers-correctement">Nommer les fichiers et les dossiers correctement</a></li>
 </ul>
 </li>

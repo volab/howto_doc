@@ -88,10 +88,20 @@ ToDo-list
 ####
 
     :Date de saisie:        180912
+    :Date de traitement:    180914
+    :Cible:                 userDoc
+    :Statu:                 Done
+    :Problématique:         Dans versionning, parler des numéros de versions (Doc et Projet)
+    :Traitement:            Sous rubrique : "Version et révision" créer dans "Versionner tout un 
+                            projet"
+
+####
+
+    :Date de saisie:        180913
     :Date de traitement:    
     :Cible:                 userDoc
     :Statu:                 None
-    :Problématique:         Dans versionning, parler des numéros de versions (Doc et Projet)
+    :Problématique:         Commenter et Documenter son code
     :Traitement:            
 
 
