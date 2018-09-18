@@ -92,6 +92,8 @@ lorsque l’on décide de s’y intéresser, pour pouvoir se forger sa propre op
 n’est pas quelque chose que vous devrez suivre à la lettre pour avoir la garantie de faire une bonne
 documentation. Il s’agit simplement de vous décrire au mieux ma propre recette. Vous pourrez ainsi
 piocher (ou non) quelque idée pour définir votre propre méthode.</p>
+<p>Ce document apporte en plus des éléments sur la façon de gérer et d’organisation d’un projet, ce qui
+peut être utile si vous n’avez pas encore défini votre propre méthodologie de gestion de projet.</p>
 </div>
 </div>
 <hr class="docutils" />
@@ -102,7 +104,8 @@ piocher (ou non) quelque idée pour définir votre propre méthode.</p>
 <div><ul class="simple">
 <li><strong>Pour qui et pourquoi</strong> : Ce thèmes permet de définir la cible principale à qui
 s’adresse la documentation</li>
-<li><strong>Quoi et comment</strong> : Ce thèmes permet de définir les outils nécessaires à la documentation.</li>
+<li><strong>Quoi et comment</strong> : Ce thèmes permet de définir les outils nécessaires à la documentation et
+à l’organisation de votre projet.</li>
 </ul>
 </div></blockquote>
 </div>
@@ -114,8 +117,9 @@ ne suis pas d’accord. Cette idée, c’est :</p>
 <blockquote>
 <div><em>«&nbsp;Il faut documenter afin de partager son travail avec d’autres personnes&nbsp;»</em></div></blockquote>
 <p>Pour ma part, je pense que le travail de documentation doit d’abord être un travail égoïste. La
-documentation doit être faite en priorité pour soi, mais écrite comme si nous ne savions pas de
-quoi il s’agit. De cette façon la documentation sera plus complète et plus précise.</p>
+documentation doit être faite en priorité pour soi, mais écrite pour quelqu’un qui ne sait pas de
+quoi il s’agit et qui découvrirai complètement votre projet. De cette façon la documentation sera
+plus complète et plus précise.</p>
 <blockquote>
 <div><table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -300,7 +304,8 @@ problème sont :</p>
 <blockquote>
 <div><ul>
 <li><p class="first"><strong>Cible</strong> : C’est ici que je renseigne la «&nbsp;catégorie&nbsp;» de l’élément impacté comme la doc, le
-programme, le matériel, etc.</p>
+programme, le matériel, etc. Ces éléments sont extrait de ma propre <a class="reference external" href="Uniformiserlesprojets">arborescence de projet</a>
+que vous pourrez découvrir un peu plus bas.</p>
 </li>
 <li><p class="first"><strong>Statu</strong> : C’est ici que je renseigne l’état d’avancement du travail à faire</p>
 <blockquote>
@@ -391,8 +396,22 @@ documents toujours de la même façon quel que soit votre projet.</p>
 <span class="o">|</span>  <span class="o">|</span>
 <span class="o">|</span>  <span class="o">+--</span><span class="n">_3_software</span>      <span class="c1"># Contiens toute la partie programmation du projet</span>
 <span class="o">|</span>  <span class="o">|</span>
-<span class="o">|</span>  \<span class="o">--</span><span class="n">_4_PCB</span>           <span class="c1"># Contient toutes les parties des circuits imprimés (routage,</span>
-<span class="o">|</span>                      <span class="c1"># Implantation, typon, fichier de perçage, etc.)</span>
+<span class="o">|</span>  <span class="o">+--</span><span class="n">_4_PCB</span>           <span class="c1"># Contient toutes les parties des circuits imprimés (routage,</span>
+<span class="o">|</span>  <span class="o">|</span>                   <span class="c1"># Implantation, typon, fichier de perçage, etc.)</span>
+<span class="o">|</span>  <span class="o">|</span>
+<span class="o">|</span>  <span class="o">+--</span><span class="n">_5_techDoc</span>       <span class="c1"># Contiens toutes les documentations techniques des diférrents composants</span>
+<span class="o">|</span>  <span class="o">|</span>                   <span class="c1"># ou éléments qui constituent le projet. Ces éléments sont identifiers</span>
+<span class="o">|</span>  <span class="o">|</span>                   <span class="c1"># par un liens Web dans la documentation. Ce dossier n&#39;est pas &quot;pousser&quot;</span>
+<span class="o">|</span>  <span class="o">|</span>                   <span class="c1"># dans le dépôt distant (.gitignore).</span>
+<span class="o">|</span>  <span class="o">|</span>
+<span class="o">|</span>  <span class="o">+--</span><span class="n">_6_research</span>      <span class="c1"># Regroupe toutes les recherches relative à l&#39;élaboration ou au</span>
+<span class="o">|</span>  <span class="o">|</span>                   <span class="c1"># développement du projet. Ces éléments sont identifiers</span>
+<span class="o">|</span>  <span class="o">|</span>                   <span class="c1"># par un liens Web dans la documentation. Ce dossier n&#39;est pas &quot;pousser&quot;</span>
+<span class="o">|</span>  <span class="o">|</span>                   <span class="c1"># dans le dépôt distant (.gitignore).</span>
+<span class="o">|</span>  <span class="o">|</span>
+<span class="o">|</span>  \<span class="o">--</span><span class="n">_7_rushes</span>        <span class="c1"># Contient tous les éléments qui seront potentiellement intégrés dans la</span>
+<span class="o">|</span>                      <span class="c1"># doc ou dans le projet. Ce dossier n&#39;est pas &quot;pousser&quot; dans le dépôt</span>
+<span class="o">|</span>                      <span class="c1"># distant (.gitignore).</span>
 <span class="o">|</span>
 \<span class="o">--</span><span class="n">webDoc</span>              <span class="c1"># Dossier racine de la documentation qui doit être publiée</span>
    <span class="o">|</span>
@@ -455,6 +474,7 @@ fichier devrait contenir les éléments suivant :</p>
 <blockquote>
 <div><ul class="simple">
 <li>Le ou les auteurs du projet (normalement vous)</li>
+<li>Le ou les relecteurs / correcteurs de la documentation</li>
 <li><a class="reference external" href="Leslicences">La licence</a> sous laquelle le projet est distribué</li>
 <li>les informations sur la documentation et sur le dépôt (endroit de mise
 à disposition) du projet.</li>
@@ -491,13 +511,13 @@ et compréhensible ?</em>&nbsp;»</p>
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Exemple:</th><td class="field-body"><p class="first">Vous venez de terminé le travail sur un fichier. Étant certain que vous n’aurez plus
-à travailler dessus, vous le renommer en “final”: “mon_super_fichier_final.txt”.
+à travailler dessus, vous le renommer en “final”: “<em>mon_super_fichier_final.txt</em>”.
 Seulement, le lendemain, vous vous apercevez qu’en fait vous avez oublié de parler
 d’un truc important. Vous modifier votre fichier et là cette fois c’est sûre, c’est
 la version finale. Comme vous ne voulez pas écraser l’ancien fichier, vous
-l’enregistrer en tant que “mon_super_fichier_final_final.txt”. Puis quelques mois
+l’enregistrer en tant que “<em>mon_super_fichier_final_final.txt</em>”. Puis quelques mois
 après vous faites une nouvelle modif alors vous enregistrez le fichier sous :
-“mon_super_fichier_final_final_V1.txt”.</p>
+“<em>mon_super_fichier_final_final_V1.txt</em>”.</p>
 <p class="last">Je pense que vous avez compris ou je voulais en venir.</p>
 </td>
 </tr>
@@ -549,7 +569,7 @@ simplement en consultant son nom</li>
 fonctionnelle. Pour cela, il faut pouvoir créer une version fonctionnelle et une version d’essais.
 La technique de l’horodatage est efficace au niveau des fichiers, mais pas au niveau des projets.</p>
 <p>La solution est donc d’utiliser un logiciel gestion de version. Le plus connu (et le plus utiliser)
-est GIT. Les liens sont disponible dans <a class="reference internal" href="#les-outils-de-production">Les outils de production</a>.</p>
+est GIT. Les liens sont disponibles dans <a class="reference internal" href="#les-outils-de-production">Les outils de production</a>.</p>
 <p>GIT permet de conserver toutes les versions de tous les fichiers. Il offre ainsi la possibilité de
 comparer la version actuelle avec une version antérieure d’un fichier. Il permet également de créer
 plusieurs branches de travail :</p>
@@ -592,7 +612,7 @@ qui est une interface graphique pour GIT. Il s’intègre dans le menu contextue
 </table>
 </div></blockquote>
 <p>Il est important, pour vous aussi bien que pour d’autre personnes qui souhaiterai utiliser votre
-projet ou consulter votre documentation, de mettre des numéros de versions sur vos documents ou
+projet ou consulter votre documentation, d’avoir des numéros de versions sur vos documents ou
 autres éléments du projet.</p>
 <p>Il est toujours difficile de définir une bonne nomenclature pour affecter un numéros de version.
 Cette décision vous revient. Il y a plusieurs écoles sur ce point. La plus courante étant :
@@ -682,9 +702,9 @@ toujours sur la même source d’un projet (ou de la documentation).</p>
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Exemple:</th><td class="field-body">Admettons que vous ayez le dossier de votre projet en local sur votre PC
-sur «&nbsp;D:\Mon_Super_Projet&quot;. Vous pourriez envisager que votre disque dur risque de
+sur «&nbsp;<em>D:\Mon_Super_Projet\</em>&nbsp;». Vous pourriez envisager que votre disque dur risque de
 tombé en pane. Vous allez alors vouloir en mettre une copie sur le
-réseau : «&nbsp;\serveur_en_reseau\Mon_Super_Projet&quot;. Lorsque vous publierez votre
+réseau : «&nbsp;<em>\serveur_en_reseau\Mon_Super_Projet\</em>&nbsp;». Lorsque vous publierez votre
 projet, vous allez à nouveau mettre une copie de votre projet sur un dépôt distant.</td>
 </tr>
 </tbody>
@@ -702,21 +722,21 @@ oublier de modifier l’une des version ou encore modifier la mauvaise version.<
 <div><ul>
 <li><p class="first">Si vous êtes en entreprise, vous ne devez travailler que sur le serveur. Aucune copie en
 local sur votre poste. L’administrateur réseau de votre société fait des sauvegardes du
-serveur.</p>
+serveur, mais pas de votre poste.</p>
 </li>
 <li><p class="first">Si vous êtes un particulier, à moins d’avoir un logiciel qui sauvegarde vos données
 automatiquement sur un média externe comme par exemple «&nbsp;Cobian Backup&nbsp;», Je vous
-déconseille la copie d’un projet sur un média externe (ou un disque réseau) si se média
-externe et également un support de travail. Vous éviterez ainsi de travailler sur deux
-version en parallèle.</p>
+déconseille la copie d’un projet sur un média externe (ou un disque réseau), surtout si se
+média externe et également un support de travail. Vous éviterez ainsi de travailler sur
+deux version en parallèle.</p>
 <p>Il peut arriver que l’on ai pas le choix, notamment dans le cas ou vos projet sont stockés
 bien au chaud sur un serveur et que vous souhaitiez malgré tout travailler dessus lorsque
 vous serrez en voyage. Dans ce cas 2 solutions s’ouvrent à vous :</p>
 <blockquote>
 <div><ol class="arabic simple">
 <li>Utiliser un logiciel de synchronisation des donnés comme RSync ou FreeFile Sync. Vous
-devrez être vigilant lors des synchronisation que les données sont bien synchronisée
-dans le bon sens.</li>
+devrez être vigilant, lors des synchronisations, que les données sont bien
+synchronisée dans le bon sens.</li>
 <li>Utiliser une solution de stockage dans le Cloud comme <em>OneDrive</em>, <em>DropBox</em> ou
 <em>Google Drive</em>. Ces trois services proposes des solutions gratuites ou payantes. La
 principale différence entre les offres gratuites et payantes est, la plupart du
@@ -749,8 +769,8 @@ vos fichiers directement sur les dépôts distant.</p>
 <div class="section" id="ne-pas-negliger-la-securite">
 <h4>Ne pas négliger la sécurité<a class="headerlink" href="#ne-pas-negliger-la-securite" title="Lien permanent vers ce titre">¶</a></h4>
 <p><strong>Il ne faut jamais laisser des informations personnels dans vos documentations, dépôt ou code !</strong></p>
-<p>Les identifiants et mots de passe, les codes bancaires, adresse et numéros de téléphones sont autant
-d’informations que vous ne devez en aucun cas diffuser.</p>
+<p>Les identifiants et mots de passe, les codes bancaires, adresse et numéros de téléphones, clef privé
+de chiffrement, sont autant d’informations que vous ne devez en aucun cas diffuser.</p>
 <p>Si dans l’un de vos codes vous avez besoin de renseigner ce genre d’informations il faut les placer
 dans un dossier séparer (par exemple “Creds” ou “Credential”) et vous assurer que seul votre code
 (en local) peut accéder à ce dossier et qu’il ne sera pas pousser avec le reste du projet sur les
@@ -765,9 +785,10 @@ ne soit pas pris en compte dans la gestion du projet.</p>
 demander l’aide d’une ou plusieurs personnes pour faire une documentation.</p>
 <p>La première chose que je vous conseille de demander, si vous trouvé une personne de bonnes volontés,
 c’est de demander à ce que quelqu’un relise votre doc. Vous aurez ainsi un avis objectif sur ce qui
-est bien, ce qui ne l’est pas et sur les choses incompréhensible qu’il sera bon de clarifié.</p>
+est bien, ce qui ne l’est pas et sur les choses incompréhensibles qu’il sera bon de clarifié.</p>
 <p>La seconde chose à demander, peut être que l’on vous aide à la prise en main de certains outils qui,
-si on en a pas l’habitude, peuvent être difficile à maitriser.</p>
+si on en a pas l’habitude, peuvent être difficile à maitriser. Ces outils sont certainement utilisés
+dans les Fablab ou les Hacker-Space. N’hésitez pas à vous rendre pour y trouver de l’aide.</p>
 </div>
 <div class="section" id="les-outils-et-medias-de-diffusions">
 <h3>Les outils et médias de diffusions<a class="headerlink" href="#les-outils-et-medias-de-diffusions" title="Lien permanent vers ce titre">¶</a></h3>
@@ -848,7 +869,8 @@ handicapant. Voici 2 outils qui permettent de traduire : un mot, un texte, un do
 <li><a class="reference external" href="https://translate.google.fr/">Google Translate</a> : Il s’agit de l’outil de Google que tous
 le monde connait.</li>
 <li><a class="reference external" href="https://www.deepl.com/translator">Deepl</a> : Il s’agit d’un outil de traduction qui amène
-plus de nuance dans les traductions et qui génères des traductions de meilleur qualité.</li>
+plus de nuance dans les traductions et qui génères des traductions de meilleur qualité que ces
+concurrent.</li>
 </ul>
 </div></blockquote>
 </div>
@@ -885,8 +907,8 @@ et <a class="reference external" href="https://daringfireball.net/projects/markd
 utilisés nativement par Github, ReadTheDoc et GitLab. Sphinx s’appuie sur le reStrucredText.</p>
 </li>
 <li><p class="first"><a class="reference external" href="https://fr.wikibooks.org/wiki/LaTeX">LaTeX</a> : il s’agit d’un langage permettant
-l’élaboration de document très élaboré. Il est très utilisé par la communauté scientifique
-pour ces possibilités d’écriture de systèmes mathématiques. Il est également de plus en plus
+la création de document très élaboré. Il est très utilisé par la communauté scientifique pour
+ces possibilités d’écriture de systèmes mathématiques. Il est également de plus en plus
 utiliser dans la presse pour ces possibilités des gestions des mises en page.</p>
 <p><strong>Attention</strong> Il s’agit d’un outil très puissant mais très compliqué à utiliser et a
 mettre en œuvre.</p>
@@ -954,7 +976,7 @@ l’établissement de votre documentation.</p>
 définir les objectifs de votre projet mais en plus, cela vous
 permettra de synthétiser vos idées.</p>
 <p>Lorsque vous aurez défini les objectifs de votre projet, identifiez
-sur chacun d’entre eux les taches et action qui le compose. Cela
+pour chacun d’entre eux les taches et action qui le compose. Cela
 vous permettra d’avoir un ensemble de petits objectifs permmetant de
 simplifier le processus global de création.</p>
 <p class="last">Ces sous-objectifs peuvent être intégrés dans la fiche projet et
@@ -972,7 +994,8 @@ de grande chance que vous soyez souvent amené à vous interrompre en cours
 d’écriture. Vous devez vous laisser des informations vous signalant qu’un
 paragraphe n’est pas encore terminé. Pour ma part, j’entoure les éléments en
 cours de rédaction (ou pour lesquels une modification est a effectué) par 2 bloc
-“[WIP]”. Ces blocs sont supprimés quand la partie en cours est complète</p>
+“[WIP]” (Work In Progress : Travail en cours). Ces blocs sont supprimés quand la
+partie en cours est complète</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Ex</span><span class="p">:</span>
 <span class="p">[</span><span class="n">WIP</span><span class="p">]</span>
 
@@ -993,7 +1016,7 @@ que vous vous rappeliez que vouliez parler d’un truc. Je mets ces penses bête
 dans les fichiers «&nbsp;Bug_ToDo_lst&nbsp;» (qu’il faut consulter régulièrement). Cependant,
 dans le feu de l’action, il m’arrive
 de les mettre directement dans mon document. Pour les identifier, je les
-entoures encore une fois par 2 blocs : [TODO]</p>
+entoures encore une fois par 2 blocs : [TODO] (à faire)</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Ex</span><span class="p">:</span>
 <span class="p">[</span><span class="n">TODO</span><span class="p">]</span>
 
@@ -1082,7 +1105,7 @@ la modifier et de la redistribuer selon c’est propre conditions, il faut utili
 <div><ul class="simple">
 <li><strong>BY</strong> : l’attribution. En cas d’utilisation ou de modification, l’auteur doit être cité</li>
 <li><strong>NC</strong> : Pas d’utilisation commerciale. Une tiers personne ne peut pas vendre tout ou partie du
-projet.</li>
+projet ou de la documentation qui lui est rattaché.</li>
 <li><strong>SA</strong> : Partage dans les mêmes conditions. Même si quelqu’un modifie le projet, il ne peut pas
 s’attribuer la paternité du projet ni changer le type de licence.</li>
 </ul>
@@ -1127,11 +1150,11 @@ une revue scientifique.</p>
 <hr class="docutils" />
 <div class="section" id="conclusions">
 <h2>Conclusions<a class="headerlink" href="#conclusions" title="Lien permanent vers ce titre">¶</a></h2>
-<p>Vous devriez maintenant avoir suffise ment d’information pour pouvoir faire votre propre
+<p>Vous devriez maintenant avoir suffisamment d’information pour pouvoir faire votre propre
 documentation.</p>
 <p>Je vous conseille de faire ce travail de documentation car au-delà de vous aider en cas de reprise
 d’un projet, le travail de documentation vous aidera à fournir un meilleur travail sur votre projet.</p>
-<p>N’hésitez pas à rendre dans un FabLab (VoLAB ?) pour trouver de l’aide vous permettant de d’aller
+<p>N’hésitez pas à rendre dans un FabLab (VoLAB ?!) pour trouver de l’aide vous permettant de d’aller
 au bout de vos projets.</p>
 </div>
 </div>
