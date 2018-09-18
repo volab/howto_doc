@@ -38,6 +38,9 @@ n'est pas quelque chose que vous devrez suivre à la lettre pour avoir la garant
 documentation. Il s'agit simplement de vous décrire au mieux ma propre recette. Vous pourrez ainsi
 piocher (ou non) quelque idée pour définir votre propre méthode.
 
+Ce document apporte en plus des éléments sur la façon de gérer et d'organisation d'un projet, ce qui
+peut être utile si vous n'avez pas encore défini votre propre méthodologie de gestion de projet.
+
 ####
 
 ------------------------------------------------------------------
@@ -49,7 +52,8 @@ Il y a deux thèmes importants dans la documentation :
     * **Pour qui et pourquoi** : Ce thèmes permet de définir la cible principale à qui
       s'adresse la documentation
       
-    * **Quoi et comment** : Ce thèmes permet de définir les outils nécessaires à la documentation.
+    * **Quoi et comment** : Ce thèmes permet de définir les outils nécessaires à la documentation et
+      à l'organisation de votre projet.
 
 ####
 
@@ -63,8 +67,9 @@ ne suis pas d'accord. Cette idée, c'est :
     *"Il faut documenter afin de partager son travail avec d'autres personnes"*
 
 Pour ma part, je pense que le travail de documentation doit d'abord être un travail égoïste. La 
-documentation doit être faite en priorité pour soi, mais écrite comme si nous ne savions pas de
-quoi il s'agit. De cette façon la documentation sera plus complète et plus précise.
+documentation doit être faite en priorité pour soi, mais écrite pour quelqu'un qui ne sait pas de
+quoi il s'agit et qui découvrirai complètement votre projet. De cette façon la documentation sera 
+plus complète et plus précise.
 
     :Exemple:   Imaginez que vous soyez tout le temps en train de faire 50 trucs en même temps,
                 plus les activités des enfants, le travail, les courses etc ... (dur à imaginer
@@ -265,7 +270,8 @@ Comme vous pouvez le constatez le modèle est assez simple. Les 2 seuls élémen
 problème sont :
 
     * **Cible** : C'est ici que je renseigne la "catégorie" de l'élément impacté comme la doc, le
-      programme, le matériel, etc.
+      programme, le matériel, etc. Ces éléments sont extrait de ma propre `arborescence de projet <Uniformiser les projets>`_
+      que vous pourrez découvrir un peu plus bas.
 
     * **Statu** : C'est ici que je renseigne l'état d'avancement du travail à faire
 
@@ -369,8 +375,22 @@ Voici en exemple l'arborescence que je me suis définit ::
     |  |
     |  +--_3_software      # Contiens toute la partie programmation du projet
     |  |
-    |  \--_4_PCB           # Contient toutes les parties des circuits imprimés (routage,
-    |                      # Implantation, typon, fichier de perçage, etc.)
+    |  +--_4_PCB           # Contient toutes les parties des circuits imprimés (routage,
+    |  |                   # Implantation, typon, fichier de perçage, etc.)
+    |  |
+    |  +--_5_techDoc       # Contiens toutes les documentations techniques des diférrents composants
+    |  |                   # ou éléments qui constituent le projet. Ces éléments sont identifiers
+    |  |                   # par un liens Web dans la documentation. Ce dossier n'est pas "pousser"
+    |  |                   # dans le dépôt distant (.gitignore).
+    |  |
+    |  +--_6_research      # Regroupe toutes les recherches relative à l'élaboration ou au 
+    |  |                   # développement du projet. Ces éléments sont identifiers
+    |  |                   # par un liens Web dans la documentation. Ce dossier n'est pas "pousser"
+    |  |                   # dans le dépôt distant (.gitignore).
+    |  |
+    |  \--_7_rushes        # Contient tous les éléments qui seront potentiellement intégrés dans la
+    |                      # doc ou dans le projet. Ce dossier n'est pas "pousser" dans le dépôt 
+    |                      # distant (.gitignore).
     |
     \--webDoc              # Dossier racine de la documentation qui doit être publiée
        |
@@ -431,6 +451,8 @@ JSON.
                        
                             * Le ou les auteurs du projet (normalement vous)
 
+                            * Le ou les relecteurs / correcteurs de la documentation
+
                             * `La licence <Les licences>`_ sous laquelle le projet est distribué
 
                             * les informations sur la documentation et sur le dépôt (endroit de mise
@@ -464,13 +486,13 @@ L'un des problèmes que l'on rencontre souvent est :
     et compréhensible ?*"
 
     :Exemple:  Vous venez de terminé le travail sur un fichier. Étant certain que vous n'aurez plus
-                à travailler dessus, vous le renommer en 'final': 'mon_super_fichier_final.txt'. 
+                à travailler dessus, vous le renommer en 'final': '*mon_super_fichier_final.txt*'. 
                 Seulement, le lendemain, vous vous apercevez qu'en fait vous avez oublié de parler 
                 d'un truc important. Vous modifier votre fichier et là cette fois c'est sûre, c'est 
                 la version finale. Comme vous ne voulez pas écraser l'ancien fichier, vous 
-                l'enregistrer en tant que 'mon_super_fichier_final_final.txt'. Puis quelques mois 
+                l'enregistrer en tant que '*mon_super_fichier_final_final.txt*'. Puis quelques mois 
                 après vous faites une nouvelle modif alors vous enregistrez le fichier sous : 
-                'mon_super_fichier_final_final_V1.txt'.
+                '*mon_super_fichier_final_final_V1.txt*'.
 
                 Je pense que vous avez compris ou je voulais en venir.
 
@@ -520,7 +542,7 @@ fonctionnelle. Pour cela, il faut pouvoir créer une version fonctionnelle et un
 La technique de l'horodatage est efficace au niveau des fichiers, mais pas au niveau des projets.
 
 La solution est donc d'utiliser un logiciel gestion de version. Le plus connu (et le plus utiliser)
-est GIT. Les liens sont disponible dans `Les outils de production`_.
+est GIT. Les liens sont disponibles dans `Les outils de production`_.
 
 GIT permet de conserver toutes les versions de tous les fichiers. Il offre ainsi la possibilité de 
 comparer la version actuelle avec une version antérieure d'un fichier. Il permet également de créer
@@ -552,7 +574,7 @@ Version et révision
                     # Gestion sémantique de version
 
 Il est important, pour vous aussi bien que pour d'autre personnes qui souhaiterai utiliser votre 
-projet ou consulter votre documentation, de mettre des numéros de versions sur vos documents ou
+projet ou consulter votre documentation, d'avoir des numéros de versions sur vos documents ou
 autres éléments du projet.
 
 Il est toujours difficile de définir une bonne nomenclature pour affecter un numéros de version.
@@ -633,9 +655,9 @@ Une chose importante à la quelle il faut être vigilant, c'est de s'assurer que
 toujours sur la même source d'un projet (ou de la documentation).
 
     :Exemple:   Admettons que vous ayez le dossier de votre projet en local sur votre PC
-                sur "D:\\Mon_Super_Projet\\". Vous pourriez envisager que votre disque dur risque de
+                sur "*D:\\Mon_Super_Projet\\*". Vous pourriez envisager que votre disque dur risque de
                 tombé en pane. Vous allez alors vouloir en mettre une copie sur le 
-                réseau : "\\\\serveur_en_reseau\\Mon_Super_Projet\\". Lorsque vous publierez votre
+                réseau : "*\\\\serveur_en_reseau\\Mon_Super_Projet\\*". Lorsque vous publierez votre
                 projet, vous allez à nouveau mettre une copie de votre projet sur un dépôt distant.
 
 Dans cet exemple, vous vous retrouvez alors avec trois versions de votre projet. Ce qui signifie que
@@ -649,21 +671,21 @@ Pour évité cette gestion difficile, voici ce que vous pouvez faire.
       
         - Si vous êtes en entreprise, vous ne devez travailler que sur le serveur. Aucune copie en 
           local sur votre poste. L'administrateur réseau de votre société fait des sauvegardes du 
-          serveur.
+          serveur, mais pas de votre poste.
 
         - Si vous êtes un particulier, à moins d'avoir un logiciel qui sauvegarde vos données 
           automatiquement sur un média externe comme par exemple "Cobian Backup", Je vous 
-          déconseille la copie d'un projet sur un média externe (ou un disque réseau) si se média 
-          externe et également un support de travail. Vous éviterez ainsi de travailler sur deux 
-          version en parallèle.
+          déconseille la copie d'un projet sur un média externe (ou un disque réseau), surtout si se
+          média externe et également un support de travail. Vous éviterez ainsi de travailler sur 
+          deux version en parallèle.
 
           Il peut arriver que l'on ai pas le choix, notamment dans le cas ou vos projet sont stockés
           bien au chaud sur un serveur et que vous souhaitiez malgré tout travailler dessus lorsque
           vous serrez en voyage. Dans ce cas 2 solutions s'ouvrent à vous :
 
             #. Utiliser un logiciel de synchronisation des donnés comme RSync ou FreeFile Sync. Vous
-               devrez être vigilant lors des synchronisation que les données sont bien synchronisée
-               dans le bon sens.
+               devrez être vigilant, lors des synchronisations, que les données sont bien 
+               synchronisée dans le bon sens.
 
             #. Utiliser une solution de stockage dans le Cloud comme *OneDrive*, *DropBox* ou
                *Google Drive*. Ces trois services proposes des solutions gratuites ou payantes. La
@@ -695,8 +717,8 @@ Ne pas négliger la sécurité
 
 **Il ne faut jamais laisser des informations personnels dans vos documentations, dépôt ou code !**
 
-Les identifiants et mots de passe, les codes bancaires, adresse et numéros de téléphones sont autant
-d'informations que vous ne devez en aucun cas diffuser. 
+Les identifiants et mots de passe, les codes bancaires, adresse et numéros de téléphones, clef privé
+de chiffrement, sont autant d'informations que vous ne devez en aucun cas diffuser.
 
 Si dans l'un de vos codes vous avez besoin de renseigner ce genre d'informations il faut les placer
 dans un dossier séparer (par exemple 'Creds' ou 'Credential') et vous assurer que seul votre code
@@ -713,10 +735,11 @@ demander l'aide d'une ou plusieurs personnes pour faire une documentation.
 
 La première chose que je vous conseille de demander, si vous trouvé une personne de bonnes volontés,
 c'est de demander à ce que quelqu'un relise votre doc. Vous aurez ainsi un avis objectif sur ce qui 
-est bien, ce qui ne l'est pas et sur les choses incompréhensible qu'il sera bon de clarifié.
+est bien, ce qui ne l'est pas et sur les choses incompréhensibles qu'il sera bon de clarifié.
 
 La seconde chose à demander, peut être que l'on vous aide à la prise en main de certains outils qui,
-si on en a pas l'habitude, peuvent être difficile à maitriser.
+si on en a pas l'habitude, peuvent être difficile à maitriser. Ces outils sont certainement utilisés
+dans les Fablab ou les Hacker-Space. N'hésitez pas à vous rendre pour y trouver de l'aide.
 
 Les outils et médias de diffusions
 ==================================
@@ -803,7 +826,8 @@ handicapant. Voici 2 outils qui permettent de traduire : un mot, un texte, un do
       le monde connait.
 
     * `Deepl <https://www.deepl.com/translator>`_ : Il s'agit d'un outil de traduction qui amène
-      plus de nuance dans les traductions et qui génères des traductions de meilleur qualité.
+      plus de nuance dans les traductions et qui génères des traductions de meilleur qualité que ces
+      concurrent.
 
 Les langages de balisage en texte clair (Plantext Markup Language)
 ------------------------------------------------------------------
@@ -825,8 +849,8 @@ est à respecter pour que le document puisse être interpréter par l'ordinateur
       utilisés nativement par Github, ReadTheDoc et GitLab. Sphinx s'appuie sur le reStrucredText.
 
     * `LaTeX <https://fr.wikibooks.org/wiki/LaTeX>`_ : il s'agit d'un langage permettant
-      l'élaboration de document très élaboré. Il est très utilisé par la communauté scientifique
-      pour ces possibilités d'écriture de systèmes mathématiques. Il est également de plus en plus
+      la création de document très élaboré. Il est très utilisé par la communauté scientifique pour
+      ces possibilités d'écriture de systèmes mathématiques. Il est également de plus en plus
       utiliser dans la presse pour ces possibilités des gestions des mises en page.
 
       **Attention** Il s'agit d'un outil très puissant mais très compliqué à utiliser et a
@@ -882,7 +906,7 @@ Avant, pendant et après la documentation
                                 permettra de synthétiser vos idées.
 
                                 Lorsque vous aurez défini les objectifs de votre projet, identifiez 
-                                sur chacun d'entre eux les taches et action qui le compose. Cela 
+                                pour chacun d'entre eux les taches et action qui le compose. Cela 
                                 vous permettra d'avoir un ensemble de petits objectifs permmetant de 
                                 simplifier le processus global de création.
 
@@ -895,7 +919,8 @@ Avant, pendant et après la documentation
                d'écriture. Vous devez vous laisser des informations vous signalant qu'un
                paragraphe n'est pas encore terminé. Pour ma part, j'entoure les éléments en 
                cours de rédaction (ou pour lesquels une modification est a effectué) par 2 bloc 
-               '[WIP]'. Ces blocs sont supprimés quand la partie en cours est complète ::
+               '[WIP]' (Work In Progress : Travail en cours). Ces blocs sont supprimés quand la 
+               partie en cours est complète ::
 
                     Ex:
                     [WIP]
@@ -907,7 +932,6 @@ Avant, pendant et après la documentation
                Cela vous permet d'avoir immédiatement une information visuelle sur ce qui est
                complet.
 
-
                **N.B** : Même si vous avez supprimé ces block, vous pouvez faire des modifs ou 
                autres améliorations sur les paragraphes déjà traiter. Pensez juste à vous laisser
                des indices si vous effectuez une refonte du paragraphe ou si vous y ajoutez un
@@ -918,7 +942,7 @@ Avant, pendant et après la documentation
                dans les fichiers "Bug_ToDo_lst" (qu'il faut consulter régulièrement). Cependant,
                dans le feu de l'action, il m'arrive
                de les mettre directement dans mon document. Pour les identifier, je les
-               entoures encore une fois par 2 blocs : [TODO] ::
+               entoures encore une fois par 2 blocs : [TODO] (à faire) ::
 
                     Ex:
                     [TODO]
@@ -1014,7 +1038,7 @@ Cette licence définit les termes suivants :
     * **BY** : l'attribution. En cas d'utilisation ou de modification, l'auteur doit être cité
 
     * **NC** : Pas d'utilisation commerciale. Une tiers personne ne peut pas vendre tout ou partie du
-      projet.
+      projet ou de la documentation qui lui est rattaché.
 
     * **SA** : Partage dans les mêmes conditions. Même si quelqu'un modifie le projet, il ne peut pas
       s'attribuer la paternité du projet ni changer le type de licence.
@@ -1069,12 +1093,12 @@ une revue scientifique.
 Conclusions
 -----------
 
-Vous devriez maintenant avoir suffise ment d'information pour pouvoir faire votre propre 
+Vous devriez maintenant avoir suffisamment d'information pour pouvoir faire votre propre 
 documentation.
 
 Je vous conseille de faire ce travail de documentation car au-delà de vous aider en cas de reprise 
 d'un projet, le travail de documentation vous aidera à fournir un meilleur travail sur votre projet.
 
-N'hésitez pas à rendre dans un FabLab (VoLAB ?) pour trouver de l'aide vous permettant de d'aller
+N'hésitez pas à rendre dans un FabLab (VoLAB ?!) pour trouver de l'aide vous permettant de d'aller
 au bout de vos projets.
 

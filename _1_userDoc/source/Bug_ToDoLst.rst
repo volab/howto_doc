@@ -101,17 +101,28 @@ ToDo-list
     :Date de traitement:    
     :Cible:                 userDoc
     :Statu:                 None
-    :Problématique:         Commenter et Documenter son code
+    :Problématique:         Commenter et Documenter son code : Cette section est à intégrer après
+                            "Ne pas multiplier les copie d’un projet" et avant "Ne pas négliger la 
+                            sécurité".
     :Traitement:            
 
 ####
 
     :Date de saisie:        180915
+    :Date de traitement:    180918
+    :Cible:                 userDoc
+    :Statu:                 Done
+    :Problématique:         Dans "Uniformiser les projets", présenter l'arborescence complète d'un
+                            dossier projet.
+    :Traitement:            L'arborescence a été compléter et une description de chacun des nouveaux
+                            éléments a été ajouter.
+
+####
+
+    :Date de saisie:        180918
     :Date de traitement:    
     :Cible:                 userDoc
     :Statu:                 None
-    :Problématique:         Dans "Uniformiser les projets", présenter l'arborescence complète d'un
-                            dossier projet.
+    :Problématique:         Dans README.rst, ajouter une section "Comment utiliser se document"
     :Traitement:            
-
 
