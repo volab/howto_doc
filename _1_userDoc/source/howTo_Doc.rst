@@ -709,8 +709,17 @@ Pour évité cette gestion difficile, voici ce que vous pouvez faire.
       autres branches (Dev, gh-pages, test_fonction_truc, etc.) comme un branchage avec les
       différentes ramifications.
 
-      **N.B** : Certains outils de gestion de projet ou certains IDE permettent nativement de "pousser"
-      vos fichiers directement sur les dépôts distant.
+      **N.B** : Certains outils de gestion de projet ou certains IDE permettent nativement de 
+      "pousser" vos fichiers directement sur les dépôts distant.
+
+Commenter et Documenter son code
+--------------------------------
+
+[WIP]
+
+
+
+[WIP]
 
 Ne pas négliger la sécurité
 ---------------------------
@@ -1083,9 +1092,32 @@ Publié sa documentation et son projet
 
 La publication de votre documentation doit être envisagé dès le début de votre projet car les
 outils de rédactions sont différents selon que vous souhaitiez publier sur un WIKI, sur Github ou
-une revue scientifique.
+dans une revue scientifique.
 
-**N. B.**: En plus des outils, la syntaxe des langages utilisée est également très différentes
+**N. B.**: En plus des outils, la syntaxe des langages utilisée est également très différentes.
+
+Les pièges à éviter
+-------------------
+
+Même si cela parait être une façon simple et efficace de publier sa documentation, **il ne faut 
+jamais la publié dans un blog ou un forum**.
+
+    * **Les blogs** : Un blog doit uniquement servir de vitrine. On peut y faire un article 
+      présentant sont projet avec quelques photos et des liens qui pointent vers le dépôt et vers
+      sa documentation.
+
+    * **Les forums** : Les forums représente un lieu de partage et d'entre aide. Les posts qu'on y 
+      met permettent de publier quelques photos de l'évolution d'un projet, de donner ou de recevoir
+      de l'aide. Pour présenter le projet fini ou on met une jolie photo avec des liens vers le 
+      dépôt et vers sa documentation.
+
+
+La raison pour laquelle il ne faut pas  publier un projet ou une documentation sur un forum ou un
+blog et simple. Sur ces médias, seuls les derniers articles sont affichés. Il faut alors savoir 
+exactement ce qu'on cherche pour pouvoir retrouver un article précis. De plus, il est compliqué de 
+devoir rééditer un article chaque fois qu'on veut faire évoluer la documentation. Ces même encore
+pire sur les forums car on risque d'avoir une suite dissolue d'éléments qu'il sera complique de
+pour avoir une vision global du projet.
 
 ####
 

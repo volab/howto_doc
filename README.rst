@@ -34,8 +34,8 @@ Comment utiliser se document
 Ce document est construit sous la forme d'un site web. La navigation se fait par le menu sur la
 gauche de la fenêtre ou en cliquant sur la rubrique désirée sur la partie centrale de la fenêtre.
 
-Pour revenir sur la page d'accueil, il faut cliquez sur : "Table des Matières" dans le menu ou sur :
-"Documentation howTo_doc" sur la gauche de la fenêtre en haut et en bas.
+Pour revenir sur la page d'accueil, il faut cliquez sur : "Documentation howTo_doc" sur la gauche 
+de la fenêtre (en haut et en bas).
 
 Se document est constitué de quatre éléments :
 
