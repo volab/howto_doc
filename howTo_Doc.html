@@ -760,11 +760,61 @@ s’affranchir de cette gestion des versions puisque comme indiquer dans
 Il faut envisager GIT comme un arbre. Avec la branche Master pour le tronc et toutes vos
 autres branches (Dev, gh-pages, test_fonction_truc, etc.) comme un branchage avec les
 différentes ramifications.</p>
-<p><strong>N.B</strong> : Certains outils de gestion de projet ou certains IDE permettent nativement de «&nbsp;pousser&nbsp;»
-vos fichiers directement sur les dépôts distant.</p>
+<p><strong>N.B</strong> : Certains outils de gestion de projet ou certains IDE permettent nativement de
+«&nbsp;pousser&nbsp;» vos fichiers directement sur les dépôts distant.</p>
 </li>
 </ul>
 </div></blockquote>
+</div>
+<div class="section" id="commenter-et-documenter-son-code">
+<h4>Commenter et Documenter son code<a class="headerlink" href="#commenter-et-documenter-son-code" title="Lien permanent vers ce titre">¶</a></h4>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Liens_Web:</th><td class="field-body"><ul class="first last simple">
+<li><dl class="first docutils">
+<dt><a class="reference external" href="https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9rateur_de_documentation">https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9rateur_de_documentation</a></dt>
+<dd># Page d’explication et de démonstration des générateur de code</dd>
+</dl>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>Que vous soyez grand débutant ou un baroudeur tout terrain en programmation, vous allez forcément
+vous retrouvez devant la double problématique :</p>
+<blockquote>
+<div><em>«&nbsp;Elle fait quoi cette saleté de méthode ?!&nbsp;»</em></div></blockquote>
+<p>et</p>
+<blockquote>
+<div><em>«&nbsp;Comment je vais faire pour documenter tous se basard ?&nbsp;»</em></div></blockquote>
+<p>Pour la première question la réponse est qu’il faut absolument mettre des commentaires dans votre
+code. Ça vous aidera à mieux comprendre votre programme après une pause (plus ou moins longue).
+Souvenez vous du : «&nbsp;<a class="reference external" href="Pourquietpourquoi?">Pour qui et pourquoi</a>&nbsp;» évoquer plus haut.</p>
+<p>Pour la deuxième question, il faudrait pouvoir reprendre chacune des Classes et Méthodes qui compose
+votre code pour pouvoir en faire une description complète et donc permettre à n’importe qui (vous
+par exemple) d’utiliser votre programme.</p>
+<p>La thématique de ces deux questions, et la même. Il faudrait donc trouvé une solution pour que les
+commentaires qu’on met dans du code soit automatiquement utilisés pour générer la documentation.</p>
+<p>Heureusement, cette solution existe sous la forme de logiciels qui interprète les commentaires de
+votre code pour générer une documentation souvent disponible dans plusieurs format (html, PDF, EPUB).
+Ces Logiciels se nomment des <strong>Générateur de documentation</strong> voir le liens Web ci-dessus.</p>
+<p>Il en existe plusieurs (quasiment 1 par langage) à vous de trouver votre bonheur. Voici un
+échantillon :</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference external" href="https://fr.wikipedia.org/wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)">Sphinx</a> : pour Python</li>
+<li><a class="reference external" href="https://fr.wikipedia.org/wiki/Javadoc">Javadoc</a> : pour Java</li>
+<li><a class="reference external" href="https://fr.wikipedia.org/wiki/Doxygen">Doxygen</a> : multilangage, mais principalement pour
+le C / C++</li>
+</ul>
+</div></blockquote>
+<p>Les commentaires insérés dans le code doivent respecter une certaine syntaxe (différente en fonction
+de l’outil utiliser).</p>
 </div>
 <div class="section" id="ne-pas-negliger-la-securite">
 <h4>Ne pas négliger la sécurité<a class="headerlink" href="#ne-pas-negliger-la-securite" title="Lien permanent vers ce titre">¶</a></h4>
@@ -1098,7 +1148,7 @@ la modifier et de la redistribuer selon c’est propre conditions, il faut utili
 <p>Pour ma part, j’utilise systématiquement la licence :</p>
 <blockquote>
 <div><p><a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>.</p>
-<a class="reference external image-reference" href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"><img alt="CC-BY-NC-SA" class="align-center" id="id2" src="_images/cc-by-nc-sa_88x31.png" /></a>
+<a class="reference external image-reference" href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"><img alt="CC-BY-NC-SA" class="align-center" id="id3" src="_images/cc-by-nc-sa_88x31.png" /></a>
 </div></blockquote>
 <p>Cette licence définit les termes suivants :</p>
 <blockquote>
@@ -1143,8 +1193,30 @@ donc pas les droits de les utiliser.</p>
 <h3>Publié sa documentation et son projet<a class="headerlink" href="#publie-sa-documentation-et-son-projet" title="Lien permanent vers ce titre">¶</a></h3>
 <p>La publication de votre documentation doit être envisagé dès le début de votre projet car les
 outils de rédactions sont différents selon que vous souhaitiez publier sur un WIKI, sur Github ou
-une revue scientifique.</p>
-<p><strong>N. B.</strong>: En plus des outils, la syntaxe des langages utilisée est également très différentes</p>
+dans une revue scientifique.</p>
+<p><strong>N. B.</strong>: En plus des outils, la syntaxe des langages utilisée est également très différentes.</p>
+<div class="section" id="les-pieges-a-eviter">
+<h4>Les pièges à éviter<a class="headerlink" href="#les-pieges-a-eviter" title="Lien permanent vers ce titre">¶</a></h4>
+<p>Même si cela parait être une façon simple et efficace de publier sa documentation, <strong>il ne faut
+jamais la publié dans un blog ou un forum</strong>.</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Les blogs</strong> : Un blog doit uniquement servir de vitrine. On peut y faire un article
+présentant sont projet avec quelques photos et des liens qui pointent vers le dépôt et vers
+sa documentation.</li>
+<li><strong>Les forums</strong> : Les forums représente un lieu de partage et d’entre aide. Les posts qu’on y
+met permettent de publier quelques photos de l’évolution d’un projet, de donner ou de recevoir
+de l’aide. Pour présenter le projet fini ou on met une jolie photo avec des liens vers le
+dépôt et vers sa documentation.</li>
+</ul>
+</div></blockquote>
+<p>La raison pour laquelle il ne faut pas  publier un projet ou une documentation sur un forum ou un
+blog et simple. Sur ces médias, seuls les derniers articles sont affichés. Il faut alors savoir
+exactement ce qu’on cherche pour pouvoir retrouver un article précis. De plus, il est compliqué de
+devoir rééditer un article chaque fois qu’on veut faire évoluer la documentation. Ces même encore
+pire sur les forums car on risque d’avoir une suite dissolue d’éléments qu’il sera complique de
+pour avoir une vision global du projet.</p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
@@ -1195,6 +1267,7 @@ au bout de vos projets.</p>
 </ul>
 </li>
 <li><a class="reference internal" href="#ne-pas-multiplier-les-copie-d-un-projet">Ne pas multiplier les copie d’un projet</a></li>
+<li><a class="reference internal" href="#commenter-et-documenter-son-code">Commenter et Documenter son code</a></li>
 <li><a class="reference internal" href="#ne-pas-negliger-la-securite">Ne pas négliger la sécurité</a></li>
 </ul>
 </li>
@@ -1214,7 +1287,10 @@ au bout de vos projets.</p>
 <li><a class="reference internal" href="#les-licences">Les licences</a></li>
 <li><a class="reference internal" href="#les-finitions">Les finitions</a><ul>
 <li><a class="reference internal" href="#agrementer-sa-documentation">Agrémenter sa documentation</a></li>
-<li><a class="reference internal" href="#publie-sa-documentation-et-son-projet">Publié sa documentation et son projet</a></li>
+<li><a class="reference internal" href="#publie-sa-documentation-et-son-projet">Publié sa documentation et son projet</a><ul>
+<li><a class="reference internal" href="#les-pieges-a-eviter">Les pièges à éviter</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a class="reference internal" href="#conclusions">Conclusions</a></li>
