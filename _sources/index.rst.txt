@@ -10,9 +10,4 @@ Comment documenter un projet
    Bug_ToDoLst
    VoLAB 
 
-Index et table des matières
-===========================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
