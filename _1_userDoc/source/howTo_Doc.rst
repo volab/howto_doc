@@ -715,11 +715,46 @@ Pour évité cette gestion difficile, voici ce que vous pouvez faire.
 Commenter et Documenter son code
 --------------------------------
 
-[WIP]
+    :Liens_Web:
+                * https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9rateur_de_documentation
+                    # Page d'explication et de démonstration des générateur de code
 
+Que vous soyez grand débutant ou un baroudeur tout terrain en programmation, vous allez forcément 
+vous retrouvez devant la double problématique :
 
+    *"Elle fait quoi cette saleté de méthode ?!"*
 
-[WIP]
+et
+
+    *"Comment je vais faire pour documenter tous se basard ?"*
+
+Pour la première question la réponse est qu'il faut absolument mettre des commentaires dans votre
+code. Ça vous aidera à mieux comprendre votre programme après une pause (plus ou moins longue).
+Souvenez vous du : "`Pour qui et pourquoi <Pour qui et pourquoi ?>`_" évoquer plus haut.
+
+Pour la deuxième question, il faudrait pouvoir reprendre chacune des Classes et Méthodes qui compose
+votre code pour pouvoir en faire une description complète et donc permettre à n'importe qui (vous
+par exemple) d'utiliser votre programme.
+
+La thématique de ces deux questions, et la même. Il faudrait donc trouvé une solution pour que les
+commentaires qu'on met dans du code soit automatiquement utilisés pour générer la documentation.
+
+Heureusement, cette solution existe sous la forme de logiciels qui interprète les commentaires de
+votre code pour générer une documentation souvent disponible dans plusieurs format (html, PDF, EPUB).
+Ces Logiciels se nomment des **Générateur de documentation** voir le liens Web ci-dessus.
+
+Il en existe plusieurs (quasiment 1 par langage) à vous de trouver votre bonheur. Voici un 
+échantillon :
+
+    * `Sphinx <https://fr.wikipedia.org/wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)>`_ : pour Python
+
+    * `Javadoc <https://fr.wikipedia.org/wiki/Javadoc>`_ : pour Java
+
+    * `Doxygen <https://fr.wikipedia.org/wiki/Doxygen>`_ : multilangage, mais principalement pour
+      le C / C++
+
+Les commentaires insérés dans le code doivent respecter une certaine syntaxe (différente en fonction
+de l'outil utiliser).
 
 Ne pas négliger la sécurité
 ---------------------------

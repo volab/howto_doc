@@ -101,7 +101,7 @@ ToDo-list
     :Date de saisie:        180913
     :Date de traitement:    
     :Cible:                 userDoc
-    :Statu:                 None
+    :Statu:                 WIP
     :Problématique:         Commenter et Documenter son code : Cette section est à intégrer après
                             "Ne pas multiplier les copie d’un projet" et avant "Ne pas négliger la 
                             sécurité".
