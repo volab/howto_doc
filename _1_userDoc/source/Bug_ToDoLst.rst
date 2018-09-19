@@ -120,9 +120,9 @@ ToDo-list
 ####
 
     :Date de saisie:        180918
-    :Date de traitement:    
+    :Date de traitement:    180919
     :Cible:                 userDoc
-    :Statu:                 None
+    :Statu:                 Done
     :Problématique:         Dans README.rst, ajouter une section "Comment utiliser se document"
-    :Traitement:            
+    :Traitement:            Nouvelle rubrique ajoutée.
 

@@ -25,12 +25,12 @@ Qui sommes nous ?
    l'associassions VoRoBoTics situé Vauréal (95480).
 
    Nous avons pour vocation le partage non marchand des connaissances
-   et l'échange de compétences. Petits et gros projets se cotoient dans divers domaines comme :
+   et l'échange de compétences. Petits et gros projets se côtoient dans divers domaines comme :
 
    Le travail du bois, du métal, l'électronique, la programmation, la sérigraphie,
    la couture, le scrapbooking et bien d'autres encore.
 
    Les échanges dynamiques dans la bonne humeur et le respect mutuel permettent
-   à chacun d'appendre et de partager à son rythme
+   à chacun de partager et d'apprendre à son rythme
 
    **N'hésitez pas venir nous rendre visite.**

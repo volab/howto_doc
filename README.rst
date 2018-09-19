@@ -4,12 +4,14 @@ Informations générales sur le projet howTo_doc
 
 :Auteur:            `Poltergeist42 <https://github.com/poltergeist42>`_
 :Projet:             howTo_doc
-:Version:            20180914-dev
+:Version:            20180919-dev
 :dépôt GitHub:       https://github.com/poltergeist42/howto_doc
 :doc GitHub:         https://poltergeist42.github.io/howto_doc/
 :doc ReadTheDocs:    https://howto-doc.readthedocs.io
 :Licence:            CC BY-NC-SA 4.0
 :Liens:              https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+####
 
 Description
 ===========
@@ -23,6 +25,34 @@ trucs ainsi que quelques outils vous permettant de réaliser la documentation.
 
 Ma philosophie étant que : projet et documentation sont indissociables l'un de l'autre, ce document
 vous présentera également différents éléments pour la gestion de l'organisation des projets.
+
+####
+
+Comment utiliser se document
+============================
+
+Ce document est construit sous la forme d'un site web. La navigation se fait par le menu sur la
+gauche de la fenêtre ou en cliquant sur la rubrique désirée sur la partie centrale de la fenêtre.
+
+Pour revenir sur la page d'accueil, il faut cliquez sur : "Table des Matières" dans le menu ou sur :
+"Documentation howTo_doc" sur la gauche de la fenêtre en haut et en bas.
+
+Se document est constitué de quatre éléments :
+
+    * `README <https://poltergeist42.github.io/howto_doc/includeMe.html>`_ : Donne une brève 
+      description du projet et donne quelques informations supplémentaires (Auteur, Licence, Version,
+      etc. ).
+
+    * `Comment documenter un projet <https://poltergeist42.github.io/howto_doc/howTo_Doc.html>`_ :
+      C'est l'élément principale traitant du sujet qui nous intéresse.
+
+    * `Bug et ToDo-list <https://poltergeist42.github.io/howto_doc/Bug_ToDoLst.html>`_ : Cet 
+      élément sert à l'élaboration du projet (et à sa correction).
+
+    * `VoLAB <https://poltergeist42.github.io/howto_doc/VoLAB.html>`_ : Cet élément présente le 
+      VoLAB, un super FabLab situé à Vauréal dans le Val d'Oise.
+
+####
 
 Arborescence du projet
 ======================
