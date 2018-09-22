@@ -763,15 +763,15 @@ Le document généré peut être utilisé et intégrée dans votre propre docume
        :height: 50px
        :align: left
 
-       :Petites Astuces:    Les générateurs de documentation étant capable de générer du html, vous
-                            pouvez faire en sorte que ces document soit directement publier sur
-                            Github.io ou ReadTheDoc.
+    :Petites Astuces:    Les générateurs de documentation étant capable de générer du html, vous
+                         pouvez faire en sorte que ces document soit directement publier sur
+                         Github.io ou ReadTheDoc.
 
-                            Il est même possible de gérer toute la documentation d'un projet avec ce
-                            genre de programme. C'est le cas pour tous mes projets (dont le présent
-                            document) pour lesquels j'utilise Sphinx (Générateur de documentation),
-                            ReStructuredText (Langage de balisage léger) et Github.io (support de
-                            publication en ligne).
+                         Il est même possible de gérer toute la documentation d'un projet avec ce
+                         genre de programme. C'est le cas pour tous mes projets (dont le présent
+                         document) pour lesquels j'utilise Sphinx (Générateur de documentation),
+                         ReStructuredText (Langage de balisage léger) et Github.io (support de
+                         publication en ligne).
 
 Ne pas négliger la sécurité
 ---------------------------
