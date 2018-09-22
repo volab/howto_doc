@@ -99,13 +99,13 @@ ToDo-list
 ####
 
     :Date de saisie:        180913
-    :Date de traitement:    
+    :Date de traitement:    180922
     :Cible:                 userDoc
-    :Statu:                 WIP
+    :Statu:                 DONE
     :Problématique:         Commenter et Documenter son code : Cette section est à intégrer après
                             "Ne pas multiplier les copie d’un projet" et avant "Ne pas négliger la 
                             sécurité".
-    :Traitement:            
+    :Traitement:            Nouvelle section créer.
 
 ####
 
