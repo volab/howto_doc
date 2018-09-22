@@ -584,7 +584,7 @@ ou pour tester de nouvelles fonctionnalités.</li>
 </ul>
 </div></blockquote>
 <p>Il s’utilise en ligne de commandes et permet de porter vos projet vers des dépôts distant comme
-GitHub ou GitLab (voir <a class="reference internal" href="#les-outils-de-publication-de-documentation">Les outils de publication de documentation</a>)</p>
+GitHub ou GitLab (voir <a href="#id4"><span class="problematic" id="id5">`Les outils de publication de documentation`_</span></a>)</p>
 <p>Pour les allergique à la ligne de commande, il existe Tortoise (<a class="reference external" href="Lesoutilsdeproduction">Outils de production</a>)
 qui est une interface graphique pour GIT. Il s’intègre dans le menu contextuel de Windows.</p>
 <div class="section" id="version-et-revision">
@@ -793,8 +793,8 @@ vous retrouvez devant la double problématique :</p>
 <blockquote>
 <div><em>«&nbsp;Comment je vais faire pour documenter tous se basard ?&nbsp;»</em></div></blockquote>
 <p>Pour la première question la réponse est qu’il faut absolument mettre des commentaires dans votre
-code. Ça vous aidera à mieux comprendre votre programme après une pause (plus ou moins longue).
-Souvenez vous du : «&nbsp;<a class="reference external" href="Pourquietpourquoi?">Pour qui et pourquoi</a>&nbsp;» évoquer plus haut.</p>
+code. Ça vous aidera à mieux comprendre votre programme après une pause (plus ou moins longue) dans
+vos travaux. Souvenez vous du : «&nbsp;<a class="reference external" href="Pourquietpourquoi?">Pour qui et pourquoi</a>&nbsp;» évoquer plus haut.</p>
 <p>Pour la deuxième question, il faudrait pouvoir reprendre chacune des Classes et Méthodes qui compose
 votre code pour pouvoir en faire une description complète et donc permettre à n’importe qui (vous
 par exemple) d’utiliser votre programme ou l’interface de programmation de votre application (<a class="reference external" href="https://fr.wikipedia.org/wiki/Interface_de_programmation">API</a>).</p>
@@ -823,14 +823,17 @@ de l’outil utiliser).</p>
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name" colspan="2">Petites Astuces:</th></tr>
-<tr class="field-odd field"><td>&#160;</td><td class="field-body"><p class="first">Les générateurs de documentation étant capable de générer du html, vous
+<tr class="field-odd field"><td>&#160;</td><td class="field-body"><ul class="first last">
+<li><p class="first">Les générateurs de documentation étant capable de générer du html, vous
 pouvez faire en sorte que ces document soit directement publier sur
 Github.io ou ReadTheDoc.</p>
-<p class="last">Il est même possible de gérer toute la documentation d’un projet avec ce
+<p>Il est même possible de gérer toute la documentation d’un projet avec ce
 genre de programme. C’est le cas pour tous mes projets (dont le présent
-document) pour lesquels j’utilise Sphinx (Générateur de documentation),
-ReStructuredText (Langage de balisage léger) et Github.io (support de
+document) pour lesquels j’utilise <strong>Sphinx</strong> (Générateur de documentation),
+<strong>ReStructuredText</strong> (Langage de balisage léger) et <strong>Github.io</strong> (support de
 publication en ligne).</p>
+</li>
+</ul>
 </td>
 </tr>
 </tbody>
@@ -890,7 +893,6 @@ lot. Il vous permet de redimensionner, de convertir ou renommer vos images par l
 </div>
 <div class="section" id="les-outils-de-production">
 <h4>Les outils de production<a class="headerlink" href="#les-outils-de-production" title="Lien permanent vers ce titre">¶</a></h4>
-<p>[WIP]</p>
 <blockquote>
 <div><ul>
 <li><p class="first"><a class="reference external" href="https://www.autodesk.com/products/fusion-360/overview">Fusion 360</a>: Il s’agit d’un logiciel
@@ -901,7 +903,7 @@ réalisant un chiffre d’affaire de moins de 100 K$ par ans.</p>
 qui propose énormément de tutos.</p>
 </li>
 <li><p class="first"><a class="reference external" href="http://kicad-pcb.org/">Kicad</a> : Permet d’éditer des schémas électronique, router des PCB,
-générer les typons et gérer le fichier de perçage. Ce logiciel open-source à une
+générer les typons et gérer le fichier de perçage. Ce logiciel open source à une
 forte communauté, ce qui permet de trouver de l’aide facilement.</p>
 </li>
 <li><p class="first">Un éditeur de texte : Je préfère travailler avec des éditeurs de texte simple permettant la
@@ -914,21 +916,31 @@ copier / coller est compliqué.</p>
 qui fera très bien le boulot.</p>
 <p>Si vous ne faites pas de code et que vous préférez le confort d’un éditeur de texte <a class="reference external" href="https://fr.wikipedia.org/wiki/What_you_see_is_what_you_get">WYSIWIG</a>
 comme <a class="reference external" href="https://products.office.com/fr-fr/word">Word</a> ou <a class="reference external" href="https://fr.libreoffice.org/">Libre Office</a>,
-cela ne pose aucun problème. Souvenez-vous simplement que ce genre de soft peut parfois vous
+cela ne pose aucun problème. Souvenez vous simplement que ce genre de soft peut parfois vous
 réserver des surprises au niveau du formatage du texte lorsque vous l’exporterez vers un WIKI.</p>
 </li>
 <li><p class="first">Logiciel de gestion de version</p>
 <blockquote>
 <div><ul class="simple">
-<li>GIT</li>
-<li><a class="reference external" href="https://tortoisegit.org/">Tortoise</a></li>
-<li>Autres</li>
+<li><a class="reference external" href="https://git-scm.com/">GIT</a> : Permet une gestion de version décentraliser (qui n’a pas
+besoin d’un serveur) c’est l’outil ultime du développeur. Il permet de garder une version
+stable et de tester ou de développer en parallèle sans remettre en question le bon
+fonctionnement de la branche stable. GIT permettant la gestion de version de fichier texte,
+vous pouvez l’utiliser pour gérer tous vos projet dont les éléments de construction
+génèrent des fichiers texte. (txt, xml, html, python, C Plus Plus, INI, etc.</li>
+<li><a class="reference external" href="https://tortoisegit.org/">Tortoise</a> : Ce programme l’interface entre GIT et vous. Il
+s’intègre dans votre explorateur et vous permet de gérer toutes vos manipulations GIT à
+partir de votre souris, ce qui représente un sérieux atout pour tous les allergique à la
+ligne de commande. Il ajoute en plus un indicateur visuel à vos fichiers pour que vous
+puissiez identifier les élément qui ont été modifier récemment et qui n’ont pas encore été
+versionner</li>
+<li>Autres : Il existe d’autre logiciel de versionning, comme Mercurial ou SVN. A vous de les
+découvrir et de choisir votre outils préférer.</li>
 </ul>
 </div></blockquote>
 </li>
 </ul>
 </div></blockquote>
-<p>[WIP]</p>
 </div>
 <div class="section" id="les-outils-de-traduction-des-textes">
 <h4>Les outils de traduction des textes<a class="headerlink" href="#les-outils-de-traduction-des-textes" title="Lien permanent vers ce titre">¶</a></h4>
@@ -992,7 +1004,6 @@ Il y a actuellement 2 types de plateforme WIKI. Chacune utilisant une syntaxe di
 </div>
 <div class="section" id="les-generateurs-de-documentation">
 <h4>Les générateurs de documentation<a class="headerlink" href="#les-generateurs-de-documentation" title="Lien permanent vers ce titre">¶</a></h4>
-<p>[WIP]</p>
 <blockquote>
 <div><table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -1010,18 +1021,70 @@ Il y a actuellement 2 types de plateforme WIKI. Chacune utilisant une syntaxe di
 </tbody>
 </table>
 </div></blockquote>
-<p>[WIP]</p>
-</div>
-<div class="section" id="les-outils-de-publication-de-documentation">
-<h4>Les outils de publication de documentation<a class="headerlink" href="#les-outils-de-publication-de-documentation" title="Lien permanent vers ce titre">¶</a></h4>
-<p>[WIP]</p>
+<p>Les générateurs de documentation (<a class="reference external" href="CommenteretDocumentersoncode">voir Commenter et Documenter son code</a>
+permettent de récupérer les commentaires et balises que vous intégrez dans votre code pour générer
+une documentation. Cette documentation peut être générer sous différent format. Pour une
+publication sur le WEB, c’est le format html qui est le plus pratique.</p>
+<p>Il en existe dans tous les langages, par exemples :</p>
 <blockquote>
 <div><ul class="simple">
-<li>Les Wiki (<a class="reference external" href="https://fr.wikipedia.org/wiki/MediaWiki">moteur MediaWiki</a> et <a class="reference external" href="https://fr.wikipedia.org/wiki/DokuWiki">moteur DokuWiki</a>)</li>
-<li>les gestionnaires de dépôt distant (Github, ReadTheDoc, GitLab)</li>
-<li>Presse écrite et revue scientifique</li>
+<li><a class="reference external" href="https://fr.wikipedia.org/wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)">Sphinx (pour Python)</a></li>
+<li><a class="reference external" href="https://fr.wikipedia.org/wiki/Javadoc">Javadoc (pour Java)</a></li>
+<li><a class="reference external" href="https://fr.wikipedia.org/wiki/Doxygen">Doxygen (pour le C/C++)</a></li>
 </ul>
-<p>[WIP]</p>
+</div></blockquote>
+<p>Cette documentation extraite de votre code améliore la qualité votre projet</p>
+</div>
+<div class="section" id="les-outils-de-publication-des-projets-et-de-la-documentation">
+<h4>Les outils de publication des projets et de la documentation<a class="headerlink" href="#les-outils-de-publication-des-projets-et-de-la-documentation" title="Lien permanent vers ce titre">¶</a></h4>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Liens_Web:</th><td class="field-body"><ul class="first last simple">
+<li><dl class="first docutils">
+<dt><a class="reference external" href="https://fr.wikipedia.org/wiki/Wiki">https://fr.wikipedia.org/wiki/Wiki</a></dt>
+<dd># Page de définition d’un WIKI</dd>
+</dl>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>Il y a plusieurs moyen à votre disposition pour publier vos projet et vos documentation sans
+obligatoirement devoir faire appel à un éditeur ou à un service marketing</p>
+<blockquote>
+<div><ul>
+<li><p class="first">Les Wiki (<a class="reference external" href="https://fr.wikipedia.org/wiki/MediaWiki">moteur MediaWiki</a> et <a class="reference external" href="https://fr.wikipedia.org/wiki/DokuWiki">moteur DokuWiki</a>) :
+Les Wiki, dont le plus connu est certainement Wikipedia sont des espaces de publication et
+d’informations collaboratif, c’est à dire que ce que vous y écrivez peut être
+modifier / corriger / compléter par d’autre personnes. Ils représentent une très bonne
+solutions pour la présentation et la documentation des projets. En particulier si le projet a
+été réaliser dans le carde d’un travail universitaire, d’un fablab ou de n’importe quel espace
+collaboratif.</p>
+</li>
+<li><p class="first">Les gestionnaires de dépôt distant (<a class="reference external" href="https://github.com/">Github</a>, <a href="#id6"><span class="problematic" id="id7">`ReadTheDoc &lt;https://readthedocs.org/`_</span></a>, <a class="reference external" href="https://about.gitlab.com/">GitLab</a>) :
+GitHub et Gitlab permettent
+tous les deux de partager des projets et leur documentation. Il ont offre tous les deux la
+possibilité de créer une page Wiki spécifique à votre projet. Seul Github propose de générer
+une page web regroupant toute votre documentation. ReadTheDoc ne permet que de créer une page
+web. C’est un bon complément à GitLab.</p>
+</li>
+<li><p class="first">Les sites de partages de projet en mode DIY (Faites le vous même) : Ce sont des plateformes
+qui permettent de présenter des projet sous la forme d’un tutoriel pas à pas. Pour vous faire
+une idée, vous pouvez visitez les trois exemple ci-dessous :</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference external" href="https://ouiaremakers.com/">Oui Are Makers</a></li>
+<li><a class="reference external" href="https://www.hackster.io/">hackster.io</a></li>
+<li><a class="reference external" href="https://www.instructables.com/">Instructables</a></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
 </div></blockquote>
 </div>
 </div>
@@ -1154,7 +1217,7 @@ documentations, c’est le <a class="reference external" href="https://fr.wikipe
 en France) qui s’applique par défaut sur vos œuvres et créations. Dans ce cas une personne tiers ne
 pourra consulter et utiliser vos créations que dans les conditions de mise à disposition de l’œuvre
 que vous aurez défini.</p>
-<p>Si votre projet n’a pas vocation à être “libre” ou open sources, assurez-vous d’en avoir bien
+<p>Si votre projet n’a pas vocation à être “libre” ou open sources, assurez vous d’en avoir bien
 définit la paternité en la signant avec votre nom ou un pseudonyme (à condition que ce derniers ne
 soit pas lui aussi utilisé par une tierce personne).</p>
 <p>Si vous souhaitez mettre votre création à disposition de tout le monde et permettre à quiconque de
@@ -1299,7 +1362,7 @@ au bout de vos projets.</p>
 <li><a class="reference internal" href="#les-outils-de-traduction-des-textes">Les outils de traduction des textes</a></li>
 <li><a class="reference internal" href="#les-langages-de-balisage-en-texte-clair-plantext-markup-language">Les langages de balisage en texte clair (Plantext Markup Language)</a></li>
 <li><a class="reference internal" href="#les-generateurs-de-documentation">Les générateurs de documentation</a></li>
-<li><a class="reference internal" href="#les-outils-de-publication-de-documentation">Les outils de publication de documentation</a></li>
+<li><a class="reference internal" href="#les-outils-de-publication-des-projets-et-de-la-documentation">Les outils de publication des projets et de la documentation</a></li>
 </ul>
 </li>
 </ul>

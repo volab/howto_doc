@@ -729,8 +729,8 @@ et
     *"Comment je vais faire pour documenter tous se basard ?"*
 
 Pour la première question la réponse est qu'il faut absolument mettre des commentaires dans votre
-code. Ça vous aidera à mieux comprendre votre programme après une pause (plus ou moins longue).
-Souvenez vous du : "`Pour qui et pourquoi <Pour qui et pourquoi ?>`_" évoquer plus haut.
+code. Ça vous aidera à mieux comprendre votre programme après une pause (plus ou moins longue) dans
+vos travaux. Souvenez vous du : "`Pour qui et pourquoi <Pour qui et pourquoi ?>`_" évoquer plus haut.
 
 Pour la deuxième question, il faudrait pouvoir reprendre chacune des Classes et Méthodes qui compose
 votre code pour pouvoir en faire une description complète et donc permettre à n'importe qui (vous
@@ -763,15 +763,16 @@ Le document généré peut être utilisé et intégrée dans votre propre docume
        :height: 50px
        :align: left
 
-    :Petites Astuces:    Les générateurs de documentation étant capable de générer du html, vous
-                         pouvez faire en sorte que ces document soit directement publier sur
-                         Github.io ou ReadTheDoc.
+    :Petites Astuces:    
+                        * Les générateurs de documentation étant capable de générer du html, vous
+                          pouvez faire en sorte que ces document soit directement publier sur
+                          Github.io ou ReadTheDoc.
 
-                         Il est même possible de gérer toute la documentation d'un projet avec ce
-                         genre de programme. C'est le cas pour tous mes projets (dont le présent
-                         document) pour lesquels j'utilise Sphinx (Générateur de documentation),
-                         ReStructuredText (Langage de balisage léger) et Github.io (support de
-                         publication en ligne).
+                          Il est même possible de gérer toute la documentation d'un projet avec ce
+                          genre de programme. C'est le cas pour tous mes projets (dont le présent
+                          document) pour lesquels j'utilise **Sphinx** (Générateur de documentation),
+                          **ReStructuredText** (Langage de balisage léger) et **Github.io** (support de
+                          publication en ligne).
 
 Ne pas négliger la sécurité
 ---------------------------
@@ -836,8 +837,6 @@ un point particulier.
 Les outils de production
 ------------------------
 
-[WIP]
-
     * `Fusion 360 <https://www.autodesk.com/products/fusion-360/overview>`_: Il s'agit d'un logiciel
       de modélisation 3D de design industriel. Bien qu'étant un produit Autodesk (donc close source),
       il est gratuit pour les hobbyistes, les étudiants, les enthousiastes et les entrepreneurs 
@@ -847,7 +846,7 @@ Les outils de production
       qui propose énormément de tutos.
 
     * `Kicad <http://kicad-pcb.org/>`_ : Permet d'éditer des schémas électronique, router des PCB,
-      générer les typons et gérer le fichier de perçage. Ce logiciel open-source à une
+      générer les typons et gérer le fichier de perçage. Ce logiciel open source à une
       forte communauté, ce qui permet de trouver de l'aide facilement.
 
     * Un éditeur de texte : Je préfère travailler avec des éditeurs de texte simple permettant la 
@@ -863,18 +862,27 @@ Les outils de production
 
       Si vous ne faites pas de code et que vous préférez le confort d'un éditeur de texte `WYSIWIG <https://fr.wikipedia.org/wiki/What_you_see_is_what_you_get>`_
       comme `Word <https://products.office.com/fr-fr/word>`_ ou `Libre Office <https://fr.libreoffice.org/>`_,
-      cela ne pose aucun problème. Souvenez-vous simplement que ce genre de soft peut parfois vous
+      cela ne pose aucun problème. Souvenez vous simplement que ce genre de soft peut parfois vous
       réserver des surprises au niveau du formatage du texte lorsque vous l'exporterez vers un WIKI.
 
     * Logiciel de gestion de version
 
-        * GIT
+        * `GIT <https://git-scm.com/>`_ : Permet une gestion de version décentraliser (qui n'a pas
+          besoin d'un serveur) c'est l'outil ultime du développeur. Il permet de garder une version
+          stable et de tester ou de développer en parallèle sans remettre en question le bon
+          fonctionnement de la branche stable. GIT permettant la gestion de version de fichier texte,
+          vous pouvez l'utiliser pour gérer tous vos projet dont les éléments de construction
+          génèrent des fichiers texte. (txt, xml, html, python, C Plus Plus, INI, etc.
 
-        * `Tortoise <https://tortoisegit.org/>`_
+        * `Tortoise <https://tortoisegit.org/>`_ : Ce programme l'interface entre GIT et vous. Il
+          s'intègre dans votre explorateur et vous permet de gérer toutes vos manipulations GIT à
+          partir de votre souris, ce qui représente un sérieux atout pour tous les allergique à la
+          ligne de commande. Il ajoute en plus un indicateur visuel à vos fichiers pour que vous
+          puissiez identifier les élément qui ont été modifier récemment et qui n'ont pas encore été
+          versionner
 
-        * Autres
-
-[WIP]
+        * Autres : Il existe d'autre logiciel de versionning, comme Mercurial ou SVN. A vous de les
+          découvrir et de choisir votre outils préférer.
 
 Les outils de traduction des textes
 -----------------------------------
@@ -924,26 +932,60 @@ est à respecter pour que le document puisse être interpréter par l'ordinateur
 Les générateurs de documentation
 --------------------------------
 
-[WIP]
-
     :Liens_Web:
                 * https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9rateur_de_documentation
                     # Page WIKI sur les générateurs de documentation
 
-[WIP]
+Les générateurs de documentation (`voir Commenter et Documenter son code <Commenter et Documenter son code>`_ 
+permettent de récupérer les commentaires et balises que vous intégrez dans votre code pour générer 
+une documentation. Cette documentation peut être générer sous différent format. Pour une 
+publication sur le WEB, c'est le format html qui est le plus pratique.
 
-Les outils de publication de documentation
-------------------------------------------
+Il en existe dans tous les langages, par exemples :
 
-[WIP]
+    * `Sphinx (pour Python) <https://fr.wikipedia.org/wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)>`_
 
-    * Les Wiki (`moteur MediaWiki <https://fr.wikipedia.org/wiki/MediaWiki>`_ et `moteur DokuWiki <https://fr.wikipedia.org/wiki/DokuWiki>`_)
+    * `Javadoc (pour Java) <https://fr.wikipedia.org/wiki/Javadoc>`_
 
-    * les gestionnaires de dépôt distant (Github, ReadTheDoc, GitLab)
+    * `Doxygen (pour le C/C++) <https://fr.wikipedia.org/wiki/Doxygen>`_ 
 
-    * Presse écrite et revue scientifique
+Cette documentation extraite de votre code améliore la qualité votre projet
 
-    [WIP]
+Les outils de publication des projets et de la documentation
+------------------------------------------------------------
+
+    :Liens_Web:
+
+            * https://fr.wikipedia.org/wiki/Wiki
+                # Page de définition d'un WIKI
+
+Il y a plusieurs moyen à votre disposition pour publier vos projet et vos documentation sans 
+obligatoirement devoir faire appel à un éditeur ou à un service marketing
+
+    * Les Wiki (`moteur MediaWiki <https://fr.wikipedia.org/wiki/MediaWiki>`_ et `moteur DokuWiki <https://fr.wikipedia.org/wiki/DokuWiki>`_) :
+      Les Wiki, dont le plus connu est certainement Wikipedia sont des espaces de publication et 
+      d'informations collaboratif, c'est à dire que ce que vous y écrivez peut être 
+      modifier / corriger / compléter par d'autre personnes. Ils représentent une très bonne 
+      solutions pour la présentation et la documentation des projets. En particulier si le projet a
+      été réaliser dans le carde d'un travail universitaire, d'un fablab ou de n'importe quel espace
+      collaboratif.
+
+    * Les gestionnaires de dépôt distant (`Github <https://github.com/>`_, `ReadTheDoc <https://readthedocs.org/`_, `GitLab <https://about.gitlab.com/>`_) :
+      GitHub et Gitlab permettent
+      tous les deux de partager des projets et leur documentation. Il ont offre tous les deux la 
+      possibilité de créer une page Wiki spécifique à votre projet. Seul Github propose de générer
+      une page web regroupant toute votre documentation. ReadTheDoc ne permet que de créer une page
+      web. C'est un bon complément à GitLab.
+
+    * Les sites de partages de projet en mode DIY (Faites le vous même) : Ce sont des plateformes 
+      qui permettent de présenter des projet sous la forme d'un tutoriel pas à pas. Pour vous faire 
+      une idée, vous pouvez visitez les trois exemple ci-dessous :
+
+        * `Oui Are Makers <https://ouiaremakers.com/>`_
+
+        * `hackster.io <https://www.hackster.io/>`_
+
+        * `Instructables <https://www.instructables.com/>`_
 
 ####
 
@@ -1072,7 +1114,7 @@ en France) qui s'applique par défaut sur vos œuvres et créations. Dans ce cas
 pourra consulter et utiliser vos créations que dans les conditions de mise à disposition de l'œuvre
 que vous aurez défini.
 
-Si votre projet n'a pas vocation à être 'libre' ou open sources, assurez-vous d'en avoir bien
+Si votre projet n'a pas vocation à être 'libre' ou open sources, assurez vous d'en avoir bien
 définit la paternité en la signant avec votre nom ou un pseudonyme (à condition que ce derniers ne 
 soit pas lui aussi utilisé par une tierce personne).
 
