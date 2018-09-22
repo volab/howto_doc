@@ -734,7 +734,7 @@ Souvenez vous du : "`Pour qui et pourquoi <Pour qui et pourquoi ?>`_" évoquer p
 
 Pour la deuxième question, il faudrait pouvoir reprendre chacune des Classes et Méthodes qui compose
 votre code pour pouvoir en faire une description complète et donc permettre à n'importe qui (vous
-par exemple) d'utiliser votre programme.
+par exemple) d'utiliser votre programme ou l'interface de programmation de votre application (`API <https://fr.wikipedia.org/wiki/Interface_de_programmation>`_).
 
 La thématique de ces deux questions, et la même. Il faudrait donc trouvé une solution pour que les
 commentaires qu'on met dans du code soit automatiquement utilisés pour générer la documentation.
@@ -755,6 +755,23 @@ Il en existe plusieurs (quasiment 1 par langage) à vous de trouver votre bonheu
 
 Les commentaires insérés dans le code doivent respecter une certaine syntaxe (différente en fonction
 de l'outil utiliser).
+
+Le document généré peut être utilisé et intégrée dans votre propre documentation.
+
+    .. image:: ./Images/Deco/ampoule.png
+       :width: 50px
+       :height: 50px
+       :align: left
+
+       :Petites Astuces:    Les générateurs de documentation étant capable de générer du html, vous
+                            pouvez faire en sorte que ces document soit directement publier sur
+                            Github.io ou ReadTheDoc.
+
+                            Il est même possible de gérer toute la documentation d'un projet avec ce
+                            genre de programme. C'est le cas pour tous mes projets (dont le présent
+                            document) pour lesquels j'utilise Sphinx (Générateur de documentation),
+                            ReStructuredText (Langage de balisage léger) et Github.io (support de
+                            publication en ligne).
 
 Ne pas négliger la sécurité
 ---------------------------
