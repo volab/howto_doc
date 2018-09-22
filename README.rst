@@ -28,7 +28,7 @@ vous présentera également différents éléments pour la gestion de l'organisa
 
 ####
 
-Comment utiliser se document
+Comment utiliser ce document
 ============================
 
 Ce document est construit sous la forme d'un site web. La navigation se fait par le menu sur la
@@ -37,7 +37,7 @@ gauche de la fenêtre ou en cliquant sur la rubrique désirée sur la partie cen
 Pour revenir sur la page d'accueil, il faut cliquez sur : "Documentation howTo_doc" sur la gauche 
 de la fenêtre (en haut et en bas).
 
-Se document est constitué de quatre éléments :
+Ce document est constitué de quatre éléments :
 
     * `README <https://poltergeist42.github.io/howto_doc/includeMe.html>`_ : Donne une brève 
       description du projet et donne quelques informations supplémentaires (Auteur, Licence, Version,
@@ -62,7 +62,7 @@ projet. Cette arborescence est à reproduire si vous récupérez ce dépôt depu
 
     ProjectDir_Name        # Dossier racine du projet (non versionner)
     |
-    +--project             # (branch master) contient l'ensemble du projet en lui même
+    +--project             # (Branch master) contient l'ensemble du projet en lui même
     |  |
     |  +--_1_userDoc       # Contiens toute la documentation relative au projet
     |  |   |
@@ -73,12 +73,13 @@ projet. Cette arborescence est à reproduire si vous récupérez ce dépôt depu
     |  +--_3_software      # Contiens toute la partie programmation du projet
     |  |
     |  \--_4_PCB           # Contient toutes les parties des circuits imprimés (routage,
-    |                      # Implantation, typon, fichier de perçage, etc
+    |                      # Implantation, typon, fichier de perçage, etc.
     |
     \--webDoc              # Dossier racine de la documentation qui doit être publiée
        |
-       \--html             # (branch gh-pages) C'est dans ce dossier que Sphinx va
+       \--html             # (Branch gh-pages) C'est dans ce dossier que Sphinx va
                            # générer la documentation a publié sur internet
+
 
 
 

@@ -32,8 +32,8 @@ Model Type
 
 ####
 
-Bug identifiés
-==============
+Bugs identifiés
+===============
 
     :Date de saisie:        
     :Date de traitement:    
@@ -51,7 +51,7 @@ ToDo-list
     :Date de traitement:    180825
     :Cible:                 userDoc
     :Statu:                 Done
-    :Problématique:         Dans la partie comment, ne pas oublier de parler du versionning
+    :Problématique:         Dans la partie comment, ne pas oublier de parler du versioning
                             et de l'horodatage
     :Traitement:            Traité dans la partie 'Un peu d'organisation'
 
@@ -72,7 +72,7 @@ ToDo-list
     :Statu:                 Done
     :Problématique:         Dans la partie Comment, parler des problèmes de maintenance et de MAJ 
                             de la difficulté de gestion des source multiples
-    :Traitement:            La rubrique : "Ne pas multiplier les copie d'un projet" a été créer
+    :Traitement:            La rubrique : "Ne pas multiplier les copies d'un projet" a été créer
                             spécialement pour cette problématique.
 
 ####
@@ -81,7 +81,7 @@ ToDo-list
     :Date de traitement:    180919
     :Cible:                 userDoc
     :Statu:                 Done
-    :Problématique:         Dans Finissions / Publication, parler des problèmes lier à la 
+    :Problématique:         Dans Finissions / Publication, parler des problèmes liés à la 
                             publication sur les blogs ou les forums
     :Traitement:            La sous rubrique "Les pièges à éviter" a été créer dans Finissions / 
                             Publications.
@@ -92,7 +92,7 @@ ToDo-list
     :Date de traitement:    180914
     :Cible:                 userDoc
     :Statu:                 Done
-    :Problématique:         Dans versionning, parler des numéros de versions (Doc et Projet)
+    :Problématique:         Dans versioning, parler des numéros de versions (Doc et Projet)
     :Traitement:            Sous rubrique : "Version et révision" créer dans "Versionner tout un 
                             projet"
 
@@ -103,7 +103,7 @@ ToDo-list
     :Cible:                 userDoc
     :Statu:                 DONE
     :Problématique:         Commenter et Documenter son code : Cette section est à intégrer après
-                            "Ne pas multiplier les copie d’un projet" et avant "Ne pas négliger la 
+                            "Ne pas multiplier les copies d’un projet" et avant "Ne pas négliger la 
                             sécurité".
     :Traitement:            Nouvelle section créer.
 
@@ -124,6 +124,7 @@ ToDo-list
     :Date de traitement:    180919
     :Cible:                 userDoc
     :Statu:                 Done
-    :Problématique:         Dans README.rst, ajouter une section "Comment utiliser se document"
+    :Problématique:         Dans README.rst, ajouter une section "Comment utiliser ce document"
     :Traitement:            Nouvelle rubrique ajoutée.
+
 
