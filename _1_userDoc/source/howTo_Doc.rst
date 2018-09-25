@@ -775,6 +775,10 @@ Le document généré peut être utilisé et intégrée dans votre propre docume
                           **ReStructuredText** (Langage de balisage léger) et **Github.io** (support de
                           publication en ligne).
 
+                        * Lorsque vous modifiez votre code, pensez à modifier les commentaires 
+                          également car lorsque reprendrez votre code, il y a de grande chance que
+                          vous ne lisiez que les commentaires.
+
 Ne pas négliger la sécurité
 ---------------------------
 
