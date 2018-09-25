@@ -5,8 +5,8 @@ Informations générales sur le projet howTo_doc
 :Auteur:            `Poltergeist42 <https://github.com/poltergeist42>`_
 :Projet:             howTo_doc
 :Version:            20180919-dev
-:dépôt GitHub:       https://github.com/poltergeist42/howto_doc
-:doc GitHub:         https://poltergeist42.github.io/howto_doc/
+:dépôt GitHub:       https://github.com/volab/howto_doc
+:doc GitHub:         https://volab.github.io/howto_doc/
 :doc ReadTheDocs:    https://howto-doc.readthedocs.io
 :Licence:            CC BY-NC-SA 4.0
 :Liens:              https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -39,17 +39,17 @@ de la fenêtre (en haut et en bas).
 
 Ce document est constitué de quatre éléments :
 
-    * `README <https://poltergeist42.github.io/howto_doc/includeMe.html>`_ : Donne une brève 
+    * `README <https://volab.github.io/howto_doc/includeMe.html>`_ : Donne une brève 
       description du projet et donne quelques informations supplémentaires (Auteur, Licence, Version,
       etc. ).
 
-    * `Comment documenter un projet <https://poltergeist42.github.io/howto_doc/howTo_Doc.html>`_ :
+    * `Comment documenter un projet <https://volab.github.io/howto_doc/howTo_Doc.html>`_ :
       C'est l'élément principale traitant du sujet qui nous intéresse.
 
-    * `Bug et ToDo-list <https://poltergeist42.github.io/howto_doc/Bug_ToDoLst.html>`_ : Cet 
+    * `Bug et ToDo-list <https://volab.github.io/howto_doc/Bug_ToDoLst.html>`_ : Cet 
       élément sert à l'élaboration du projet (et à sa correction).
 
-    * `VoLAB <https://poltergeist42.github.io/howto_doc/VoLAB.html>`_ : Cet élément présente le 
+    * `VoLAB <https://volab.github.io/howto_doc/VoLAB.html>`_ : Cet élément présente le 
       VoLAB, un super FabLab situé à Vauréal dans le Val d'Oise.
 
 ####
