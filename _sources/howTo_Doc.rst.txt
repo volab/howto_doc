@@ -281,7 +281,7 @@ problème sont :
 
         - Done: Travail fini
 
-Vous pouvez consulter le fichier `Bug_ToDoLst <https://github.com/poltergeist42/howto_doc/blob/master/_1_userDoc/source/Bug_ToDoLst.rst>`_
+Vous pouvez consulter le fichier `Bug_ToDoLst <https://github.com/volab/howto_doc/blob/master/_1_userDoc/source/Bug_ToDoLst.rst>`_
 de ce projet pour voir comment je l'utilise.
 
 Tout comme moi, vous pouvez intégrer ce document à la documentation du projet.
@@ -471,7 +471,7 @@ JSON.
                        Mon programme 'arboProject' me crée se fichier automatiquement. Je fais
                        systématiquement apparaitre ce fichier en premier dans ma documentation.
 
-                       Vous pouvez consulter le `fichier README de ce projet <https://github.com/poltergeist42/howto_doc/blob/master/README.rst>`_
+                       Vous pouvez consulter le `fichier README de ce projet <https://github.com/volab/howto_doc/blob/master/README.rst>`_
                        pour voir à quoi cela ressemble.
 
 Versionner et  nommer les fichiers
