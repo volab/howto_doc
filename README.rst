@@ -4,7 +4,7 @@ Informations générales sur le projet howTo_doc
 
 :Auteur:            `Poltergeist42 <https://github.com/poltergeist42>`_
 :Projet:             howTo_doc
-:Version:            20180919-dev
+:Version:            20180925
 :dépôt GitHub:       https://github.com/volab/howto_doc
 :doc GitHub:         https://volab.github.io/howto_doc/
 :doc ReadTheDocs:    https://howto-doc.readthedocs.io
