@@ -163,6 +163,20 @@ vous avez écrit est :
     * Pas trop verbeux. Il s'agit d'une documentation, pas d'un essai littéraire. Il ne faut pas que
       les informations soit perdue dans un flot de blablas inutile.
 
+Des images Oui, mais pas que !
+------------------------------
+
+L'ajout d'image, de croquis, de graphique ou d'illustration est toujours une bonne chose car cela 
+peut aider à la compréhension. Attention toutes fois à ne pas en abuser. Il ne faut pas transformer 
+votre doc en BD ou en rébus.
+
+    * Ajoutez un support visuel que si ça amène une plus-value à votre doc.
+
+    * Accompagnez toujours vos illustrations d'une légende et / ou d'un commentaire.
+
+    * Ne pas concentrer trop d'informations visuelles au même endroit, car cela masque le texte qui
+      est souvent plus important.
+
 Boite à idées
 =============
 
@@ -288,6 +302,21 @@ Tout comme moi, vous pouvez intégrer ce document à la documentation du projet.
 
 **N. B** : N'hésitez pas à joindre tous vos documents de travail dans votre documentation car ils
 représentent de l'information que vous serez content d'avoir après une longue pause dans le projet
+
+    .. image:: ./Images/Deco/ampoule.png
+       :width: 50px
+       :height: 50px
+       :align: left
+
+    :Petites Astuces:
+
+                    #. Il arrive souvent que nos idées nous viennent au cours d'un moment d'oisiveté,
+                       d'un moment de détente ou tous simplement quant ce n'est pas le moment. Pour
+                       être certain de conserver cette brillante idée jusqu'a ce que vous soyez 
+                       enfin devant un PC, prenez l'habitude de toujours avoir avec vous un petit 
+                       blocnote et un stilo. Vous pourrez ainsi preserver votre idée des courrant
+                       d'air en la gardant bien au chaud. Vous n'aurez plus ensuite qu'a l'étofée et
+                       à l'ajouter au reste de votre documentation.
 
 Un peu d'organisation
 =====================
@@ -765,19 +794,20 @@ Le document généré peut être utilisé et intégrée dans votre propre docume
        :align: left
 
     :Petites Astuces:    
-                        * Les générateurs de documentation étant capable de générer du html, vous
-                          pouvez faire en sorte que ces documents soient directement publier sur
-                          Github.io ou ReadTheDoc.
 
-                          Il est même possible de gérer toute la documentation d'un projet avec ce
-                          genre de programme. C'est le cas pour tous mes projets (dont le présent
-                          document) pour lesquels j'utilise **Sphinx** (Générateur de documentation),
-                          **ReStructuredText** (Langage de balisage léger) et **Github.io** (support de
-                          publication en ligne).
+                    #. Les générateurs de documentation étant capable de générer du html, vous
+                       pouvez faire en sorte que ces documents soient directement publier sur
+                       Github.io ou ReadTheDoc.
 
-                        * Lorsque vous modifiez votre code, pensez à modifier les commentaires 
-                          également car lorsque reprendrez votre code, il y a de grande chance que
-                          vous ne lisiez que les commentaires.
+                       Il est même possible de gérer toute la documentation d'un projet avec ce
+                       genre de programme. C'est le cas pour tous mes projets (dont le présent
+                       document) pour lesquels j'utilise **Sphinx** (Générateur de documentation),
+                       **ReStructuredText** (Langage de balisage léger) et **Github.io** (support de
+                       publication en ligne).
+
+                    #. Lorsque vous modifiez votre code, pensez à modifier les commentaires 
+                       également car lorsque reprendrez votre code, il y a de grande chance que
+                       vous ne lisiez que les commentaires.
 
 Ne pas négliger la sécurité
 ---------------------------
@@ -1010,17 +1040,19 @@ Avant, pendant et après la documentation
                :height: 50px
                :align: left
 
-            :Petites Astuces:   La création d'une fiche projet vous permettra non seulement de 
-                                définir les objectifs de votre projet mais en plus, cela vous
-                                permettra de synthétiser vos idées.
+            :Petites Astuces:   
+            
+                            #. La création d'une fiche projet vous permettra non seulement de 
+                               définir les objectifs de votre projet mais en plus, cela vous
+                               permettra de synthétiser vos idées.
 
-                                Lorsque vous aurez défini les objectifs de votre projet, identifiez 
-                                pour chacun d'entre eux les taches et action qui le compose. Cela 
-                                vous permettra d'avoir un ensemble de petits objectifs permettant de 
-                                simplifier le processus global de création.
+                               Lorsque vous aurez défini les objectifs de votre projet, identifiez 
+                               pour chacun d'entre eux les taches et action qui le compose. Cela 
+                               vous permettra d'avoir un ensemble de petits objectifs permettant de 
+                               simplifier le processus global de création.
 
-                                Ces sous-objectifs peuvent être intégrés dans la fiche projet et 
-                                font partie intégrante de la documentation.
+                               Ces sous-objectifs peuvent être intégrés dans la fiche projet et 
+                               font partie intégrante de la documentation.
 
 :Pendant:   #. Essayer d'écrire votre documentation en parallèle du développement de votre 
                projet. Puisque le travail de rédaction prend toujours beaucoup de temps, il y a 
