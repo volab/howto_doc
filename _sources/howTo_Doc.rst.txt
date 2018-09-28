@@ -164,7 +164,7 @@ vous avez écrit est :
       les informations soit perdue dans un flot de blablas inutile.
 
 Des images Oui, mais pas que !
-------------------------------
+==============================
 
 L'ajout d'image, de croquis, de graphique ou d'illustration est toujours une bonne chose car cela 
 peut aider à la compréhension. Attention toutes fois à ne pas en abuser. Il ne faut pas transformer 
