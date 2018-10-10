@@ -1241,7 +1241,7 @@ Pour trouver des images libres de droits, il vous suffit de faire la recherche s
     public domain vector
 
 Publier sa documentation et son projet
-=====================================
+======================================
 
 La publication de votre documentation doit être envisagée dès le début de votre projet car les
 outils de rédactions sont différents selon que vous souhaitiez publier sur un WIKI, sur Github ou
