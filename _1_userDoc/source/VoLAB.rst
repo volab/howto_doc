@@ -22,7 +22,7 @@ Qui sommes nous ?
 -----------------
 
    Le VoLAB, premier FabLab du Val d'Oise (depuis 2013), est un FabLab associatif portée par
-   l'associassions VoRoBoTics situé Vauréal (95480).
+   l'associassion VoRoBoTics situé Vauréal (95480).
 
    Nous avons pour vocation le partage non marchand des connaissances
    et l'échange de compétences. Petits et gros projets se côtoient dans divers domaines comme :

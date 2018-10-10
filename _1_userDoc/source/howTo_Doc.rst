@@ -36,9 +36,9 @@ Tous d'abord parce qu'il est toujours intéressant d'avoir plusieurs points de v
 lorsque l'on décide de s'y intéresser, pour pouvoir se forger sa propre opinion. Ensuite ce document
 n'est pas quelque chose que vous devrez suivre à la lettre pour avoir la garantie de faire une bonne
 documentation. Il s'agit simplement de vous décrire au mieux ma propre recette. Vous pourrez ainsi
-piocher (ou non) quelque idée pour définir votre propre méthode.
+piocher (ou non) quelques idées pour définir votre propre méthode.
 
-Ce document apporte en plus des éléments sur la façon de gérer et d'organisation d'un projet, ce qui
+Ce document apporte en plus des éléments sur la façon de gérer et d'organiser un projet, ce qui
 peut être utile si vous n'avez pas encore défini votre propre méthodologie de gestion de projet.
 
 ####
@@ -49,10 +49,10 @@ Les bonnes questions qu'il faut se poser pour documenter un projet
 
 Il y a deux thèmes importants dans la documentation :
 
-    * **Pour qui et pourquoi** : Ce thèmes permet de définir la cible principale à qui
+    * **Pour qui et pourquoi** : ce thème permet de définir la cible principale à qui
       s'adresse la documentation
       
-    * **Quoi et comment** : Ce thèmes permet de définir les outils nécessaires à la documentation et
+    * **Quoi et comment** : ce thème permet de définir les outils nécessaires à la documentation et
       à l'organisation de votre projet.
 
 ####
@@ -77,25 +77,25 @@ plus complète et plus précise.
                 coté pendant plusieurs mois voire plusieurs années. 
                 
                 Lorsque vous allez enfin pouvoir reprendre votre projet, vous aurez oublié une
-                grande partie du million de détails qui constitue votre projet. Trois choix se
-                présente alors :
+                grande partie du million de détails qui constituent votre projet. Trois choix se
+                présentent alors :
 
                     * Vous reprenez le projet depuis le début pour essayer de comprendre comment
-                      vous avez fait tel opération ou pourquoi vous aviez privilégié une solution
+                      vous avez fait telle opération ou pourquoi vous aviez privilégié une solution
                       plutôt qu'une autre.
 
-                    * Vous remettez votre projet sous les tas de poussière sous lequel il était
+                    * Vous remettez votre projet sous les tas de poussière sous lesquel il était
                       enterrer et vous vous empressez de l'oublier consciencieusement car le
                       reprendre depuis le début représenterait un investissement en temps et en
                       pressage de citron beaucoup trop important.
 
                     * Vous ouvrez simplement la documentation que vous avez pris soin d'écrire tout
-                      au long du projet, ce qui vous permet reprendre rapidement et facilement 
+                      au long du projet, ce qui vous permet de reprendre rapidement et facilement 
                       vos travaux.
                       
 Vous l'aurez compris, vous êtes le premier destinataire de la documentation que vous allez produire.
 Cependant, comme vous aurez pris la peine de vous faire une doc (et donc elle existe déjà), il ne
-vous reste plus qu'à la partagé avec la Terre entière puisque que cela ne vous coutera pas plus
+vous reste plus qu'à la partager avec la Terre entière puisque que cela ne vous coûtera pas plus
 de travail.
 
 ####
@@ -109,7 +109,7 @@ Quoi et comment ?
 A cette question ma réponse est : Tous ce que vous pouvez ! 
 
     * Toutes les idées que vous avez eues, celles que vous avez expérimenté, pourquoi certaines 
-      n'ont pas été conservé, pourquoi les autres oui. 
+      n'ont pas été conservées, pourquoi les autres oui. 
 
     * Tous les croquis que vous avez dessinez sur un coin de nappe (avant de vous apercevoir
       qu'elle était en tissu ;) )
@@ -138,7 +138,7 @@ En résumé, tous ce que vous avez produit ou utiliser pour réaliser votre proj
 
 Si vous pensez : 
 
-    *"ça c'est bon, je m'en souviendrais. Je n'ai pas besoin de le noter !"*
+    *"ça c'est bon, je m'en souviendrai. Je n'ai pas besoin de le noter !"*
 
 Ou :
 
@@ -161,13 +161,13 @@ vous avez écrit est :
       (qui a dit : "meuble Ikéa" ?).
 
     * Pas trop verbeux. Il s'agit d'une documentation, pas d'un essai littéraire. Il ne faut pas que
-      les informations soit perdue dans un flot de blablas inutile.
+      les informations soit perdues dans un flot de blablas inutile.
 
 Des images Oui, mais pas que !
 ==============================
 
 L'ajout d'image, de croquis, de graphique ou d'illustration est toujours une bonne chose car cela 
-peut aider à la compréhension. Attention toutes fois à ne pas en abuser. Il ne faut pas transformer 
+peut aider à la compréhension. Attention toutefois à ne pas en abuser. Il ne faut pas transformer 
 votre doc en BD ou en rébus.
 
     * Ajoutez un support visuel que si ça amène une plus-value à votre doc.
@@ -183,7 +183,7 @@ Boite à idées
 Une idée n'est bonne que si on s'en souvient !
 
 C'est toujours une bonne pratique que de noté toutes vos idées dans un document. Vous pouvez avoir
-plusieurs boites à idée. Une global dans laquelle vous allez décrire les idées qui vous permettrons
+plusieurs boites à idée. Une globale dans laquelle vous allez décrire les idées qui vous permettront
 de commencer d'autres projets qui n'auront peut-être rien à voir les uns avec les autres. Et une par
 projet qui vous servira à améliorer ou à développer votre projet.
 
@@ -194,9 +194,9 @@ projet qui vous servira à améliorer ou à développer votre projet.
 
     :Petites Astuces:
 
-                    #. Tant que vous n'avez pas commencer le projet, laissez-le dormir dans la 
+                    #. Tant que vous n'avez pas commencer le projet, laissez-le dormir dans 
                        la boite à idées. Cela vous évitera d'avoir des tonnes de dossiers projets 
-                       vide qui ne contiennes en tout et pour tout que la description globale de 
+                       vide qui ne contiennent en tout et pour tout que la description globale de 
                        votre idée.
 
                     #. Utilisez, pour votre boite à idées, la même structure / arborescence que
@@ -228,7 +228,7 @@ documentation. Voici par exemple certaines raisons qui vous en empêcherons :
 Pour éviter cette situation il faut documenter régulièrement vos travaux, consigner toutes vos
 expérimentations, prendre des notes sur vos manipulation (voir "`Le Journal de Manip`_") et si
 possible faire une fiche descriptive du projet à partir de laquelle vous pourrez définir plusieurs 
-petits objectifs qui seront plus facile à réaliser et donc à documenter.
+petits objectifs qui seront plus faciles à réaliser et donc à documenter.
 
 Journal de manip, Bug et TODO list
 ==================================
@@ -246,7 +246,7 @@ perdre toutes ces précieuses expériences, vous pouvez créer **un journal de m
 
 Le journal de manip, est un document dans lequel vous allez noter tous ce que vous avez pu faire ou
 tester sur un sujet donné. Vous pouvez faire un journal de manip par projet, mais je vous conseil
-de faire un journal de manip global car au cours de vos différent projet vous allez certainement
+de faire un journal de manip global car au cours de vos différents projets vous allez certainement
 travailler sur des thèmes communs ou similaires.
 
 Ce journal de manip vous servira également de support pour votre documentation.
@@ -265,7 +265,7 @@ Bug et TODO list
 Tout au long du développement de votre projet, vous allez le tester et le faire évoluer. Au cours de
 ces tests, il arrive souvent que l'on constate un défaut ou un point qu'il faudra améliorer. Si ces
 défauts ne sont pas bloquant, il n'est pas nécessaire d'interrompre le travail en cours. Cependant,
-pour ne pas oublier que c'est chose sont à faire, je vous conseille de créer un document dans lequel
+pour ne pas oublier que ces choses sont à faire, je vous conseille de créer un document dans lequel
 tous ces problèmes sont référencés.
 
 Voici le modèle que je me suis défini : ::
@@ -280,7 +280,7 @@ Voici le modèle que je me suis défini : ::
         :Problématique:         Descriptif de la problématique
         :Traitement:            Descriptif du traitement de la problématique
 
-Comme vous pouvez le constatez le modèle est assez simple. Les 2 seuls éléments qui peuvent posés
+Comme vous pouvez le constatez le modèle est assez simple. Les 2 seuls éléments qui peuvent poser
 problème sont :
 
     * **Cible** : C'est ici que je renseigne la "catégorie" de l'élément impacté comme la doc, le
@@ -315,7 +315,7 @@ représentent de l'information que vous serez content d'avoir après une longue 
                        être certain de conserver cette brillante idée jusqu'a ce que vous soyez 
                        enfin devant un PC, prenez l'habitude de toujours avoir avec vous un petit 
                        blocnote et un stilo. Vous pourrez ainsi preserver votre idée des courrant
-                       d'air en la gardant bien au chaud. Vous n'aurez plus ensuite qu'a l'étofée et
+                       d'air en la gardant bien au chaud. Vous n'aurez plus ensuite qu'à l'étofer et
                        à l'ajouter au reste de votre documentation.
 
 Un peu d'organisation
@@ -338,12 +338,12 @@ Il faut faire attention à ne pas se répéter. Il serait dommage de documenter 
 projet parce que cette partie en question est référencer à plusieurs endroits dans votre bazar
 (pas si) organisé.
 
-On peut également étendre le concept à : Ne répète pas ce que les autres ont déjà dit. Il est
-inutile de faire du copier-coller (ou même de réécrire) quelque chose qui a déjà été écris. Il 
+On peut également étendre le concept à : ne répètes pas ce que les autres ont déjà dit. Il est
+inutile de faire du copier-coller (ou même de réécrire) quelque chose qui a déjà été écrit. Il 
 suffit de mettre un lien dans votre documentation pointant vers l'endroit où l'information existe 
 déjà.
 
-**N.B** : N'oubliez pas de cités les sources et les auteurs des informations d'une tiers parti que
+**N.B** : N'oubliez pas de cités les sources et les auteurs des informations d'une tiers partie que
 vous incorporez dans vos documents.
 
 Uniformiser les projets
@@ -358,7 +358,7 @@ comme :
 
     * des plans de fabrication
 
-    * les docs techniques que vous avez récupérer à droite, à gauche
+    * les docs techniques que vous avez récupérés à droite, à gauche
 
     * Vos propres notes et documentation
 
@@ -385,29 +385,29 @@ un nouveau dossier principal et une nouvelle sous arborescence.
 
 C'est à ce moment qu'il faut un peu de discipline (ce que j'appelle la paresse organisée). Vous 
 devez-vous définir une arborescence standardisée dans laquelle vous aurez toujours les mêmes noms de
-dossier et les mêmes modèles de fichiers. Ce qui vous permettra de rangé les différents types de
+dossiers et les mêmes modèles de fichiers. Ce qui vous permettra de ranger les différents types de
 documents toujours de la même façon quel que soit votre projet.
 
 Vous devez utiliser la même arborescence dans tous vos projets pour vous faciliter le travail
 
-Voici en exemple l'arborescence que je me suis définit ::
+Voici en exemple l'arborescence que je me suis défini ::
 
     ProjectDir_Name        # Dossier racine du projet (non versionner)
     |
     +--project             # (Branch master) contient l'ensemble du projet en lui même
     |  |
-    |  +--_1_userDoc       # Contiens toute la documentation relative au projet
+    |  +--_1_userDoc       # Contient toute la documentation relative au projet
     |  |   |
     |  |   \--source       # Dossier réunissant les sources utilisées par Sphinx
     |  |
-    |  +--_2_modelisation  # Contiens tous les plans et toutes les modélisations du projet
+    |  +--_2_modelisation  # Contient tous les plans et toutes les modélisations du projet
     |  |
-    |  +--_3_software      # Contiens toute la partie programmation du projet
+    |  +--_3_software      # Contient toute la partie programmation du projet
     |  |
     |  +--_4_PCB           # Contient toutes les parties des circuits imprimés (routage,
     |  |                   # Implantation, typon, fichier de perçage, etc.)
     |  |
-    |  +--_5_techDoc       # Contiens toutes les documentations techniques des différents composants
+    |  +--_5_techDoc       # Contient toutes les documentations techniques des différents composants
     |  |                   # ou éléments qui constituent le projet. Ces éléments sont identifiés
     |  |                   # par un liens Web dans la documentation. Ce dossier n'est pas "poussé"
     |  |                   # dans le dépôt distant (.gitignore).
@@ -433,8 +433,8 @@ Pour être certain d'utiliser toujours la même arborescence, vous devez limiter
       projet, vous copiez le modèle à l'endroit où vous voulez créer votre projet et vous renommer
       cette copie avec le nom du projet.
 
-    * **Solution 2** : Vous vous faites un petit programme qui vas créer pour tous les répertoires 
-      et sous répertoire nécessaires. Ce genre de programme est très simple à faire et ceux quel que
+    * **Solution 2** : Vous vous faites un petit programme qui va créer pour vous tout les répertoires 
+      et sous répertoire nécessaires. Ce genre de programme est très simple à faire et ce quel que
       soit le langage de programmation que vous utilisez. Vous pouvez faire en sorte que ce 
       programme mette en place une structure plus évoluée comme par exemple : initialiser GIT et 
       Sphinx en même temps que la création de l'arborescence du projet.
@@ -443,7 +443,7 @@ La deuxième solution est plus compliquée à mettre en œuvre, mais elle vous f
 processus de création d'un nouveau projet.
 
 Vous pouvez regarder mon projet `ArboProject <https://github.com/poltergeist42/arboProject>`_ écrit 
-en python. Ce programme me crée une arborescence, copie ou crée certain fichier, initialise GIT et
+en python. Ce programme me crée une arborescence, copie ou crée certains fichiers, initialise GIT et
 Sphinx dans la foulée. De plus je peux modifier mon arborescence en modifiant simplement un fichier
 JSON.
 
@@ -454,8 +454,8 @@ JSON.
 
     :Petites Astuces:
 
-                    #. Si vous utiliser toujours la même arborescence, vous aurez forcement des
-                       dossiers vides. Pour être sûre de ne pas passez votre temps à ouvrir ces
+                    #. Si vous utilisez toujours la même arborescence, vous aurez forcement des
+                       dossiers vides. Pour être sûre de ne pas passer votre temps à ouvrir ces
                        dossiers vides ajoutez le suffixe '_v' au nom de chaque dossier. Vous pouvez
                        même le faire directement dans votre modèle. De cette façon, lorsque vous
                        ajoutez des données dans un dossier, il vous suffit de retirer se suffixe 
@@ -474,8 +474,8 @@ JSON.
                                     \--MaSupperDoc.txt
 
                     #. En plus d'une arborescence standardisée, il est aussi possible de créer un 
-                       certain nombre de fichiers qui seront toujours structuré de la même façon. Je
-                       vous conseil de créer un fichier : README à la racine de votre projet. Ce
+                       certain nombre de fichiers qui seront toujours structurés de la même façon. Je
+                       vous conseille de créer un fichier : README à la racine de votre projet. Ce
                        fichier devrait contenir les éléments suivants :
                        
                             * Le ou les auteurs du projet (normalement vous)
@@ -498,7 +498,7 @@ JSON.
                               du projet
 
                        Mon programme 'arboProject' me crée se fichier automatiquement. Je fais
-                       systématiquement apparaitre ce fichier en premier dans ma documentation.
+                       systématiquement apparaître ce fichier en premier dans ma documentation.
 
                        Vous pouvez consulter le `fichier README de ce projet <https://github.com/volab/howto_doc/blob/master/README.rst>`_
                        pour voir à quoi cela ressemble.
@@ -520,10 +520,10 @@ L'un des problèmes que l'on rencontre souvent est :
                 d'un truc important. Vous modifier votre fichier et là cette fois c'est sûr, c'est 
                 la version finale. Comme vous ne voulez pas écraser l'ancien fichier, vous 
                 l'enregistrer en tant que '*mon_super_fichier_final_final.txt*'. Puis quelques mois 
-                après vous faites une nouvelle modif alors vous enregistrez le fichier sous : 
+                après, vous faites une nouvelle modif alors vous enregistrez le fichier sous : 
                 '*mon_super_fichier_final_final_V1.txt*'.
 
-                Je pense que vous avez compris ou je voulais en venir.
+                Je pense que vous avez compris où je voulais en venir.
 
 Pour éviter ce genre de problème il existe une technique simple que l'on nomme : "l'horodatage".
 Cette technique consiste à ajouter, en préfixe, la date en version courte au nom de votre 
@@ -543,7 +543,7 @@ Votre ficher aura alors la forme : ::
     Ex:
         '180825_mon_super_fichier.txt'
 
-Pour m'a part je me contente de préfixer mes fichiers avec la date. Il peut malgré tout y avoir des
+Pour ma part je me contente de préfixer mes fichiers avec la date. Il peut malgré tout y avoir des
 situations ou vous souhaiterez avoir une information plus précise sur l'horodatage du fichier. La 
 solution est alors d'ajouter l'heure en plus de la date : ::
 
@@ -561,7 +561,8 @@ Cette technique présente plusieurs avantages :
       simplement en consultant son nom
 
     * Lorsque, dans votre explorateur de fichier, vous classerez vos fichiers par nom, ceux-ci seront
-      également automatiquement classé par ordre chronologique
+      également automatiquement classé par ordre chronologique 
+      C'est tout l'intérêt d'écrire l'année en premier, suivi du mois !
 
 Versionner tout un projet
 +++++++++++++++++++++++++
@@ -580,7 +581,7 @@ plusieurs branches de travail :
     * La branche **'Master'** : C'est la branche principale (Obligatoire). Elle est utilisée pour les 
       versions Stable et / ou fonctionnelles des projets.
 
-    * La Branch **'gh-pages'** : Cette branche devra obligatoirement être créer si vous utilisez la 
+    * La Branche **'gh-pages'** : Cette branche devra obligatoirement être créer si vous utilisez la 
       fonctionnalité de gestion / publication de la documentation de GitHub : github.io
 
     * Les autres branches que vous devrez créer, sont utilisées pour les versions de développement
@@ -590,7 +591,7 @@ Il s'utilise en ligne de commandes et permet de porter vos projets vers des dép
 GitHub ou GitLab (voir `Les outils de publication des projets et de la documentation`_)
 
 
-Pour les allergique à la ligne de commande, il existe Tortoise (`Outils de production <Les outils de production>`_)
+Pour les allergiques à la ligne de commande, il existe Tortoise (`Outils de production <Les outils de production>`_)
 qui est une interface graphique pour GIT. Il s'intègre dans le menu contextuel de Windows.
 
 Version et révision
@@ -603,7 +604,7 @@ Version et révision
                 * https://semver.org/lang/fr/
                     # Gestion sémantique de version
 
-Il est important, pour vous aussi bien que pour d'autre personnes qui souhaiterai utiliser votre 
+Il est important, pour vous aussi bien que pour d'autres personnes qui souhaiteraient utiliser votre 
 projet ou consulter votre documentation, d'avoir des numéros de versions sur vos documents ou
 autres éléments du projet.
 
@@ -620,7 +621,7 @@ Consultez les liens ci-dessus pour plus de détail.
 
 Pour ma part je préfère ne pas utiliser SemVer car je trouve se procéder trop contraignant. Puisque 
 mes projets sont construits dans le temps, j'utilise la date comme numéros de versions. Pour
-différencier les versions de développement des versions stables (en plus de ma gestion des Branch
+différencier les versions de développement des versions stables (en plus de ma gestion des Branches
 dans GIT), j'ajoute le suffixe "-dev" à la suite de la date. ::
 
     Format:
@@ -637,21 +638,21 @@ On constate que je pourrais simplifier mes numéros de version en supprimant les
 l'année. Malheureusement, je n'y avais pas pensé quand j'ai adopté ce système de notation. Par 
 soucis de cohérence, je continue donc avec ce format.
 
-Vous comprenez pourquoi il faut y réfléchir avant d adopté un système de notation. Si vous décidiez 
-de changer de votre façon d'affecter des numéros version, sachez que cela pourrait vous gêner par la 
-suite dans vos gestions de projet mais cela reste acceptable tant que vous restez cohérent sur les 
-différentes versions de projet. **Un changement de nomenclature ne peut donc être effectué qu'a partir 
+Vous comprenez pourquoi il faut y réfléchir avant d'adopté un système de notation. Si vous décidiez 
+de changer votre façon d'affecter des numéros de version, sachez que cela pourrait vous gêner par la 
+suite dans vos gestions de projets, mais cela reste acceptable tant que vous restez cohérent sur les 
+différentes versions d'un même projet. **Un changement de nomenclature ne peut donc être effectué qu'a partir 
 d'un nouveau projet.**
 
-Je fais apparaitre ces numéros de versions au début de mes programmes. Lorsqu'il s'agit d'un projet
+Je fais apparaître ces numéros de versions au début de mes programmes. Lorsqu'il s'agit d'un projet
 orienté "blablas" comme le présent document, je le place dans le document "`README <https://poltergeist42.github.io/howto_doc/includeMe.html>`_"
-qui est présent dans tous mes projet (`voir : Uniformiser les projets <Uniformiser les projets>`_).
+qui est présent dans tous mes projets (`voir : Uniformiser les projets <Uniformiser les projets>`_).
 
 Nommer les fichiers et les dossiers correctement
 ++++++++++++++++++++++++++++++++++++++++++++++++
 
-Beaucoup d'entre vous l'ignore, mais on ne doit pas nommer les fichiers n'importe comment. Il y a 
-des règles de syntaxe à respecter. Là où les systèmes d'exploitation fond des pièges (Windows en
+Beaucoup d'entre vous l'ignorent, mais on ne doit pas nommer les fichiers n'importe comment. Il y a 
+des règles de syntaxe à respecter. Là où les systèmes d'exploitation font des pièges (Windows en
 particulier), c'est que bien qu'on ne doive pas nommer les fichiers n'importe comment, le système ne
 nous l'interdit pas.
 
@@ -676,7 +677,7 @@ Voici un résumé de ce qu'il faut faire ou pas
 
 Il est important de respecter ses règles de nommage car les outils que vous allez utiliser comme :
 Le Raspberry Pi (ou toutes les machines linux), Github, Wikimedia (et tous le WEB en général),
-Sphinx, Doxygen et bien d'autre encore, respect ces règles.
+Sphinx, Doxygen et bien d'autre encore, respectent ces règles.
 
 Ne pas multiplier les copies d'un projet
 ----------------------------------------
@@ -733,7 +734,7 @@ Pour éviter cette gestion difficile, voici ce que vous pouvez faire.
       fonctionnelle et n'ayant pas de problèmes bloquants. 
 
       L'utilisation de GIT et d'un gestionnaire de dépôt distant comme Github ou Gitlab permet de 
-      s'affranchir de cette gestion des versions puisque comme indiquer dans 
+      s'affranchir de cette gestion des versions puisque comme indiqué dans 
       `Versionner tout un projet <Versionner tout un projet>`_ on travaille avec la notion de branche.
       Il faut envisager GIT comme un arbre. Avec la branche Master pour le tronc et toutes vos 
       autres branches (Dev, gh-pages, test_fonction_truc, etc.) comme un branchage avec les
@@ -756,11 +757,11 @@ vous retrouvez devant la double problématique :
 
 et
 
-    *"Comment je vais faire pour documenter tous se Bazard ?"*
+    *"Comment je vais faire pour documenter tout ce Bazar ?"*
 
-Pour la première question la réponse est qu'il faut absolument mettre des commentaires dans votre
-code. Ça vous aidera à mieux comprendre votre programme après une pause (plus ou moins longue) dans
-vos travaux. Souvenez-vous du : "`Pour qui et pourquoi <Pour qui et pourquoi ?>`_" évoquer plus haut.
+Pour la première question, la réponse est qu'il faut absolument mettre des commentaires dans votre
+code, ça vous aidera à mieux comprendre votre programme après une pause (plus ou moins longue) dans
+vos travaux. Souvenez-vous du : "`Pour qui et pourquoi <Pour qui et pourquoi ?>`_" évoqué plus haut.
 
 Pour la deuxième question, il faudrait pouvoir reprendre chacune des Classes et Méthodes qui compose
 votre code pour pouvoir en faire une description complète et donc permettre à n'importe qui (vous
@@ -771,7 +772,7 @@ commentaires qu'on met dans du code soit automatiquement utilisés pour génére
 
 Heureusement, cette solution existe sous la forme de logiciels qui interprète les commentaires de
 votre code pour générer une documentation souvent disponible dans plusieurs format (html, PDF, EPUB).
-Ces Logiciels se nomment des **Générateur de documentation** voir le liens Web ci-dessus.
+Ces Logiciels se nomment des **Générateur de documentation** voir le lien Web ci-dessus.
 
 Il en existe plusieurs (quasiment 1 par langage) à vous de trouver votre bonheur. Voici un 
 échantillon :
@@ -786,7 +787,7 @@ Il en existe plusieurs (quasiment 1 par langage) à vous de trouver votre bonheu
 Les commentaires insérés dans le code doivent respecter une certaine syntaxe (différente en fonction
 de l'outil utiliser).
 
-Le document généré peut être utilisé et intégrée dans votre propre documentation.
+Le document généré peut être utilisé et intégré dans votre propre documentation.
 
     .. image:: ./Images/Deco/ampoule.png
        :width: 50px
@@ -806,15 +807,15 @@ Le document généré peut être utilisé et intégrée dans votre propre docume
                        publication en ligne).
 
                     #. Lorsque vous modifiez votre code, pensez à modifier les commentaires 
-                       également car lorsque reprendrez votre code, il y a de grande chance que
+                       également car lorsque vous reprendrez votre code, il y a de grandes chances que
                        vous ne lisiez que les commentaires.
 
 Ne pas négliger la sécurité
 ---------------------------
 
-**Il ne faut jamais laisser des informations personnelles dans vos documentations, dépôt ou code !**
+**Il ne faut jamais laisser des informations personnelles dans vos documentations, dépôts ou code !**
 
-Les identifiants et mots de passe, les codes bancaires, adresse et numéros de téléphones, clef privée
+Les identifiants et mots de passe, les codes bancaires, adresses et numéros de téléphones, clefs privées
 de chiffrement, sont autant d'informations que vous ne devez en aucun cas diffuser.
 
 Si dans l'un de vos codes vous avez besoin de renseigner ce genre d'informations il faut les placer
@@ -830,13 +831,13 @@ Demander de l'aide de temps en temps
 De la même façon qu'il est difficile de mener un projet entièrement seul, il peut être intéressant de
 demander l'aide d'une ou plusieurs personnes pour faire une documentation.
 
-La première chose que je vous conseille de demander, si vous trouvé une personne de bonnes volontés,
+La première chose que je vous conseille de demander, si vous trouvez une personne de bonne volonté,
 c'est de demander que quelqu'un relise votre doc. Vous aurez ainsi un avis objectif sur ce qui 
 est bien, ce qui ne l'est pas et sur les choses incompréhensibles qu'il sera bon de clarifier.
 
 La seconde chose à demander, peut être que l'on vous aide à la prise en main de certains outils qui,
 si on n’en a pas l'habitude, peuvent être difficile à maitriser. Ces outils sont certainement utilisés
-dans les Fablab ou les Hackerspace. N'hésitez pas à vous rendre pour y trouver de l'aide.
+dans les Fablabs ou les Hackerspaces. N'hésitez pas à vous y rendre pour trouver de l'aide.
 
 Les outils et médias de diffusions
 ==================================
@@ -889,7 +890,7 @@ Les outils de production
       
       J'utilise `VIM <https://www.vim.org/>`_ par ce qu'il est disponible sur toutes les
       plateformes (Windows, MacOs, Linux, BSD). C'est un outil un peu compliqué à utiliser car il 
-      pour l'utiliser il faut tout apprendre depuis le début. Même tache aussi simple qu'un 
+      pour l'utiliser il faut tout apprendre depuis le début. Même une tâche aussi simple qu'un 
       copier / coller est compliqué.
 
       Si vous êtes sous Windows, vous pouvez utiliser `Notepad ++ <https://notepad-plus-plus.org/fr/>`_
@@ -902,7 +903,7 @@ Les outils de production
 
     * Logiciel de gestion de version
 
-        * `GIT <https://git-scm.com/>`_ : Permet une gestion de version décentraliser (qui n'a pas
+        * `GIT <https://git-scm.com/>`_ : Permet une gestion de version décentralisée (qui n'a pas
           besoin d'un serveur) c'est l'outil ultime du développeur. Il permet de garder une version
           stable et de tester ou de développer en parallèle sans remettre en question le bon
           fonctionnement de la branche stable. GIT permettant la gestion de version de fichier texte,
@@ -913,17 +914,17 @@ Les outils de production
           s'intègre dans votre explorateur et vous permet de gérer toutes vos manipulations GIT à
           partir de votre souris, ce qui représente un sérieux atout pour tous les allergiques à la
           ligne de commande. Il ajoute en plus un indicateur visuel à vos fichiers pour que vous
-          puissiez identifier les éléments qui ont été modifier récemment et qui n'ont pas encore été
+          puissiez identifier les éléments qui ont été modifiés récemment et qui n'ont pas encore été
           versionnés
 
         * Autres : Il existe d'autre logiciel de versioning, comme Mercurial ou SVN. A vous de les
-          découvrir et de choisir votre outil préférer.
+          découvrir et de choisir votre outil préféré.
 
 Les outils de traduction des textes
 -----------------------------------
 
 Que ce soit dans la préparation ou dans la réalisation de votre projet, vous allez certainement
-devoir consulter des sites ou des docs écrit dans une autre langue. Cela peut vite être très
+devoir consulter des sites ou des docs écris dans une autre langue. Cela peut vite être très
 handicapant. Voici deux outils qui permettent de traduire : un mot, un texte, un document ou un site.
 
     * `Google Translate <https://translate.google.fr/>`_ : Il s'agit de l'outil de Google que tous 
@@ -937,13 +938,13 @@ Les langages de balisage en texte clair (Plantext Markup Language)
 ------------------------------------------------------------------
 
 Les langages de balisages en texte clair sont des langages qui doivent pouvoir être interprété 
-informatiquement tout en en restant parfaitement lisible par un les humains. Cela permet d'écrire
+informatiquement tout en en restant parfaitement lisible par les humains. Cela permet d'écrire
 un document sans avoir à se préoccuper de l'aspect esthétique. Seule une syntaxe peu contraignante 
 est à respecter pour que le document puisse être interpréter par l'ordinateur.
 
     :Liens_Web:
                 * https://fr.wikipedia.org/wiki/Langage_de_balisage_l%C3%A9ger
-                    # Petite explication sur les langages de balisage simple
+                    # Petite explication sur les langages de balisage simples
 
                 * https://fr.wikipedia.org/wiki/LaTeX
                     # Page Wiki de présentation du LaTeX
@@ -954,10 +955,10 @@ est à respecter pour que le document puisse être interpréter par l'ordinateur
 
     * `LaTeX <https://fr.wikibooks.org/wiki/LaTeX>`_ : il s'agit d'un langage permettant
       la création de document très élaboré. Il est très utilisé par la communauté scientifique pour
-      ces possibilités d'écriture de systèmes mathématiques. Il est également de plus en plus
-      utiliser dans la presse pour ces possibilités des gestions des mises en page.
+      ses possibilités d'écriture de systèmes mathématiques. Il est également de plus en plus
+      utilisé dans la presse pour ses possibilités de gestion des mises en page.
 
-      **Attention** Il s'agit d'un outil très puissant mais très compliqué à utiliser et a
+      **Attention** Il s'agit d'un outil très puissant mais très compliqué à utiliser et à
       mettre en œuvre.
 
     * `MediaWiki <https://www.mediawiki.org/wiki/Help:Formatting/fr>`_ et `DokuWiki <https://doc.ubuntu-fr.org/wiki/syntaxe>`_ :
@@ -973,7 +974,7 @@ Les générateurs de documentation
 
 Les générateurs de documentation (`voir Commenter et Documenter son code <Commenter et Documenter son code>`_)
 permettent de récupérer les commentaires et balises que vous intégrez dans votre code pour générer 
-une documentation. Cette documentation peut être générer sous différent format. Pour une 
+une documentation. Cette documentation peut être générée sous différents formats. Pour une 
 publication sur le WEB, c'est le format **html** qui est le plus pratique.
 
 Il en existe dans tous les langages, par exemples :
@@ -984,7 +985,7 @@ Il en existe dans tous les langages, par exemples :
 
     * `Doxygen (pour le C/C++) <https://fr.wikipedia.org/wiki/Doxygen>`_ 
 
-Cette documentation extraite de votre code améliore la qualité votre projet tout en vous permettant 
+Cette documentation extraite de votre code améliore la qualité de votre projet tout en vous permettant 
 une lecture plus confortable de votre interface.
 
 Les outils de publication des projets et de la documentation
@@ -999,21 +1000,21 @@ Il y a plusieurs moyens à votre disposition pour publier vos projets et vos doc
 obligatoirement devoir faire appel à un éditeur ou à un service marketing
 
     * Les Wiki (`moteur MediaWiki <https://fr.wikipedia.org/wiki/MediaWiki>`_ et `moteur DokuWiki <https://fr.wikipedia.org/wiki/DokuWiki>`_) :
-      Les Wiki, dont le plus connu est certainement Wikipédia sont des espaces de publication et 
-      d'informations collaboratif, c'est à dire que ce que vous y écrivez peut-être 
-      modifier / corriger / compléter par d'autre personnes. Ils représentent une très bonne 
-      solutions pour la présentation et la documentation des projets. En particulier si le projet a
-      été réaliser dans le cadre d'un travail universitaire, d'un fablab ou de n'importe quel espace
+      Les Wikis, dont le plus connu est certainement Wikipédia sont des espaces de publication et 
+      d'information collaboratifs, c'est à dire que ce que vous y écrivez peut-être 
+      modifié / corrigé / complété par d'autres personnes. Ils représentent une très bonne 
+      solution pour la présentation et la documentation des projets. En particulier si le projet a
+      été réalisé dans le cadre d'un travail universitaire, d'un fablab ou de n'importe quel espace
       collaboratif.
 
     * Les gestionnaires de dépôt distant (`Github <https://github.com/>`_, `Read The Docs <https://readthedocs.org>`_, `GitLab <https://about.gitlab.com/>`_) :
       GitHub et Gitlab permettent
-      tous les deux de partager des projets et leur documentation. Ils ont offre tous les deux la 
+      tous les deux de partager des projets et leur documentation. Ils offrent tous les deux la 
       possibilité de créer une page Wiki spécifique à votre projet. Seul Github propose de générer
       une page web regroupant toute votre documentation. ReadTheDoc ne permet que de créer une page
       web. C'est un bon complément à GitLab.
 
-    * Les sites de partages de projet en mode DIY (Faites le vous-même) : Ce sont des plateformes 
+    * Les sites de partage de projet en mode DIY (Faites le vous-même) : Ce sont des plateformes 
       qui permettent de présenter des projets sous la forme d'un tutoriel pas à pas. Pour vous faire 
       une idée, vous pouvez visitez les trois exemples ci-dessous :
 
@@ -1030,7 +1031,7 @@ Avant, pendant et après la documentation
 ----------------------------------------
 
 :Avant:     Vous devez vous créer une structure de travail, rassembler les différentes 
-            documentation que vous avez déjà et définir les objectifs de votre projet.
+            documentations que vous avez déjà et définir les objectifs de votre projet.
 
             Ces éléments vous serviront à la fois : à la réalisation de votre projet et à 
             l'établissement de votre documentation.
@@ -1047,19 +1048,19 @@ Avant, pendant et après la documentation
                                permettra de synthétiser vos idées.
 
                                Lorsque vous aurez défini les objectifs de votre projet, identifiez 
-                               pour chacun d'entre eux les taches et action qui le compose. Cela 
+                               pour chacun d'entre eux les taches et actions qui le composent. Cela 
                                vous permettra d'avoir un ensemble de petits objectifs permettant de 
                                simplifier le processus global de création.
 
                                Ces sous-objectifs peuvent être intégrés dans la fiche projet et 
                                font partie intégrante de la documentation.
 
-:Pendant:   #. Essayer d'écrire votre documentation en parallèle du développement de votre 
+:Pendant:   #. Essayez d'écrire votre documentation en parallèle du développement de votre 
                projet. Puisque le travail de rédaction prend toujours beaucoup de temps, il y a 
-               de grande chance que vous soyez souvent amené à vous interrompre en cours
+               de grandes chances que vous soyez souvent amené à vous interrompre en cours
                d'écriture. Vous devez vous laisser des informations vous signalant qu'un
                paragraphe n'est pas encore terminé. Pour ma part, j'entoure les éléments en 
-               cours de rédaction (ou pour lesquels une modification est a effectué) par deux blocs 
+               cours de rédaction (ou pour lesquels une modification est à effectuer) par deux blocs 
                '[WIP]' (Work In Progress : Travail en cours). Ces blocs sont supprimés quand la 
                partie en cours est complète ::
 
@@ -1079,7 +1080,7 @@ Avant, pendant et après la documentation
                complément conséquent.
 
             #. Une autre petite astuce est d'insérer des penses bêtes dans vos documents pour
-               que vous vous rappeliez que vouliez parler d'un truc. Je mets ces penses bêtes 
+               que vous vous rappeliez que vous vouliez parler d'un truc. Je mets ces penses bêtes 
                dans les fichiers "Bug_ToDo_lst" (qu'il faut consulter régulièrement). Cependant,
                dans le feu de l'action, il m'arrive
                de les mettre directement dans mon document. Pour les identifier, je les
@@ -1104,7 +1105,7 @@ Avant, pendant et après la documentation
                vers une autre partie du texte avant de revenir sur la partie actuelle.
 
             #. Pour vous aider à naviguer facilement dans votre documentation, insérez une
-               **Table de matières** dans votre documentation. Il est a noté que les outils de
+               **Table de matières** dans votre documentation. Il est à noter que les outils de
                publication WEB (WIKI, Sphinx, etc.) ajoutent automatiquement cette table des
                matières.
                    
@@ -1122,7 +1123,7 @@ Avant, pendant et après la documentation
                conventions syntaxiques.
 
             #. N'oubliez pas de vous relire (souvent) pour vous assurer qu'il n'y a pas de
-               doublons, de non-sens, d'incohérence ou simplement de coquille dans votre doc.
+               doublon, de non-sen, d'incohérence ou simplement de coquille dans votre doc.
 
             #. Définissez votre projet et tenez-vous y. Il est possible voir fréquent qu’un
                projet évolue en cours de route. Tant que vous ne cherchez pas à le faire évoluer en
@@ -1157,7 +1158,7 @@ définit la paternité en la signant avec votre nom ou un pseudonyme (à conditi
 soit pas lui aussi utilisé par une tierce personne).
 
 Si vous souhaitez mettre votre création à disposition de tout le monde et permettre à quiconque de
-la modifier et de la redistribuer selon c'est propres conditions, il faut utiliser la 
+la modifier et de la redistribuer selon ses propres conditions, il faut utiliser la 
 `licence X11 (licence MIT) <https://directory.fsf.org/wiki/License:X11>`_.
 
 Vous pouvez consulter les différentes licences depuis les liens Web ci-dessous :
@@ -1219,36 +1220,36 @@ Pour trouver des images libres de droits, il vous suffit de faire la recherche s
     # Recherche de dessins vectorisés et clipart
     public domain vector
 
-Publié sa documentation et son projet
+Publier sa documentation et son projet
 =====================================
 
-La publication de votre documentation doit être envisagé dès le début de votre projet car les
+La publication de votre documentation doit être envisagée dès le début de votre projet car les
 outils de rédactions sont différents selon que vous souhaitiez publier sur un WIKI, sur Github ou
 dans une revue scientifique.
 
-**N. B.**: En plus des outils, la syntaxe des langages utilisée est également très différentes.
+**N. B.**: En plus des outils, la syntaxe des langages utilisés est également très différentes.
 
 Les pièges à éviter
 -------------------
 
 Même si cela parait être une façon simple et efficace de publier sa documentation, **il ne faut 
-jamais la publié dans un blog ou un forum**.
+jamais la publier dans un blog ou un forum**.
 
     * **Les blogs** : Un blog doit uniquement servir de vitrine. On peut y faire un article 
       présentant son projet avec quelques photos et des liens qui pointent vers le dépôt et vers
       sa documentation.
 
-    * **Les forums** : Les forums représente un lieu de partage et d'entre aide. Les posts qu'on y 
+    * **Les forums** : Les forums représentent un lieu de partage et d'entre aide. Les posts qu'on y 
       met permettent de publier quelques photos de l'évolution d'un projet, de donner ou de recevoir
-      de l'aide. Pour présenter le projet fini ou on met une jolie photo avec des liens vers le 
+      de l'aide, de présenter le projet fini ou de mettre une jolie photo avec des liens vers le 
       dépôt et vers sa documentation.
 
 
 La raison pour laquelle il ne faut pas  publier un projet ou une documentation sur un forum ou un
-blog et simple. Sur ces médias, seuls les derniers articles sont affichés. Il faut alors savoir 
+blog est simple. Sur ces médias, seuls les derniers articles sont affichés. Il faut alors savoir 
 exactement ce qu'on cherche pour pouvoir retrouver un article précis. De plus, il est compliqué de 
-devoir rééditer un article chaque fois qu'on veut faire évoluer la documentation. Ces même encore
-pire sur les forums car on risque d'avoir une suite dissolue d'éléments qu'il sera compliqué de
+devoir rééditer un article chaque fois qu'on veut faire évoluer la documentation. C'est même encore
+pire sur les forums car on risque d'avoir une suite dissolue d'éléments qu'il sera compliqué de réunir
 pour avoir une vision globale du projet.
 
 ####
@@ -1257,13 +1258,13 @@ pour avoir une vision globale du projet.
 Conclusions
 -----------
 
-Vous devriez maintenant avoir suffisamment d'information pour pouvoir faire votre propre 
+Vous devriez maintenant avoir suffisamment d'informations pour pouvoir faire votre propre 
 documentation.
 
 Je vous conseille de faire ce travail de documentation car au-delà de vous aider en cas de reprise 
 d'un projet, le travail de documentation vous aidera à fournir un meilleur travail sur votre projet.
 
-N'hésitez pas à rendre dans un FabLab (VoLAB ?!) pour trouver de l'aide vous permettant de d'aller
+N'hésitez pas à vous rendre dans un FabLab (VoLAB ?!) pour trouver de l'aide vous permettant d'aller
 au bout de vos projets.
 
 
