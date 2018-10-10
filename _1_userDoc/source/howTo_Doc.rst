@@ -177,6 +177,26 @@ votre doc en BD ou en rébus.
     * Ne pas concentrer trop d'informations visuelles au même endroit, car cela masque le texte qui
       est souvent plus important.
 
+    .. image:: ./Images/Deco/ampoule.png
+       :width: 50px
+       :height: 50px
+       :align: left
+
+    :Petites Astuces:
+
+                #. Pour identifier plus facilement à quel projet une image appartient (en 
+                   particulier si vous publiez votre doc sur un WIKI), vous pouvez ajouter un
+                   préfixe au nom de votre image. ::
+
+                        ex:
+
+                        projet : "patate au four"
+
+                        image : "carrotte_bleu.jpg"
+
+                        Nom de l'image associé au projet
+                        PAF_carrotte_bleu.jpg
+
 Boite à idées
 =============
 

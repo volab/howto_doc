@@ -3,13 +3,14 @@ Informations générales sur le projet howTo_doc
 ==============================================
 
 :Auteur:            `Poltergeist42 <https://github.com/poltergeist42>`_
-:Projet:             howTo_doc
-:Version:            201809288888888
-:dépôt GitHub:       https://github.com/volab/howto_doc
-:doc GitHub:         https://volab.github.io/howto_doc/
-:doc ReadTheDocs:    https://howto-doc.readthedocs.io
-:Licence:            CC BY-NC-SA 4.0
-:Liens:              https://creativecommons.org/licenses/by-nc-sa/4.0/
+:Relecteur:         `MajorLee95 <https://github.com/orgs/volab/people/MajorLee95>`_
+:Projet:            howTo_doc
+:Version:           20181010
+:dépôt GitHub:      https://github.com/volab/howto_doc
+:doc GitHub:        https://volab.github.io/howto_doc/
+:doc ReadTheDocs:   https://howto-doc.readthedocs.io
+:Licence:           CC BY-NC-SA 4.0
+:Liens:             https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ####
 
